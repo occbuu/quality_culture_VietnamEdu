@@ -1,4 +1,4 @@
-﻿Predictor,β,p naive,p clustered,SE ratio,Conclusion
+﻿Predictor,beta,p naive,p clustered,SE ratio,Conclusion
 NOR,0.116,0.008,0.0446,1.33,Unchanged
 STR,0.12,0.0124,0.0674,1.38,CHANGED
 OPE,0.158,0.0005,0.0,0.5,Unchanged

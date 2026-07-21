@@ -5,14 +5,14 @@ OPE,Hành động,3,0.889,0.759,Tốt
 LED,Lãnh đạo,12,0.966,0.597,Tốt
 COL,Giao tiếp,6,0.909,0.604,Tốt
 PAR,Tham gia,4,0.759,0.499,Đạt
-TRU,Tin tưởng,4,0.831,0.571,Tốt
-SHA,Giá trị chung,2,0.848,0.736,Tốt
-COM,Cam kết chất lượng,3,0.753,0.502,Đạt
+TRU,Niềm tin,4,0.831,0.571,Tốt
+SHA,Các giá trị,2,0.848,0.736,Tốt
+COM,Cam kết,3,0.753,0.502,Đạt
 RES,Trách nhiệm,2,0.761,0.621,Đạt
-ENG,Gắn kết chất lượng,4,0.758,0.532,Đạt
-GLO,Văn hóa chất lượng (tổng thể),8,0.947,0.749,Tốt
+ENG,Gắn kết,4,0.758,0.532,Đạt
+GLO,Các khía cạnh tổng thể,8,0.947,0.749,Tốt
 OCM,Cam kết tổ chức,3,0.857,0.71,Tốt
-SAT_O,Hài lòng tổ chức,6,0.9,0.467,Tốt
-SAT_J,Hài lòng công việc,4,0.847,0.61,Tốt
+SAT_O,Hài lòng với tổ chức,6,0.9,0.467,Tốt
+SAT_J,Hài lòng với công việc,4,0.847,0.61,Tốt
 WEG,Gắn kết công việc,9,0.89,0.406,Tốt
 PRO,Phát triển chuyên môn,6,0.832,0.544,Tốt

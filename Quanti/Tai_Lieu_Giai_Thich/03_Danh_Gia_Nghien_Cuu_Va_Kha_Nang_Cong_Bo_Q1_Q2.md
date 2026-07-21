@@ -44,7 +44,7 @@ Nghiên cứu không ghép biến tùy ý mà dựa trên EUA, Ehlers và Bender
 
 ### 2.3. Dữ liệu có chiều sâu khái niệm
 
-Mẫu 281 không lớn cho một SEM 84 biến nhưng đủ để cung cấp bức tranh định lượng đáng kể tại 5 trường. Bộ dữ liệu bao phủ 17 khái niệm và nhiều kết quả nghề nghiệp.
+Mẫu 281 không lớn cho một SEM 85 biến quan sát Likert nhưng đủ để cung cấp bức tranh định lượng đáng kể tại 5 trường. Bộ dữ liệu bao phủ 17 khái niệm và nhiều kết quả nghề nghiệp.
 
 ### 2.4. Phân tích minh bạch
 
@@ -508,7 +508,7 @@ Phù hợp nếu bài tập trung LED/COL/PAR, organizational change và school 
 ### Trong ngắn hạn
 
 1.  Chạy `RUN_FULL_SEM = True` và lưu toàn bộ cảnh báo.
-2.  Nếu mô hình 84 biến không ổn định, chuyển sang CFA theo khối.
+2.  Nếu mô hình 85 biến quan sát Likert không ổn định, chuyển sang CFA theo khối.
 3.  Xây mô hình đo lường rút gọn dựa trên lý thuyết.
 4.  Chọn Bài 1 làm bài đầu tiên.
 5.  Nhắm một tạp chí Q2 phù hợp trước để tối ưu xác suất công bố.

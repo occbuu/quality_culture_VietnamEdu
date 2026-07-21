@@ -1,9 +1,9 @@
-﻿Construct,Tucker's phi,Max |Δλ|,Interpretation
-GLO,0.994,0.228,Equivalent (φ ≥ .95)
-OCM,0.965,0.305,Equivalent (φ ≥ .95)
-SAT_O,0.988,0.214,Equivalent (φ ≥ .95)
-SAT_J,0.986,0.248,Equivalent (φ ≥ .95)
-WEG,0.939,0.414,Fair (.90–.95)
-PRO,0.97,0.39,Equivalent (φ ≥ .95)
-LED,0.99,0.36,Equivalent (φ ≥ .95)
-COL,0.939,0.406,Fair (.90–.95)
+﻿Construct,Tucker's phi,Max |delta loading|,Interpretation
+GLO,0.994,0.228,Equivalent (phi >= .95)
+OCM,0.965,0.305,Equivalent (phi >= .95)
+SAT_O,0.988,0.214,Equivalent (phi >= .95)
+SAT_J,0.986,0.248,Equivalent (phi >= .95)
+WEG,0.939,0.414,Fair (.90-.95)
+PRO,0.97,0.39,Equivalent (phi >= .95)
+LED,0.99,0.36,Equivalent (phi >= .95)
+COL,0.939,0.406,Fair (.90-.95)

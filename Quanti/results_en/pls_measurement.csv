@@ -1,18 +1,18 @@
 ﻿,Name,mode,mvs,Cronbach_alpha,DG_rho,eig1,eig2,ave,r_squared,sqrt_AVE,AVE≥.50
-OPE,Operations,A,3.0,0.889,0.931,2.455,0.305,0.818,0.0,0.905,Met
-STR,Strategy,A,3.0,0.91,0.943,2.543,0.281,0.847,0.0,0.921,Met
-NOR,Norms,A,3.0,0.938,0.96,2.67,0.201,0.89,0.0,0.943,Met
+OPE,Operative,A,3.0,0.889,0.931,2.455,0.305,0.818,0.0,0.905,Met
+STR,Strategic,A,3.0,0.91,0.943,2.543,0.281,0.847,0.0,0.921,Met
+NOR,Normative,A,3.0,0.938,0.96,2.67,0.201,0.89,0.0,0.943,Met
 PAR,Participation,A,4.0,0.764,0.85,2.351,0.682,0.581,0.257,0.762,Met
 COL,Communication,A,6.0,0.909,0.931,4.152,0.82,0.685,0.634,0.828,Met
 LED,Leadership,A,12.0,0.966,0.97,8.768,0.889,0.73,0.495,0.854,Met
-SHA,Shared values,A,2.0,0.848,0.929,1.736,0.264,0.868,0.735,0.932,Met
+SHA,Shared Value,A,2.0,0.848,0.929,1.736,0.264,0.868,0.735,0.932,Met
 TRU,Trust,A,4.0,0.832,0.888,2.663,0.629,0.659,0.793,0.812,Met
-ENG,Quality engagement,A,4.0,0.765,0.85,2.348,0.622,0.579,0.185,0.761,Met
+ENG,Engagement,A,4.0,0.765,0.85,2.348,0.622,0.579,0.185,0.761,Met
 RES,Responsibility,A,2.0,0.766,0.895,1.621,0.379,0.809,0.344,0.9,Met
-COM,Quality commitment,A,3.0,0.764,0.865,2.044,0.603,0.674,0.099,0.821,Met
-GLO,Quality culture (overall),A,8.0,0.947,0.956,5.843,0.561,0.73,0.836,0.854,Met
-PRO,Professional development,A,6.0,0.839,0.882,3.333,0.989,0.517,0.561,0.719,Met
-WEG,Work engagement,A,9.0,0.892,0.914,4.926,0.974,0.544,0.421,0.738,Met
-SAT_J,Job satisfaction,A,4.0,0.85,0.899,2.765,0.518,0.686,0.522,0.828,Met
-SAT_O,Organizational satisfaction,A,6.0,0.896,0.922,4.004,0.738,0.664,0.664,0.815,Met
-OCM,Organizational commitment,A,3.0,0.858,0.913,2.336,0.377,0.778,0.544,0.882,Met
+COM,Commitment,A,3.0,0.764,0.865,2.044,0.603,0.674,0.099,0.821,Met
+GLO,Global Aspects,A,8.0,0.947,0.956,5.843,0.561,0.73,0.836,0.854,Met
+PRO,Professional Development,A,6.0,0.839,0.882,3.333,0.989,0.517,0.561,0.719,Met
+WEG,Work Engagement,A,9.0,0.892,0.914,4.926,0.974,0.544,0.421,0.738,Met
+SAT_J,Job Satisfaction,A,4.0,0.85,0.899,2.765,0.518,0.686,0.522,0.828,Met
+SAT_O,Organizational Satisfaction,A,6.0,0.896,0.922,4.004,0.738,0.664,0.664,0.815,Met
+OCM,Organizational Commitment,A,3.0,0.858,0.913,2.336,0.377,0.778,0.544,0.882,Met

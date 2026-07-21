@@ -1,18 +1,18 @@
-﻿,Tên thang đo,Trung bình,Độ lệch chuẩn,Skewness,Kurtosis
-NOR,Chuẩn mực,4.62,1.122,-1.31,1.555
-STR,Chiến lược,4.527,1.139,-0.967,0.579
-OPE,Hành động,4.648,1.078,-1.133,1.421
-LED,Lãnh đạo,4.69,0.989,-1.522,2.714
-COL,Giao tiếp,4.756,0.888,-1.316,2.303
-PAR,Tham gia,4.71,0.725,-1.014,2.603
-TRU,Tin tưởng,4.748,0.913,-1.209,2.027
-SHA,Giá trị chung,4.617,1.053,-1.227,1.9
-COM,Cam kết chất lượng,5.203,0.617,-0.81,1.922
-RES,Trách nhiệm,5.064,0.87,-1.252,2.118
-ENG,Gắn kết chất lượng,5.085,0.606,-0.719,1.701
-GLO,Văn hóa chất lượng (tổng thể),4.569,0.971,-1.281,2.043
-OCM,Cam kết tổ chức,4.833,0.991,-1.391,2.365
-SAT_O,Hài lòng tổ chức,3.664,0.752,-0.751,0.677
-SAT_J,Hài lòng công việc,3.838,0.661,-0.649,1.016
-WEG,Gắn kết công việc,4.675,0.743,-0.696,1.005
-PRO,Phát triển chuyên môn,4.852,0.696,-0.645,0.574
+﻿,Tên thang đo,Khối,Trung bình,Độ lệch chuẩn,Skewness,Kurtosis
+NOR,Chuẩn mực,Yếu tố Cấu trúc (CT) – Hình thức (HT),4.62,1.122,-1.31,1.555
+STR,Chiến lược,Yếu tố Cấu trúc (CT) – Hình thức (HT),4.527,1.139,-0.967,0.579
+OPE,Hành động,Yếu tố Cấu trúc (CT) – Hình thức (HT),4.648,1.078,-1.133,1.421
+LED,Lãnh đạo,Yếu tố trung gian kết nối TL–TC & CT–HT,4.69,0.989,-1.522,2.714
+COL,Giao tiếp,Yếu tố trung gian kết nối TL–TC & CT–HT,4.756,0.888,-1.316,2.303
+PAR,Tham gia,Yếu tố trung gian kết nối TL–TC & CT–HT,4.71,0.725,-1.014,2.603
+TRU,Niềm tin,Yếu tố Tâm lý (TL) – Tổ chức (TC),4.748,0.913,-1.209,2.027
+SHA,Các giá trị,Yếu tố Tâm lý (TL) – Tổ chức (TC),4.617,1.053,-1.227,1.9
+COM,Cam kết,Yếu tố Tâm lý (TL) – Tổ chức (TC),5.203,0.617,-0.81,1.922
+RES,Trách nhiệm,Yếu tố Tâm lý (TL) – Tổ chức (TC),5.064,0.87,-1.252,2.118
+ENG,Gắn kết,Yếu tố Tâm lý (TL) – Tổ chức (TC),5.085,0.606,-0.719,1.701
+GLO,Các khía cạnh tổng thể,Đo VHCL bằng các khía cạnh tổng thể,4.569,0.971,-1.281,2.043
+OCM,Cam kết tổ chức,Các biến kết quả,4.833,0.991,-1.391,2.365
+SAT_O,Hài lòng với tổ chức,Các biến kết quả,3.664,0.752,-0.751,0.677
+SAT_J,Hài lòng với công việc,Các biến kết quả,3.838,0.661,-0.649,1.016
+WEG,Gắn kết công việc,Các biến kết quả,4.675,0.743,-0.696,1.005
+PRO,Phát triển chuyên môn,Các biến kết quả,4.852,0.696,-0.645,0.574

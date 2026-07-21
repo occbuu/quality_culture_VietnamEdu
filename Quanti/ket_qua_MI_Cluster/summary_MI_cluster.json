@@ -6,6 +6,8 @@
  "configural": [
   {
    "Construct": "GLO",
+   "Name": "Global Aspects",
+   "Block": "Measuring Quality Culture through Global Aspects",
    "Items": 8,
    "CFI_VN": 0.923,
    "RMSEA_VN": 0.131,
@@ -15,6 +17,8 @@
   },
   {
    "Construct": "OCM",
+   "Name": "Organizational Commitment",
+   "Block": "Outcome Variables",
    "Items": 3,
    "CFI_VN": 1.0,
    "RMSEA_VN": Infinity,
@@ -24,6 +28,8 @@
   },
   {
    "Construct": "SAT_O",
+   "Name": "Organizational Satisfaction",
+   "Block": "Outcome Variables",
    "Items": 6,
    "CFI_VN": 0.955,
    "RMSEA_VN": 0.11,
@@ -33,6 +39,8 @@
   },
   {
    "Construct": "SAT_J",
+   "Name": "Job Satisfaction",
+   "Block": "Outcome Variables",
    "Items": 4,
    "CFI_VN": 0.975,
    "RMSEA_VN": 0.137,
@@ -42,6 +50,8 @@
   },
   {
    "Construct": "WEG",
+   "Name": "Work Engagement",
+   "Block": "Outcome Variables",
    "Items": 9,
    "CFI_VN": 0.881,
    "RMSEA_VN": 0.147,
@@ -51,6 +61,8 @@
   },
   {
    "Construct": "PRO",
+   "Name": "Professional Development",
+   "Block": "Outcome Variables",
    "Items": 6,
    "CFI_VN": 0.945,
    "RMSEA_VN": 0.128,
@@ -60,6 +72,8 @@
   },
   {
    "Construct": "LED",
+   "Name": "Leadership",
+   "Block": "Intermediary Factor",
    "Items": 12,
    "CFI_VN": 0.863,
    "RMSEA_VN": 0.153,
@@ -69,6 +83,8 @@
   },
   {
    "Construct": "COL",
+   "Name": "Communication",
+   "Block": "Intermediary Factor",
    "Items": 6,
    "CFI_VN": 0.879,
    "RMSEA_VN": 0.203,
@@ -81,50 +97,50 @@
   {
    "Construct": "GLO",
    "Tucker's phi": 0.994,
-   "Max |Δλ|": 0.228,
-   "Interpretation": "Equivalent (φ ≥ .95)"
+   "Max |delta loading|": 0.228,
+   "Interpretation": "Equivalent (phi >= .95)"
   },
   {
    "Construct": "OCM",
    "Tucker's phi": 0.965,
-   "Max |Δλ|": 0.305,
-   "Interpretation": "Equivalent (φ ≥ .95)"
+   "Max |delta loading|": 0.305,
+   "Interpretation": "Equivalent (phi >= .95)"
   },
   {
    "Construct": "SAT_O",
    "Tucker's phi": 0.988,
-   "Max |Δλ|": 0.214,
-   "Interpretation": "Equivalent (φ ≥ .95)"
+   "Max |delta loading|": 0.214,
+   "Interpretation": "Equivalent (phi >= .95)"
   },
   {
    "Construct": "SAT_J",
    "Tucker's phi": 0.986,
-   "Max |Δλ|": 0.248,
-   "Interpretation": "Equivalent (φ ≥ .95)"
+   "Max |delta loading|": 0.248,
+   "Interpretation": "Equivalent (phi >= .95)"
   },
   {
    "Construct": "WEG",
    "Tucker's phi": 0.939,
-   "Max |Δλ|": 0.414,
-   "Interpretation": "Fair (.90–.95)"
+   "Max |delta loading|": 0.414,
+   "Interpretation": "Fair (.90-.95)"
   },
   {
    "Construct": "PRO",
    "Tucker's phi": 0.97,
-   "Max |Δλ|": 0.39,
-   "Interpretation": "Equivalent (φ ≥ .95)"
+   "Max |delta loading|": 0.39,
+   "Interpretation": "Equivalent (phi >= .95)"
   },
   {
    "Construct": "LED",
    "Tucker's phi": 0.99,
-   "Max |Δλ|": 0.36,
-   "Interpretation": "Equivalent (φ ≥ .95)"
+   "Max |delta loading|": 0.36,
+   "Interpretation": "Equivalent (phi >= .95)"
   },
   {
    "Construct": "COL",
    "Tucker's phi": 0.939,
-   "Max |Δλ|": 0.406,
-   "Interpretation": "Fair (.90–.95)"
+   "Max |delta loading|": 0.406,
+   "Interpretation": "Fair (.90-.95)"
   }
  ],
  "dif": [
@@ -430,7 +446,7 @@
  "cluster_robust": [
   {
    "Outcome": "OCM",
-   "β GLO": 0.662,
+   "beta GLO": 0.662,
    "SE naive": 0.0505,
    "p naive": 0.0,
    "SE clustered": 0.0927,
@@ -440,7 +456,7 @@
   },
   {
    "Outcome": "SAT_O",
-   "β GLO": 0.762,
+   "beta GLO": 0.762,
    "SE naive": 0.0427,
    "p naive": 0.0,
    "SE clustered": 0.0439,
@@ -450,7 +466,7 @@
   },
   {
    "Outcome": "SAT_J",
-   "β GLO": 0.656,
+   "beta GLO": 0.656,
    "SE naive": 0.0528,
    "p naive": 0.0,
    "SE clustered": 0.0643,
@@ -460,7 +476,7 @@
   },
   {
    "Outcome": "WEG",
-   "β GLO": 0.716,
+   "beta GLO": 0.716,
    "SE naive": 0.0571,
    "p naive": 0.0,
    "SE clustered": 0.1116,
@@ -470,7 +486,7 @@
   },
   {
    "Outcome": "PRO",
-   "β GLO": 0.738,
+   "beta GLO": 0.738,
    "SE naive": 0.0546,
    "p naive": 0.0,
    "SE clustered": 0.1121,
@@ -482,7 +498,7 @@
  "glo_cluster": [
   {
    "Predictor": "NOR",
-   "β": 0.116,
+   "beta": 0.116,
    "p naive": 0.008,
    "p clustered": 0.0446,
    "SE ratio": 1.33,
@@ -490,7 +506,7 @@
   },
   {
    "Predictor": "STR",
-   "β": 0.12,
+   "beta": 0.12,
    "p naive": 0.0124,
    "p clustered": 0.0674,
    "SE ratio": 1.38,
@@ -498,7 +514,7 @@
   },
   {
    "Predictor": "OPE",
-   "β": 0.158,
+   "beta": 0.158,
    "p naive": 0.0005,
    "p clustered": 0.0,
    "SE ratio": 0.5,
@@ -506,7 +522,7 @@
   },
   {
    "Predictor": "LED",
-   "β": 0.214,
+   "beta": 0.214,
    "p naive": 0.0,
    "p clustered": 0.0,
    "SE ratio": 1.26,
@@ -514,7 +530,7 @@
   },
   {
    "Predictor": "COL",
-   "β": 0.264,
+   "beta": 0.264,
    "p naive": 0.0,
    "p clustered": 0.0,
    "SE ratio": 0.72,
@@ -522,7 +538,7 @@
   },
   {
    "Predictor": "PAR",
-   "β": 0.04,
+   "beta": 0.04,
    "p naive": 0.1572,
    "p clustered": 0.1695,
    "SE ratio": 1.03,
@@ -530,7 +546,7 @@
   },
   {
    "Predictor": "TRU",
-   "β": -0.038,
+   "beta": -0.038,
    "p naive": 0.3748,
    "p clustered": 0.3874,
    "SE ratio": 1.03,
@@ -538,7 +554,7 @@
   },
   {
    "Predictor": "SHA",
-   "β": 0.174,
+   "beta": 0.174,
    "p naive": 0.0,
    "p clustered": 0.0015,
    "SE ratio": 1.36,
@@ -546,7 +562,7 @@
   },
   {
    "Predictor": "COM",
-   "β": 0.033,
+   "beta": 0.033,
    "p naive": 0.1652,
    "p clustered": 0.3918,
    "SE ratio": 1.63,
@@ -554,7 +570,7 @@
   },
   {
    "Predictor": "RES",
-   "β": 0.052,
+   "beta": 0.052,
    "p naive": 0.0486,
    "p clustered": 0.1197,
    "SE ratio": 1.27,
@@ -562,7 +578,7 @@
   },
   {
    "Predictor": "ENG",
-   "β": -0.035,
+   "beta": -0.035,
    "p naive": 0.1807,
    "p clustered": 0.2589,
    "SE ratio": 1.19,
@@ -577,7 +593,7 @@
   {
    "Outcome": "GLO",
    "Key predictor": "Foreign",
-   "β (mixed)": -1.771,
+   "beta (mixed)": -1.771,
    "p": 0.0,
    "Var(school)": 0.033,
    "ICC (model)": 0.051
@@ -585,7 +601,7 @@
   {
    "Outcome": "OCM",
    "Key predictor": "GLO",
-   "β (mixed)": 0.674,
+   "beta (mixed)": 0.674,
    "p": 0.0,
    "Var(school)": 0.0425,
    "ICC (model)": 0.09
@@ -593,7 +609,7 @@
   {
    "Outcome": "SAT_O",
    "Key predictor": "GLO",
-   "β (mixed)": 0.752,
+   "beta (mixed)": 0.752,
    "p": 0.0,
    "Var(school)": 0.004,
    "ICC (model)": 0.012
@@ -601,7 +617,7 @@
   {
    "Outcome": "SAT_J",
    "Key predictor": "GLO",
-   "β (mixed)": 0.656,
+   "beta (mixed)": 0.656,
    "p": 0.0,
    "Var(school)": 0.0,
    "ICC (model)": 0.0
@@ -609,7 +625,7 @@
   {
    "Outcome": "WEG",
    "Key predictor": "GLO",
-   "β (mixed)": 0.723,
+   "beta (mixed)": 0.723,
    "p": 0.0,
    "Var(school)": 0.031,
    "ICC (model)": 0.052
@@ -617,7 +633,7 @@
   {
    "Outcome": "PRO",
    "Key predictor": "GLO",
-   "β (mixed)": 0.742,
+   "beta (mixed)": 0.742,
    "p": 0.0,
    "Var(school)": 0.0058,
    "ICC (model)": 0.011

@@ -1,9 +1,9 @@
-﻿Construct,Items,CFI_VN,RMSEA_VN,CFI_EXP,RMSEA_EXP,Configural
-GLO,8,0.923,0.131,0.886,0.23,Supported
-OCM,3,1.0,inf,1.0,inf,Supported
-SAT_O,6,0.955,0.11,1.038,0.0,Supported
-SAT_J,4,0.975,0.137,1.005,0.0,Supported
-WEG,9,0.881,0.147,0.691,0.255,Weak/undetermined
-PRO,6,0.945,0.128,1.049,0.0,Supported
-LED,12,0.863,0.153,0.852,0.238,Supported
-COL,6,0.879,0.203,0.809,0.298,Weak/undetermined
+﻿Construct,Name,Block,Items,CFI_VN,RMSEA_VN,CFI_EXP,RMSEA_EXP,Configural
+GLO,Global Aspects,Measuring Quality Culture through Global Aspects,8,0.923,0.131,0.886,0.23,Supported
+OCM,Organizational Commitment,Outcome Variables,3,1.0,inf,1.0,inf,Supported
+SAT_O,Organizational Satisfaction,Outcome Variables,6,0.955,0.11,1.038,0.0,Supported
+SAT_J,Job Satisfaction,Outcome Variables,4,0.975,0.137,1.005,0.0,Supported
+WEG,Work Engagement,Outcome Variables,9,0.881,0.147,0.691,0.255,Weak/undetermined
+PRO,Professional Development,Outcome Variables,6,0.945,0.128,1.049,0.0,Supported
+LED,Leadership,Intermediary Factor,12,0.863,0.153,0.852,0.238,Supported
+COL,Communication,Intermediary Factor,6,0.879,0.203,0.809,0.298,Weak/undetermined

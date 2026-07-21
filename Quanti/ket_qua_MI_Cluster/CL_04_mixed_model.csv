@@ -1,4 +1,4 @@
-﻿Outcome,Key predictor,β (mixed),p,Var(school),ICC (model)
+﻿Outcome,Key predictor,beta (mixed),p,Var(school),ICC (model)
 GLO,Foreign,-1.771,0.0,0.033,0.051
 OCM,GLO,0.674,0.0,0.0425,0.09
 SAT_O,GLO,0.752,0.0,0.004,0.012

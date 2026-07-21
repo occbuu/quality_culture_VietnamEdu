@@ -1,4 +1,163 @@
 {
+ "scale_reference": [
+  {
+   "Thang đo": "NOR",
+   "Tên": "Chuẩn mực",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 3,
+   "Số item (phân tích)": 3,
+   "Nguồn": "Sattler et al. (2016); Verschueren et al. (2023)"
+  },
+  {
+   "Thang đo": "STR",
+   "Tên": "Chiến lược",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 3,
+   "Số item (phân tích)": 3,
+   "Nguồn": "Sattler et al. (2016); Verschueren et al. (2023)"
+  },
+  {
+   "Thang đo": "OPE",
+   "Tên": "Hành động",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 3,
+   "Số item (phân tích)": 3,
+   "Nguồn": "Sattler et al. (2016); Verschueren et al. (2023)"
+  },
+  {
+   "Thang đo": "LED",
+   "Tên": "Lãnh đạo",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 12,
+   "Số item (phân tích)": 12,
+   "Nguồn": "Heinitz & Rowold (2007); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "COL",
+   "Tên": "Giao tiếp",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 6,
+   "Số item (phân tích)": 6,
+   "Nguồn": "Brodbeck et al. (2000); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "PAR",
+   "Tên": "Tham gia",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 4,
+   "Số item (phân tích)": 4,
+   "Nguồn": "Staufenbiel & Hartz (2000); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "TRU",
+   "Tên": "Niềm tin",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Cấp độ": "Tập thể",
+   "Số item (thiết kế)": 4,
+   "Số item (phân tích)": 4,
+   "Nguồn": "Zeitz et al. (1997); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "SHA",
+   "Tên": "Các giá trị",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Cấp độ": "Tập thể",
+   "Số item (thiết kế)": 4,
+   "Số item (phân tích)": 2,
+   "Nguồn": "Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "COM",
+   "Tên": "Cam kết",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Cấp độ": "Cá nhân",
+   "Số item (thiết kế)": 4,
+   "Số item (phân tích)": 4,
+   "Nguồn": "Jackson (2004); Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "RES",
+   "Tên": "Trách nhiệm",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Cấp độ": "Cá nhân",
+   "Số item (thiết kế)": 4,
+   "Số item (phân tích)": 4,
+   "Nguồn": "Jackson (2004); Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "ENG",
+   "Tên": "Gắn kết",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Cấp độ": "Cá nhân",
+   "Số item (thiết kế)": 4,
+   "Số item (phân tích)": 4,
+   "Nguồn": "Jackson (2004); Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "GLO",
+   "Tên": "Các khía cạnh tổng thể",
+   "Khối": "Đo VHCL bằng các khía cạnh tổng thể",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 8,
+   "Số item (phân tích)": 8,
+   "Nguồn": "Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "OCM",
+   "Tên": "Cam kết tổ chức",
+   "Khối": "Các biến kết quả",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 3,
+   "Số item (phân tích)": 3,
+   "Nguồn": "Sattler et al. (2016)"
+  },
+  {
+   "Thang đo": "SAT_O",
+   "Tên": "Hài lòng với tổ chức",
+   "Khối": "Các biến kết quả",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 6,
+   "Số item (phân tích)": 6,
+   "Nguồn": "Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "SAT_J",
+   "Tên": "Hài lòng với công việc",
+   "Khối": "Các biến kết quả",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 4,
+   "Số item (phân tích)": 4,
+   "Nguồn": "Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Thang đo": "WEG",
+   "Tên": "Gắn kết công việc",
+   "Khối": "Các biến kết quả",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 9,
+   "Số item (phân tích)": 9,
+   "Nguồn": "Schaufeli et al. (2006)"
+  },
+  {
+   "Thang đo": "PRO",
+   "Tên": "Phát triển chuyên môn",
+   "Khối": "Các biến kết quả",
+   "Cấp độ": "",
+   "Số item (thiết kế)": 6,
+   "Số item (phân tích)": 6,
+   "Nguồn": "Mourao et al. (2022)"
+  }
+ ],
+ "n_items": {
+  "design": 87,
+  "analysis": 85
+ },
  "demographics": [
   {
    "Đặc điểm": "Nhom_CB",
@@ -173,6 +332,7 @@
   {
    "Thang đo": "NOR",
    "Tên": "Chuẩn mực",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
    "Số item": 3,
    "Cronbach Alpha": 0.938,
    "CITC nhỏ nhất": 0.852,
@@ -181,6 +341,7 @@
   {
    "Thang đo": "STR",
    "Tên": "Chiến lược",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
    "Số item": 3,
    "Cronbach Alpha": 0.909,
    "CITC nhỏ nhất": 0.78,
@@ -189,6 +350,7 @@
   {
    "Thang đo": "OPE",
    "Tên": "Hành động",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
    "Số item": 3,
    "Cronbach Alpha": 0.889,
    "CITC nhỏ nhất": 0.759,
@@ -197,6 +359,7 @@
   {
    "Thang đo": "LED",
    "Tên": "Lãnh đạo",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
    "Số item": 12,
    "Cronbach Alpha": 0.966,
    "CITC nhỏ nhất": 0.597,
@@ -205,6 +368,7 @@
   {
    "Thang đo": "COL",
    "Tên": "Giao tiếp",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
    "Số item": 6,
    "Cronbach Alpha": 0.909,
    "CITC nhỏ nhất": 0.604,
@@ -213,6 +377,7 @@
   {
    "Thang đo": "PAR",
    "Tên": "Tham gia",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
    "Số item": 4,
    "Cronbach Alpha": 0.759,
    "CITC nhỏ nhất": 0.499,
@@ -220,7 +385,8 @@
   },
   {
    "Thang đo": "TRU",
-   "Tên": "Tin tưởng",
+   "Tên": "Niềm tin",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Số item": 4,
    "Cronbach Alpha": 0.831,
    "CITC nhỏ nhất": 0.571,
@@ -228,7 +394,8 @@
   },
   {
    "Thang đo": "SHA",
-   "Tên": "Giá trị chung",
+   "Tên": "Các giá trị",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Số item": 2,
    "Cronbach Alpha": 0.848,
    "CITC nhỏ nhất": 0.736,
@@ -236,7 +403,8 @@
   },
   {
    "Thang đo": "COM",
-   "Tên": "Cam kết chất lượng",
+   "Tên": "Cam kết",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Số item": 4,
    "Cronbach Alpha": 0.574,
    "CITC nhỏ nhất": 0.236,
@@ -245,6 +413,7 @@
   {
    "Thang đo": "RES",
    "Tên": "Trách nhiệm",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Số item": 4,
    "Cronbach Alpha": 0.527,
    "CITC nhỏ nhất": 0.211,
@@ -252,7 +421,8 @@
   },
   {
    "Thang đo": "ENG",
-   "Tên": "Gắn kết chất lượng",
+   "Tên": "Gắn kết",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Số item": 4,
    "Cronbach Alpha": 0.758,
    "CITC nhỏ nhất": 0.532,
@@ -260,7 +430,8 @@
   },
   {
    "Thang đo": "GLO",
-   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "Tên": "Các khía cạnh tổng thể",
+   "Khối": "Đo VHCL bằng các khía cạnh tổng thể",
    "Số item": 8,
    "Cronbach Alpha": 0.947,
    "CITC nhỏ nhất": 0.749,
@@ -269,6 +440,7 @@
   {
    "Thang đo": "OCM",
    "Tên": "Cam kết tổ chức",
+   "Khối": "Các biến kết quả",
    "Số item": 3,
    "Cronbach Alpha": 0.857,
    "CITC nhỏ nhất": 0.71,
@@ -276,7 +448,8 @@
   },
   {
    "Thang đo": "SAT_O",
-   "Tên": "Hài lòng tổ chức",
+   "Tên": "Hài lòng với tổ chức",
+   "Khối": "Các biến kết quả",
    "Số item": 6,
    "Cronbach Alpha": 0.9,
    "CITC nhỏ nhất": 0.467,
@@ -284,7 +457,8 @@
   },
   {
    "Thang đo": "SAT_J",
-   "Tên": "Hài lòng công việc",
+   "Tên": "Hài lòng với công việc",
+   "Khối": "Các biến kết quả",
    "Số item": 4,
    "Cronbach Alpha": 0.847,
    "CITC nhỏ nhất": 0.61,
@@ -293,6 +467,7 @@
   {
    "Thang đo": "WEG",
    "Tên": "Gắn kết công việc",
+   "Khối": "Các biến kết quả",
    "Số item": 9,
    "Cronbach Alpha": 0.89,
    "CITC nhỏ nhất": 0.406,
@@ -301,6 +476,7 @@
   {
    "Thang đo": "PRO",
    "Tên": "Phát triển chuyên môn",
+   "Khối": "Các biến kết quả",
    "Số item": 6,
    "Cronbach Alpha": 0.832,
    "CITC nhỏ nhất": 0.544,
@@ -358,7 +534,7 @@
   },
   {
    "Thang đo": "TRU",
-   "Tên": "Tin tưởng",
+   "Tên": "Niềm tin",
    "Số item": 4,
    "Cronbach Alpha": 0.831,
    "CITC nhỏ nhất": 0.571,
@@ -366,7 +542,7 @@
   },
   {
    "Thang đo": "SHA",
-   "Tên": "Giá trị chung",
+   "Tên": "Các giá trị",
    "Số item": 2,
    "Cronbach Alpha": 0.848,
    "CITC nhỏ nhất": 0.736,
@@ -374,7 +550,7 @@
   },
   {
    "Thang đo": "COM",
-   "Tên": "Cam kết chất lượng",
+   "Tên": "Cam kết",
    "Số item": 3,
    "Cronbach Alpha": 0.753,
    "CITC nhỏ nhất": 0.502,
@@ -390,7 +566,7 @@
   },
   {
    "Thang đo": "ENG",
-   "Tên": "Gắn kết chất lượng",
+   "Tên": "Gắn kết",
    "Số item": 4,
    "Cronbach Alpha": 0.758,
    "CITC nhỏ nhất": 0.532,
@@ -398,7 +574,7 @@
   },
   {
    "Thang đo": "GLO",
-   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "Tên": "Các khía cạnh tổng thể",
    "Số item": 8,
    "Cronbach Alpha": 0.947,
    "CITC nhỏ nhất": 0.749,
@@ -414,7 +590,7 @@
   },
   {
    "Thang đo": "SAT_O",
-   "Tên": "Hài lòng tổ chức",
+   "Tên": "Hài lòng với tổ chức",
    "Số item": 6,
    "Cronbach Alpha": 0.9,
    "CITC nhỏ nhất": 0.467,
@@ -422,7 +598,7 @@
   },
   {
    "Thang đo": "SAT_J",
-   "Tên": "Hài lòng công việc",
+   "Tên": "Hài lòng với công việc",
    "Số item": 4,
    "Cronbach Alpha": 0.847,
    "CITC nhỏ nhất": 0.61,
@@ -514,7 +690,7 @@
   },
   {
    "Thang đo": "TRU",
-   "Tên": "Tin tưởng",
+   "Tên": "Niềm tin",
    "CR": 0.832,
    "AVE": 0.557,
    "Căn AVE": 0.747,
@@ -522,7 +698,7 @@
   },
   {
    "Thang đo": "SHA",
-   "Tên": "Giá trị chung",
+   "Tên": "Các giá trị",
    "CR": 0.848,
    "AVE": 0.736,
    "Căn AVE": 0.858,
@@ -530,7 +706,7 @@
   },
   {
    "Thang đo": "COM",
-   "Tên": "Cam kết chất lượng",
+   "Tên": "Cam kết",
    "CR": 0.774,
    "AVE": 0.538,
    "Căn AVE": 0.734,
@@ -546,7 +722,7 @@
   },
   {
    "Thang đo": "ENG",
-   "Tên": "Gắn kết chất lượng",
+   "Tên": "Gắn kết",
    "CR": 0.767,
    "AVE": 0.453,
    "Căn AVE": 0.673,
@@ -554,7 +730,7 @@
   },
   {
    "Thang đo": "GLO",
-   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "Tên": "Các khía cạnh tổng thể",
    "CR": 0.947,
    "AVE": 0.692,
    "Căn AVE": 0.832,
@@ -570,7 +746,7 @@
   },
   {
    "Thang đo": "SAT_O",
-   "Tên": "Hài lòng tổ chức",
+   "Tên": "Hài lòng với tổ chức",
    "CR": 0.901,
    "AVE": 0.61,
    "Căn AVE": 0.781,
@@ -578,7 +754,7 @@
   },
   {
    "Thang đo": "SAT_J",
-   "Tên": "Hài lòng công việc",
+   "Tên": "Hài lòng với công việc",
    "CR": 0.853,
    "AVE": 0.597,
    "Căn AVE": 0.773,
@@ -764,6 +940,7 @@
   {
    "Mã": "NOR",
    "Tên thang đo": "Chuẩn mực",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
    "Trung bình": 4.62,
    "Độ lệch chuẩn": 1.122,
    "Skewness": -1.31,
@@ -772,6 +949,7 @@
   {
    "Mã": "STR",
    "Tên thang đo": "Chiến lược",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
    "Trung bình": 4.527,
    "Độ lệch chuẩn": 1.139,
    "Skewness": -0.967,
@@ -780,6 +958,7 @@
   {
    "Mã": "OPE",
    "Tên thang đo": "Hành động",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
    "Trung bình": 4.648,
    "Độ lệch chuẩn": 1.078,
    "Skewness": -1.133,
@@ -788,6 +967,7 @@
   {
    "Mã": "LED",
    "Tên thang đo": "Lãnh đạo",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
    "Trung bình": 4.69,
    "Độ lệch chuẩn": 0.989,
    "Skewness": -1.522,
@@ -796,6 +976,7 @@
   {
    "Mã": "COL",
    "Tên thang đo": "Giao tiếp",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
    "Trung bình": 4.756,
    "Độ lệch chuẩn": 0.888,
    "Skewness": -1.316,
@@ -804,6 +985,7 @@
   {
    "Mã": "PAR",
    "Tên thang đo": "Tham gia",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
    "Trung bình": 4.71,
    "Độ lệch chuẩn": 0.725,
    "Skewness": -1.014,
@@ -811,7 +993,8 @@
   },
   {
    "Mã": "TRU",
-   "Tên thang đo": "Tin tưởng",
+   "Tên thang đo": "Niềm tin",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Trung bình": 4.748,
    "Độ lệch chuẩn": 0.913,
    "Skewness": -1.209,
@@ -819,7 +1002,8 @@
   },
   {
    "Mã": "SHA",
-   "Tên thang đo": "Giá trị chung",
+   "Tên thang đo": "Các giá trị",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Trung bình": 4.617,
    "Độ lệch chuẩn": 1.053,
    "Skewness": -1.227,
@@ -827,7 +1011,8 @@
   },
   {
    "Mã": "COM",
-   "Tên thang đo": "Cam kết chất lượng",
+   "Tên thang đo": "Cam kết",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Trung bình": 5.203,
    "Độ lệch chuẩn": 0.617,
    "Skewness": -0.81,
@@ -836,6 +1021,7 @@
   {
    "Mã": "RES",
    "Tên thang đo": "Trách nhiệm",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Trung bình": 5.064,
    "Độ lệch chuẩn": 0.87,
    "Skewness": -1.252,
@@ -843,7 +1029,8 @@
   },
   {
    "Mã": "ENG",
-   "Tên thang đo": "Gắn kết chất lượng",
+   "Tên thang đo": "Gắn kết",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
    "Trung bình": 5.085,
    "Độ lệch chuẩn": 0.606,
    "Skewness": -0.719,
@@ -851,7 +1038,8 @@
   },
   {
    "Mã": "GLO",
-   "Tên thang đo": "Văn hóa chất lượng (tổng thể)",
+   "Tên thang đo": "Các khía cạnh tổng thể",
+   "Khối": "Đo VHCL bằng các khía cạnh tổng thể",
    "Trung bình": 4.569,
    "Độ lệch chuẩn": 0.971,
    "Skewness": -1.281,
@@ -860,6 +1048,7 @@
   {
    "Mã": "OCM",
    "Tên thang đo": "Cam kết tổ chức",
+   "Khối": "Các biến kết quả",
    "Trung bình": 4.833,
    "Độ lệch chuẩn": 0.991,
    "Skewness": -1.391,
@@ -867,7 +1056,8 @@
   },
   {
    "Mã": "SAT_O",
-   "Tên thang đo": "Hài lòng tổ chức",
+   "Tên thang đo": "Hài lòng với tổ chức",
+   "Khối": "Các biến kết quả",
    "Trung bình": 3.664,
    "Độ lệch chuẩn": 0.752,
    "Skewness": -0.751,
@@ -875,7 +1065,8 @@
   },
   {
    "Mã": "SAT_J",
-   "Tên thang đo": "Hài lòng công việc",
+   "Tên thang đo": "Hài lòng với công việc",
+   "Khối": "Các biến kết quả",
    "Trung bình": 3.838,
    "Độ lệch chuẩn": 0.661,
    "Skewness": -0.649,
@@ -884,6 +1075,7 @@
   {
    "Mã": "WEG",
    "Tên thang đo": "Gắn kết công việc",
+   "Khối": "Các biến kết quả",
    "Trung bình": 4.675,
    "Độ lệch chuẩn": 0.743,
    "Skewness": -0.696,
@@ -892,6 +1084,7 @@
   {
    "Mã": "PRO",
    "Tên thang đo": "Phát triển chuyên môn",
+   "Khối": "Các biến kết quả",
    "Trung bình": 4.852,
    "Độ lệch chuẩn": 0.696,
    "Skewness": -0.645,
@@ -1415,14 +1608,14 @@
    "R2": 0.536
   },
   {
-   "Biến phụ thuộc": "SAT_O — Hài lòng tổ chức",
+   "Biến phụ thuộc": "SAT_O — Hài lòng với tổ chức",
    "Beta (GLO)": 0.809,
    "t": 23.02,
    "p": 0.0,
    "R2": 0.655
   },
   {
-   "Biến phụ thuộc": "SAT_J — Hài lòng công việc",
+   "Biến phụ thuộc": "SAT_J — Hài lòng với công việc",
    "Beta (GLO)": 0.71,
    "t": 16.83,
    "p": 0.0,
@@ -1963,7 +2156,7 @@
   },
   {
    "Mã": "SHA",
-   "Tên": "Giá trị chung",
+   "Tên": "Các giá trị",
    "mode": "A",
    "mvs": 2.0,
    "Cronbach_alpha": 0.848,
@@ -1977,7 +2170,7 @@
   },
   {
    "Mã": "TRU",
-   "Tên": "Tin tưởng",
+   "Tên": "Niềm tin",
    "mode": "A",
    "mvs": 4.0,
    "Cronbach_alpha": 0.832,
@@ -1991,7 +2184,7 @@
   },
   {
    "Mã": "ENG",
-   "Tên": "Gắn kết chất lượng",
+   "Tên": "Gắn kết",
    "mode": "A",
    "mvs": 4.0,
    "Cronbach_alpha": 0.765,
@@ -2019,7 +2212,7 @@
   },
   {
    "Mã": "COM",
-   "Tên": "Cam kết chất lượng",
+   "Tên": "Cam kết",
    "mode": "A",
    "mvs": 3.0,
    "Cronbach_alpha": 0.764,
@@ -2033,7 +2226,7 @@
   },
   {
    "Mã": "GLO",
-   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "Tên": "Các khía cạnh tổng thể",
    "mode": "A",
    "mvs": 8.0,
    "Cronbach_alpha": 0.947,
@@ -2075,7 +2268,7 @@
   },
   {
    "Mã": "SAT_J",
-   "Tên": "Hài lòng công việc",
+   "Tên": "Hài lòng với công việc",
    "mode": "A",
    "mvs": 4.0,
    "Cronbach_alpha": 0.85,
@@ -2089,7 +2282,7 @@
   },
   {
    "Mã": "SAT_O",
-   "Tên": "Hài lòng tổ chức",
+   "Tên": "Hài lòng với tổ chức",
    "mode": "A",
    "mvs": 6.0,
    "Cronbach_alpha": 0.896,
@@ -2515,17 +2708,17 @@
   },
   {
    "Biến": "COM",
-   "Tên": "Cam kết chất lượng",
+   "Tên": "Cam kết",
    "R2": 0.099
   },
   {
    "Biến": "ENG",
-   "Tên": "Gắn kết chất lượng",
+   "Tên": "Gắn kết",
    "R2": 0.185
   },
   {
    "Biến": "GLO",
-   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "Tên": "Các khía cạnh tổng thể",
    "R2": 0.836
   },
   {
@@ -2555,22 +2748,22 @@
   },
   {
    "Biến": "SAT_J",
-   "Tên": "Hài lòng công việc",
+   "Tên": "Hài lòng với công việc",
    "R2": 0.522
   },
   {
    "Biến": "SAT_O",
-   "Tên": "Hài lòng tổ chức",
+   "Tên": "Hài lòng với tổ chức",
    "R2": 0.664
   },
   {
    "Biến": "SHA",
-   "Tên": "Giá trị chung",
+   "Tên": "Các giá trị",
    "R2": 0.735
   },
   {
    "Biến": "TRU",
-   "Tên": "Tin tưởng",
+   "Tên": "Niềm tin",
    "R2": 0.793
   },
   {
@@ -2585,26 +2778,26 @@
    "Biến phụ thuộc": "PAR",
    "Biến độc lập": "OPE",
    "Beta": 0.229,
-   "CI2.5%": -0.008,
-   "CI97.5%": 0.488,
-   "Boot SE": 0.127,
+   "CI2.5%": -0.019,
+   "CI97.5%": 0.448,
+   "Boot SE": 0.124,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "PAR",
    "Biến độc lập": "STR",
    "Beta": 0.105,
-   "CI2.5%": -0.129,
-   "CI97.5%": 0.33,
-   "Boot SE": 0.123,
+   "CI2.5%": -0.114,
+   "CI97.5%": 0.348,
+   "Boot SE": 0.12,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "PAR",
    "Biến độc lập": "NOR",
    "Beta": 0.198,
-   "CI2.5%": -0.082,
-   "CI97.5%": 0.461,
+   "CI2.5%": -0.074,
+   "CI97.5%": 0.493,
    "Boot SE": 0.142,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
@@ -2612,26 +2805,26 @@
    "Biến phụ thuộc": "COL",
    "Biến độc lập": "OPE",
    "Beta": 0.31,
-   "CI2.5%": 0.141,
-   "CI97.5%": 0.471,
-   "Boot SE": 0.084,
+   "CI2.5%": 0.127,
+   "CI97.5%": 0.463,
+   "Boot SE": 0.085,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "COL",
    "Biến độc lập": "STR",
    "Beta": 0.247,
-   "CI2.5%": 0.069,
-   "CI97.5%": 0.441,
-   "Boot SE": 0.095,
+   "CI2.5%": 0.058,
+   "CI97.5%": 0.419,
+   "Boot SE": 0.091,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "COL",
    "Biến độc lập": "NOR",
    "Beta": 0.281,
-   "CI2.5%": 0.1,
-   "CI97.5%": 0.471,
+   "CI2.5%": 0.107,
+   "CI97.5%": 0.479,
    "Boot SE": 0.095,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
@@ -2639,62 +2832,62 @@
    "Biến phụ thuộc": "LED",
    "Biến độc lập": "OPE",
    "Beta": 0.24,
-   "CI2.5%": 0.002,
-   "CI97.5%": 0.497,
-   "Boot SE": 0.132,
-   "Ý nghĩa (CI không chứa 0)": "Có"
+   "CI2.5%": -0.018,
+   "CI97.5%": 0.476,
+   "Boot SE": 0.126,
+   "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "LED",
    "Biến độc lập": "STR",
    "Beta": 0.224,
-   "CI2.5%": 0.01,
-   "CI97.5%": 0.46,
+   "CI2.5%": -0.007,
+   "CI97.5%": 0.472,
    "Boot SE": 0.119,
-   "Ý nghĩa (CI không chứa 0)": "Có"
+   "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "LED",
    "Biến độc lập": "NOR",
    "Beta": 0.276,
-   "CI2.5%": 0.008,
-   "CI97.5%": 0.48,
-   "Boot SE": 0.119,
+   "CI2.5%": 0.066,
+   "CI97.5%": 0.491,
+   "Boot SE": 0.114,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "SHA",
    "Biến độc lập": "PAR",
    "Beta": 0.049,
-   "CI2.5%": -0.037,
-   "CI97.5%": 0.147,
-   "Boot SE": 0.047,
+   "CI2.5%": -0.038,
+   "CI97.5%": 0.157,
+   "Boot SE": 0.049,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "SHA",
    "Biến độc lập": "COL",
    "Beta": 0.626,
-   "CI2.5%": 0.487,
-   "CI97.5%": 0.751,
-   "Boot SE": 0.067,
+   "CI2.5%": 0.484,
+   "CI97.5%": 0.746,
+   "Boot SE": 0.07,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "SHA",
    "Biến độc lập": "LED",
    "Beta": 0.257,
-   "CI2.5%": 0.119,
-   "CI97.5%": 0.389,
-   "Boot SE": 0.067,
+   "CI2.5%": 0.115,
+   "CI97.5%": 0.396,
+   "Boot SE": 0.071,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "TRU",
    "Biến độc lập": "PAR",
    "Beta": 0.073,
-   "CI2.5%": -0.027,
-   "CI97.5%": 0.16,
+   "CI2.5%": -0.016,
+   "CI97.5%": 0.173,
    "Boot SE": 0.049,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
@@ -2703,7 +2896,7 @@
    "Biến độc lập": "COL",
    "Beta": 0.373,
    "CI2.5%": 0.26,
-   "CI97.5%": 0.49,
+   "CI97.5%": 0.503,
    "Boot SE": 0.06,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
@@ -2711,53 +2904,53 @@
    "Biến phụ thuộc": "TRU",
    "Biến độc lập": "LED",
    "Beta": 0.54,
-   "CI2.5%": 0.421,
+   "CI2.5%": 0.401,
    "CI97.5%": 0.649,
-   "Boot SE": 0.06,
+   "Boot SE": 0.061,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "ENG",
    "Biến độc lập": "SHA",
    "Beta": 0.126,
-   "CI2.5%": -0.089,
-   "CI97.5%": 0.338,
-   "Boot SE": 0.109,
+   "CI2.5%": -0.081,
+   "CI97.5%": 0.337,
+   "Boot SE": 0.112,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "ENG",
    "Biến độc lập": "TRU",
    "Beta": 0.326,
-   "CI2.5%": 0.119,
-   "CI97.5%": 0.541,
-   "Boot SE": 0.104,
+   "CI2.5%": 0.112,
+   "CI97.5%": 0.54,
+   "Boot SE": 0.111,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "RES",
    "Biến độc lập": "SHA",
    "Beta": 0.297,
-   "CI2.5%": 0.1,
-   "CI97.5%": 0.505,
-   "Boot SE": 0.101,
+   "CI2.5%": 0.082,
+   "CI97.5%": 0.464,
+   "Boot SE": 0.097,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "RES",
    "Biến độc lập": "TRU",
    "Beta": 0.327,
-   "CI2.5%": 0.139,
-   "CI97.5%": 0.498,
-   "Boot SE": 0.092,
+   "CI2.5%": 0.171,
+   "CI97.5%": 0.51,
+   "Boot SE": 0.09,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "COM",
    "Biến độc lập": "SHA",
    "Beta": 0.147,
-   "CI2.5%": -0.08,
-   "CI97.5%": 0.372,
+   "CI2.5%": -0.075,
+   "CI97.5%": 0.369,
    "Boot SE": 0.114,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
@@ -2765,35 +2958,35 @@
    "Biến phụ thuộc": "COM",
    "Biến độc lập": "TRU",
    "Beta": 0.187,
-   "CI2.5%": -0.021,
-   "CI97.5%": 0.391,
-   "Boot SE": 0.108,
+   "CI2.5%": -0.048,
+   "CI97.5%": 0.408,
+   "Boot SE": 0.117,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "GLO",
    "Biến độc lập": "PAR",
    "Beta": 0.043,
-   "CI2.5%": -0.031,
-   "CI97.5%": 0.129,
-   "Boot SE": 0.04,
+   "CI2.5%": -0.035,
+   "CI97.5%": 0.131,
+   "Boot SE": 0.042,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "GLO",
    "Biến độc lập": "COL",
    "Beta": 0.597,
-   "CI2.5%": 0.497,
-   "CI97.5%": 0.698,
-   "Boot SE": 0.052,
+   "CI2.5%": 0.486,
+   "CI97.5%": 0.701,
+   "Boot SE": 0.053,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "GLO",
    "Biến độc lập": "LED",
    "Beta": 0.324,
-   "CI2.5%": 0.234,
-   "CI97.5%": 0.425,
+   "CI2.5%": 0.227,
+   "CI97.5%": 0.416,
    "Boot SE": 0.05,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
@@ -2801,17 +2994,17 @@
    "Biến phụ thuộc": "GLO",
    "Biến độc lập": "ENG",
    "Beta": -0.042,
-   "CI2.5%": -0.11,
+   "CI2.5%": -0.114,
    "CI97.5%": 0.038,
-   "Boot SE": 0.041,
+   "Boot SE": 0.039,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "GLO",
    "Biến độc lập": "RES",
    "Beta": 0.069,
-   "CI2.5%": -0.007,
-   "CI97.5%": 0.137,
+   "CI2.5%": -0.003,
+   "CI97.5%": 0.147,
    "Boot SE": 0.038,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
@@ -2819,54 +3012,54 @@
    "Biến phụ thuộc": "GLO",
    "Biến độc lập": "COM",
    "Beta": 0.026,
-   "CI2.5%": -0.03,
-   "CI97.5%": 0.079,
-   "Boot SE": 0.029,
+   "CI2.5%": -0.036,
+   "CI97.5%": 0.083,
+   "Boot SE": 0.031,
    "Ý nghĩa (CI không chứa 0)": "Không"
   },
   {
    "Biến phụ thuộc": "PRO",
    "Biến độc lập": "GLO",
    "Beta": 0.749,
-   "CI2.5%": 0.687,
-   "CI97.5%": 0.812,
-   "Boot SE": 0.033,
+   "CI2.5%": 0.683,
+   "CI97.5%": 0.811,
+   "Boot SE": 0.032,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "WEG",
    "Biến độc lập": "GLO",
    "Beta": 0.649,
-   "CI2.5%": 0.555,
-   "CI97.5%": 0.731,
-   "Boot SE": 0.043,
+   "CI2.5%": 0.569,
+   "CI97.5%": 0.729,
+   "Boot SE": 0.04,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "SAT_J",
    "Biến độc lập": "GLO",
    "Beta": 0.722,
-   "CI2.5%": 0.659,
-   "CI97.5%": 0.779,
-   "Boot SE": 0.032,
+   "CI2.5%": 0.656,
+   "CI97.5%": 0.784,
+   "Boot SE": 0.034,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "SAT_O",
    "Biến độc lập": "GLO",
    "Beta": 0.815,
-   "CI2.5%": 0.77,
-   "CI97.5%": 0.852,
-   "Boot SE": 0.021,
+   "CI2.5%": 0.764,
+   "CI97.5%": 0.855,
+   "Boot SE": 0.024,
    "Ý nghĩa (CI không chứa 0)": "Có"
   },
   {
    "Biến phụ thuộc": "OCM",
    "Biến độc lập": "GLO",
    "Beta": 0.738,
-   "CI2.5%": 0.658,
-   "CI97.5%": 0.796,
-   "Boot SE": 0.036,
+   "CI2.5%": 0.656,
+   "CI97.5%": 0.802,
+   "Boot SE": 0.039,
    "Ý nghĩa (CI không chứa 0)": "Có"
   }
  ],

@@ -1,4 +1,163 @@
 {
+ "scale_reference": [
+  {
+   "Construct": "NOR",
+   "Name": "Normative",
+   "Block": "Structural-formal Elements",
+   "Level": "",
+   "Items (design)": 3,
+   "Items (analysis)": 3,
+   "Source": "Sattler et al. (2016); Verschueren et al. (2023)"
+  },
+  {
+   "Construct": "STR",
+   "Name": "Strategic",
+   "Block": "Structural-formal Elements",
+   "Level": "",
+   "Items (design)": 3,
+   "Items (analysis)": 3,
+   "Source": "Sattler et al. (2016); Verschueren et al. (2023)"
+  },
+  {
+   "Construct": "OPE",
+   "Name": "Operative",
+   "Block": "Structural-formal Elements",
+   "Level": "",
+   "Items (design)": 3,
+   "Items (analysis)": 3,
+   "Source": "Sattler et al. (2016); Verschueren et al. (2023)"
+  },
+  {
+   "Construct": "LED",
+   "Name": "Leadership",
+   "Block": "Intermediary Factor",
+   "Level": "",
+   "Items (design)": 12,
+   "Items (analysis)": 12,
+   "Source": "Heinitz & Rowold (2007); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "COL",
+   "Name": "Communication",
+   "Block": "Intermediary Factor",
+   "Level": "",
+   "Items (design)": 6,
+   "Items (analysis)": 6,
+   "Source": "Brodbeck et al. (2000); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "PAR",
+   "Name": "Participation",
+   "Block": "Intermediary Factor",
+   "Level": "",
+   "Items (design)": 4,
+   "Items (analysis)": 4,
+   "Source": "Staufenbiel & Hartz (2000); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "TRU",
+   "Name": "Trust",
+   "Block": "Organizational-psychological Elements",
+   "Level": "Collective",
+   "Items (design)": 4,
+   "Items (analysis)": 4,
+   "Source": "Zeitz et al. (1997); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "SHA",
+   "Name": "Shared Value",
+   "Block": "Organizational-psychological Elements",
+   "Level": "Collective",
+   "Items (design)": 4,
+   "Items (analysis)": 2,
+   "Source": "Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "COM",
+   "Name": "Commitment",
+   "Block": "Organizational-psychological Elements",
+   "Level": "Individual",
+   "Items (design)": 4,
+   "Items (analysis)": 4,
+   "Source": "Jackson (2004); Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "RES",
+   "Name": "Responsibility",
+   "Block": "Organizational-psychological Elements",
+   "Level": "Individual",
+   "Items (design)": 4,
+   "Items (analysis)": 4,
+   "Source": "Jackson (2004); Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "ENG",
+   "Name": "Engagement",
+   "Block": "Organizational-psychological Elements",
+   "Level": "Individual",
+   "Items (design)": 4,
+   "Items (analysis)": 4,
+   "Source": "Jackson (2004); Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "GLO",
+   "Name": "Global Aspects",
+   "Block": "Measuring Quality Culture through Global Aspects",
+   "Level": "",
+   "Items (design)": 8,
+   "Items (analysis)": 8,
+   "Source": "Sattler et al. (2016); Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "OCM",
+   "Name": "Organizational Commitment",
+   "Block": "Outcome Variables",
+   "Level": "",
+   "Items (design)": 3,
+   "Items (analysis)": 3,
+   "Source": "Sattler et al. (2016)"
+  },
+  {
+   "Construct": "SAT_O",
+   "Name": "Organizational Satisfaction",
+   "Block": "Outcome Variables",
+   "Level": "",
+   "Items (design)": 6,
+   "Items (analysis)": 6,
+   "Source": "Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "SAT_J",
+   "Name": "Job Satisfaction",
+   "Block": "Outcome Variables",
+   "Level": "",
+   "Items (design)": 4,
+   "Items (analysis)": 4,
+   "Source": "Hildesheim & Sonntag (2019)"
+  },
+  {
+   "Construct": "WEG",
+   "Name": "Work Engagement",
+   "Block": "Outcome Variables",
+   "Level": "",
+   "Items (design)": 9,
+   "Items (analysis)": 9,
+   "Source": "Schaufeli et al. (2006)"
+  },
+  {
+   "Construct": "PRO",
+   "Name": "Professional Development",
+   "Block": "Outcome Variables",
+   "Level": "",
+   "Items (design)": 6,
+   "Items (analysis)": 6,
+   "Source": "Mourao et al. (2022)"
+  }
+ ],
+ "n_items": {
+  "design": 87,
+  "analysis": 85
+ },
  "demographics": [
   {
    "Characteristic": "Nhom_CB",
@@ -172,7 +331,8 @@
  "cronbach": [
   {
    "Scale": "NOR",
-   "Name": "Norms",
+   "Name": "Normative",
+   "Block": "Structural-formal Elements",
    "No. of items": 3,
    "Cronbach Alpha": 0.938,
    "Min CITC": 0.852,
@@ -180,7 +340,8 @@
   },
   {
    "Scale": "STR",
-   "Name": "Strategy",
+   "Name": "Strategic",
+   "Block": "Structural-formal Elements",
    "No. of items": 3,
    "Cronbach Alpha": 0.909,
    "Min CITC": 0.78,
@@ -188,7 +349,8 @@
   },
   {
    "Scale": "OPE",
-   "Name": "Operations",
+   "Name": "Operative",
+   "Block": "Structural-formal Elements",
    "No. of items": 3,
    "Cronbach Alpha": 0.889,
    "Min CITC": 0.759,
@@ -197,6 +359,7 @@
   {
    "Scale": "LED",
    "Name": "Leadership",
+   "Block": "Intermediary Factor",
    "No. of items": 12,
    "Cronbach Alpha": 0.966,
    "Min CITC": 0.597,
@@ -205,6 +368,7 @@
   {
    "Scale": "COL",
    "Name": "Communication",
+   "Block": "Intermediary Factor",
    "No. of items": 6,
    "Cronbach Alpha": 0.909,
    "Min CITC": 0.604,
@@ -213,6 +377,7 @@
   {
    "Scale": "PAR",
    "Name": "Participation",
+   "Block": "Intermediary Factor",
    "No. of items": 4,
    "Cronbach Alpha": 0.759,
    "Min CITC": 0.499,
@@ -221,6 +386,7 @@
   {
    "Scale": "TRU",
    "Name": "Trust",
+   "Block": "Organizational-psychological Elements",
    "No. of items": 4,
    "Cronbach Alpha": 0.831,
    "Min CITC": 0.571,
@@ -228,7 +394,8 @@
   },
   {
    "Scale": "SHA",
-   "Name": "Shared values",
+   "Name": "Shared Value",
+   "Block": "Organizational-psychological Elements",
    "No. of items": 2,
    "Cronbach Alpha": 0.848,
    "Min CITC": 0.736,
@@ -236,7 +403,8 @@
   },
   {
    "Scale": "COM",
-   "Name": "Quality commitment",
+   "Name": "Commitment",
+   "Block": "Organizational-psychological Elements",
    "No. of items": 4,
    "Cronbach Alpha": 0.574,
    "Min CITC": 0.236,
@@ -245,6 +413,7 @@
   {
    "Scale": "RES",
    "Name": "Responsibility",
+   "Block": "Organizational-psychological Elements",
    "No. of items": 4,
    "Cronbach Alpha": 0.527,
    "Min CITC": 0.211,
@@ -252,7 +421,8 @@
   },
   {
    "Scale": "ENG",
-   "Name": "Quality engagement",
+   "Name": "Engagement",
+   "Block": "Organizational-psychological Elements",
    "No. of items": 4,
    "Cronbach Alpha": 0.758,
    "Min CITC": 0.532,
@@ -260,7 +430,8 @@
   },
   {
    "Scale": "GLO",
-   "Name": "Quality culture (overall)",
+   "Name": "Global Aspects",
+   "Block": "Measuring Quality Culture through Global Aspects",
    "No. of items": 8,
    "Cronbach Alpha": 0.947,
    "Min CITC": 0.749,
@@ -268,7 +439,8 @@
   },
   {
    "Scale": "OCM",
-   "Name": "Organizational commitment",
+   "Name": "Organizational Commitment",
+   "Block": "Outcome Variables",
    "No. of items": 3,
    "Cronbach Alpha": 0.857,
    "Min CITC": 0.71,
@@ -276,7 +448,8 @@
   },
   {
    "Scale": "SAT_O",
-   "Name": "Organizational satisfaction",
+   "Name": "Organizational Satisfaction",
+   "Block": "Outcome Variables",
    "No. of items": 6,
    "Cronbach Alpha": 0.9,
    "Min CITC": 0.467,
@@ -284,7 +457,8 @@
   },
   {
    "Scale": "SAT_J",
-   "Name": "Job satisfaction",
+   "Name": "Job Satisfaction",
+   "Block": "Outcome Variables",
    "No. of items": 4,
    "Cronbach Alpha": 0.847,
    "Min CITC": 0.61,
@@ -292,7 +466,8 @@
   },
   {
    "Scale": "WEG",
-   "Name": "Work engagement",
+   "Name": "Work Engagement",
+   "Block": "Outcome Variables",
    "No. of items": 9,
    "Cronbach Alpha": 0.89,
    "Min CITC": 0.406,
@@ -300,7 +475,8 @@
   },
   {
    "Scale": "PRO",
-   "Name": "Professional development",
+   "Name": "Professional Development",
+   "Block": "Outcome Variables",
    "No. of items": 6,
    "Cronbach Alpha": 0.832,
    "Min CITC": 0.544,
@@ -310,7 +486,7 @@
  "cronbach_refined": [
   {
    "Scale": "NOR",
-   "Name": "Norms",
+   "Name": "Normative",
    "No. of items": 3,
    "Cronbach Alpha": 0.938,
    "Min CITC": 0.852,
@@ -318,7 +494,7 @@
   },
   {
    "Scale": "STR",
-   "Name": "Strategy",
+   "Name": "Strategic",
    "No. of items": 3,
    "Cronbach Alpha": 0.909,
    "Min CITC": 0.78,
@@ -326,7 +502,7 @@
   },
   {
    "Scale": "OPE",
-   "Name": "Operations",
+   "Name": "Operative",
    "No. of items": 3,
    "Cronbach Alpha": 0.889,
    "Min CITC": 0.759,
@@ -366,7 +542,7 @@
   },
   {
    "Scale": "SHA",
-   "Name": "Shared values",
+   "Name": "Shared Value",
    "No. of items": 2,
    "Cronbach Alpha": 0.848,
    "Min CITC": 0.736,
@@ -374,7 +550,7 @@
   },
   {
    "Scale": "COM",
-   "Name": "Quality commitment",
+   "Name": "Commitment",
    "No. of items": 3,
    "Cronbach Alpha": 0.753,
    "Min CITC": 0.502,
@@ -390,7 +566,7 @@
   },
   {
    "Scale": "ENG",
-   "Name": "Quality engagement",
+   "Name": "Engagement",
    "No. of items": 4,
    "Cronbach Alpha": 0.758,
    "Min CITC": 0.532,
@@ -398,7 +574,7 @@
   },
   {
    "Scale": "GLO",
-   "Name": "Quality culture (overall)",
+   "Name": "Global Aspects",
    "No. of items": 8,
    "Cronbach Alpha": 0.947,
    "Min CITC": 0.749,
@@ -406,7 +582,7 @@
   },
   {
    "Scale": "OCM",
-   "Name": "Organizational commitment",
+   "Name": "Organizational Commitment",
    "No. of items": 3,
    "Cronbach Alpha": 0.857,
    "Min CITC": 0.71,
@@ -414,7 +590,7 @@
   },
   {
    "Scale": "SAT_O",
-   "Name": "Organizational satisfaction",
+   "Name": "Organizational Satisfaction",
    "No. of items": 6,
    "Cronbach Alpha": 0.9,
    "Min CITC": 0.467,
@@ -422,7 +598,7 @@
   },
   {
    "Scale": "SAT_J",
-   "Name": "Job satisfaction",
+   "Name": "Job Satisfaction",
    "No. of items": 4,
    "Cronbach Alpha": 0.847,
    "Min CITC": 0.61,
@@ -430,7 +606,7 @@
   },
   {
    "Scale": "WEG",
-   "Name": "Work engagement",
+   "Name": "Work Engagement",
    "No. of items": 9,
    "Cronbach Alpha": 0.89,
    "Min CITC": 0.406,
@@ -438,7 +614,7 @@
   },
   {
    "Scale": "PRO",
-   "Name": "Professional development",
+   "Name": "Professional Development",
    "No. of items": 6,
    "Cronbach Alpha": 0.832,
    "Min CITC": 0.544,
@@ -466,7 +642,7 @@
  "ave_cr": [
   {
    "Scale": "NOR",
-   "Name": "Norms",
+   "Name": "Normative",
    "CR": 0.939,
    "AVE": 0.836,
    "√AVE": 0.914,
@@ -474,7 +650,7 @@
   },
   {
    "Scale": "STR",
-   "Name": "Strategy",
+   "Name": "Strategic",
    "CR": 0.911,
    "AVE": 0.773,
    "√AVE": 0.879,
@@ -482,7 +658,7 @@
   },
   {
    "Scale": "OPE",
-   "Name": "Operations",
+   "Name": "Operative",
    "CR": 0.889,
    "AVE": 0.729,
    "√AVE": 0.854,
@@ -522,7 +698,7 @@
   },
   {
    "Scale": "SHA",
-   "Name": "Shared values",
+   "Name": "Shared Value",
    "CR": 0.848,
    "AVE": 0.736,
    "√AVE": 0.858,
@@ -530,7 +706,7 @@
   },
   {
    "Scale": "COM",
-   "Name": "Quality commitment",
+   "Name": "Commitment",
    "CR": 0.774,
    "AVE": 0.538,
    "√AVE": 0.734,
@@ -546,7 +722,7 @@
   },
   {
    "Scale": "ENG",
-   "Name": "Quality engagement",
+   "Name": "Engagement",
    "CR": 0.767,
    "AVE": 0.453,
    "√AVE": 0.673,
@@ -554,7 +730,7 @@
   },
   {
    "Scale": "GLO",
-   "Name": "Quality culture (overall)",
+   "Name": "Global Aspects",
    "CR": 0.947,
    "AVE": 0.692,
    "√AVE": 0.832,
@@ -562,7 +738,7 @@
   },
   {
    "Scale": "OCM",
-   "Name": "Organizational commitment",
+   "Name": "Organizational Commitment",
    "CR": 0.859,
    "AVE": 0.67,
    "√AVE": 0.819,
@@ -570,7 +746,7 @@
   },
   {
    "Scale": "SAT_O",
-   "Name": "Organizational satisfaction",
+   "Name": "Organizational Satisfaction",
    "CR": 0.901,
    "AVE": 0.61,
    "√AVE": 0.781,
@@ -578,7 +754,7 @@
   },
   {
    "Scale": "SAT_J",
-   "Name": "Job satisfaction",
+   "Name": "Job Satisfaction",
    "CR": 0.853,
    "AVE": 0.597,
    "√AVE": 0.773,
@@ -586,7 +762,7 @@
   },
   {
    "Scale": "WEG",
-   "Name": "Work engagement",
+   "Name": "Work Engagement",
    "CR": 0.894,
    "AVE": 0.495,
    "√AVE": 0.703,
@@ -594,7 +770,7 @@
   },
   {
    "Scale": "PRO",
-   "Name": "Professional development",
+   "Name": "Professional Development",
    "CR": 0.839,
    "AVE": 0.469,
    "√AVE": 0.685,
@@ -763,7 +939,8 @@
  "construct_desc": [
   {
    "Code": "NOR",
-   "Scale name": "Norms",
+   "Scale name": "Normative",
+   "Block": "Structural-formal Elements",
    "Mean": 4.62,
    "Std. deviation": 1.122,
    "Skewness": -1.31,
@@ -771,7 +948,8 @@
   },
   {
    "Code": "STR",
-   "Scale name": "Strategy",
+   "Scale name": "Strategic",
+   "Block": "Structural-formal Elements",
    "Mean": 4.527,
    "Std. deviation": 1.139,
    "Skewness": -0.967,
@@ -779,7 +957,8 @@
   },
   {
    "Code": "OPE",
-   "Scale name": "Operations",
+   "Scale name": "Operative",
+   "Block": "Structural-formal Elements",
    "Mean": 4.648,
    "Std. deviation": 1.078,
    "Skewness": -1.133,
@@ -788,6 +967,7 @@
   {
    "Code": "LED",
    "Scale name": "Leadership",
+   "Block": "Intermediary Factor",
    "Mean": 4.69,
    "Std. deviation": 0.989,
    "Skewness": -1.522,
@@ -796,6 +976,7 @@
   {
    "Code": "COL",
    "Scale name": "Communication",
+   "Block": "Intermediary Factor",
    "Mean": 4.756,
    "Std. deviation": 0.888,
    "Skewness": -1.316,
@@ -804,6 +985,7 @@
   {
    "Code": "PAR",
    "Scale name": "Participation",
+   "Block": "Intermediary Factor",
    "Mean": 4.71,
    "Std. deviation": 0.725,
    "Skewness": -1.014,
@@ -812,6 +994,7 @@
   {
    "Code": "TRU",
    "Scale name": "Trust",
+   "Block": "Organizational-psychological Elements",
    "Mean": 4.748,
    "Std. deviation": 0.913,
    "Skewness": -1.209,
@@ -819,7 +1002,8 @@
   },
   {
    "Code": "SHA",
-   "Scale name": "Shared values",
+   "Scale name": "Shared Value",
+   "Block": "Organizational-psychological Elements",
    "Mean": 4.617,
    "Std. deviation": 1.053,
    "Skewness": -1.227,
@@ -827,7 +1011,8 @@
   },
   {
    "Code": "COM",
-   "Scale name": "Quality commitment",
+   "Scale name": "Commitment",
+   "Block": "Organizational-psychological Elements",
    "Mean": 5.203,
    "Std. deviation": 0.617,
    "Skewness": -0.81,
@@ -836,6 +1021,7 @@
   {
    "Code": "RES",
    "Scale name": "Responsibility",
+   "Block": "Organizational-psychological Elements",
    "Mean": 5.064,
    "Std. deviation": 0.87,
    "Skewness": -1.252,
@@ -843,7 +1029,8 @@
   },
   {
    "Code": "ENG",
-   "Scale name": "Quality engagement",
+   "Scale name": "Engagement",
+   "Block": "Organizational-psychological Elements",
    "Mean": 5.085,
    "Std. deviation": 0.606,
    "Skewness": -0.719,
@@ -851,7 +1038,8 @@
   },
   {
    "Code": "GLO",
-   "Scale name": "Quality culture (overall)",
+   "Scale name": "Global Aspects",
+   "Block": "Measuring Quality Culture through Global Aspects",
    "Mean": 4.569,
    "Std. deviation": 0.971,
    "Skewness": -1.281,
@@ -859,7 +1047,8 @@
   },
   {
    "Code": "OCM",
-   "Scale name": "Organizational commitment",
+   "Scale name": "Organizational Commitment",
+   "Block": "Outcome Variables",
    "Mean": 4.833,
    "Std. deviation": 0.991,
    "Skewness": -1.391,
@@ -867,7 +1056,8 @@
   },
   {
    "Code": "SAT_O",
-   "Scale name": "Organizational satisfaction",
+   "Scale name": "Organizational Satisfaction",
+   "Block": "Outcome Variables",
    "Mean": 3.664,
    "Std. deviation": 0.752,
    "Skewness": -0.751,
@@ -875,7 +1065,8 @@
   },
   {
    "Code": "SAT_J",
-   "Scale name": "Job satisfaction",
+   "Scale name": "Job Satisfaction",
+   "Block": "Outcome Variables",
    "Mean": 3.838,
    "Std. deviation": 0.661,
    "Skewness": -0.649,
@@ -883,7 +1074,8 @@
   },
   {
    "Code": "WEG",
-   "Scale name": "Work engagement",
+   "Scale name": "Work Engagement",
+   "Block": "Outcome Variables",
    "Mean": 4.675,
    "Std. deviation": 0.743,
    "Skewness": -0.696,
@@ -891,7 +1083,8 @@
   },
   {
    "Code": "PRO",
-   "Scale name": "Professional development",
+   "Scale name": "Professional Development",
+   "Block": "Outcome Variables",
    "Mean": 4.852,
    "Std. deviation": 0.696,
    "Skewness": -0.645,
@@ -1408,35 +1601,35 @@
  },
  "reg_outcomes": [
   {
-   "Dependent": "OCM — Organizational commitment",
+   "Dependent": "OCM — Organizational Commitment",
    "Beta (GLO)": 0.732,
    "t": 17.96,
    "p": 0.0,
    "R2": 0.536
   },
   {
-   "Dependent": "SAT_O — Organizational satisfaction",
+   "Dependent": "SAT_O — Organizational Satisfaction",
    "Beta (GLO)": 0.809,
    "t": 23.02,
    "p": 0.0,
    "R2": 0.655
   },
   {
-   "Dependent": "SAT_J — Job satisfaction",
+   "Dependent": "SAT_J — Job Satisfaction",
    "Beta (GLO)": 0.71,
    "t": 16.83,
    "p": 0.0,
    "R2": 0.504
   },
   {
-   "Dependent": "WEG — Work engagement",
+   "Dependent": "WEG — Work Engagement",
    "Beta (GLO)": 0.633,
    "t": 13.67,
    "p": 0.0,
    "R2": 0.401
   },
   {
-   "Dependent": "PRO — Professional development",
+   "Dependent": "PRO — Professional Development",
    "Beta (GLO)": 0.672,
    "t": 15.17,
    "p": 0.0,
@@ -1879,7 +2072,7 @@
  "pls_measurement": [
   {
    "Code": "OPE",
-   "Name": "Operations",
+   "Name": "Operative",
    "mode": "A",
    "mvs": 3.0,
    "Cronbach_alpha": 0.889,
@@ -1893,7 +2086,7 @@
   },
   {
    "Code": "STR",
-   "Name": "Strategy",
+   "Name": "Strategic",
    "mode": "A",
    "mvs": 3.0,
    "Cronbach_alpha": 0.91,
@@ -1907,7 +2100,7 @@
   },
   {
    "Code": "NOR",
-   "Name": "Norms",
+   "Name": "Normative",
    "mode": "A",
    "mvs": 3.0,
    "Cronbach_alpha": 0.938,
@@ -1963,7 +2156,7 @@
   },
   {
    "Code": "SHA",
-   "Name": "Shared values",
+   "Name": "Shared Value",
    "mode": "A",
    "mvs": 2.0,
    "Cronbach_alpha": 0.848,
@@ -1991,7 +2184,7 @@
   },
   {
    "Code": "ENG",
-   "Name": "Quality engagement",
+   "Name": "Engagement",
    "mode": "A",
    "mvs": 4.0,
    "Cronbach_alpha": 0.765,
@@ -2019,7 +2212,7 @@
   },
   {
    "Code": "COM",
-   "Name": "Quality commitment",
+   "Name": "Commitment",
    "mode": "A",
    "mvs": 3.0,
    "Cronbach_alpha": 0.764,
@@ -2033,7 +2226,7 @@
   },
   {
    "Code": "GLO",
-   "Name": "Quality culture (overall)",
+   "Name": "Global Aspects",
    "mode": "A",
    "mvs": 8.0,
    "Cronbach_alpha": 0.947,
@@ -2047,7 +2240,7 @@
   },
   {
    "Code": "PRO",
-   "Name": "Professional development",
+   "Name": "Professional Development",
    "mode": "A",
    "mvs": 6.0,
    "Cronbach_alpha": 0.839,
@@ -2061,7 +2254,7 @@
   },
   {
    "Code": "WEG",
-   "Name": "Work engagement",
+   "Name": "Work Engagement",
    "mode": "A",
    "mvs": 9.0,
    "Cronbach_alpha": 0.892,
@@ -2075,7 +2268,7 @@
   },
   {
    "Code": "SAT_J",
-   "Name": "Job satisfaction",
+   "Name": "Job Satisfaction",
    "mode": "A",
    "mvs": 4.0,
    "Cronbach_alpha": 0.85,
@@ -2089,7 +2282,7 @@
   },
   {
    "Code": "SAT_O",
-   "Name": "Organizational satisfaction",
+   "Name": "Organizational Satisfaction",
    "mode": "A",
    "mvs": 6.0,
    "Cronbach_alpha": 0.896,
@@ -2103,7 +2296,7 @@
   },
   {
    "Code": "OCM",
-   "Name": "Organizational commitment",
+   "Name": "Organizational Commitment",
    "mode": "A",
    "mvs": 3.0,
    "Cronbach_alpha": 0.858,
@@ -2515,17 +2708,17 @@
   },
   {
    "Variable": "COM",
-   "Name": "Quality commitment",
+   "Name": "Commitment",
    "R2": 0.099
   },
   {
    "Variable": "ENG",
-   "Name": "Quality engagement",
+   "Name": "Engagement",
    "R2": 0.185
   },
   {
    "Variable": "GLO",
-   "Name": "Quality culture (overall)",
+   "Name": "Global Aspects",
    "R2": 0.836
   },
   {
@@ -2535,7 +2728,7 @@
   },
   {
    "Variable": "OCM",
-   "Name": "Organizational commitment",
+   "Name": "Organizational Commitment",
    "R2": 0.544
   },
   {
@@ -2545,7 +2738,7 @@
   },
   {
    "Variable": "PRO",
-   "Name": "Professional development",
+   "Name": "Professional Development",
    "R2": 0.561
   },
   {
@@ -2555,17 +2748,17 @@
   },
   {
    "Variable": "SAT_J",
-   "Name": "Job satisfaction",
+   "Name": "Job Satisfaction",
    "R2": 0.522
   },
   {
    "Variable": "SAT_O",
-   "Name": "Organizational satisfaction",
+   "Name": "Organizational Satisfaction",
    "R2": 0.664
   },
   {
    "Variable": "SHA",
-   "Name": "Shared values",
+   "Name": "Shared Value",
    "R2": 0.735
   },
   {
@@ -2575,7 +2768,7 @@
   },
   {
    "Variable": "WEG",
-   "Name": "Work engagement",
+   "Name": "Work Engagement",
    "R2": 0.421
   }
  ],
@@ -2585,26 +2778,26 @@
    "Dependent": "PAR",
    "Independent": "OPE",
    "Beta": 0.229,
-   "CI2.5%": -0.008,
-   "CI97.5%": 0.488,
-   "Boot SE": 0.127,
+   "CI2.5%": -0.019,
+   "CI97.5%": 0.448,
+   "Boot SE": 0.124,
    "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "PAR",
    "Independent": "STR",
    "Beta": 0.105,
-   "CI2.5%": -0.129,
-   "CI97.5%": 0.33,
-   "Boot SE": 0.123,
+   "CI2.5%": -0.114,
+   "CI97.5%": 0.348,
+   "Boot SE": 0.12,
    "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "PAR",
    "Independent": "NOR",
    "Beta": 0.198,
-   "CI2.5%": -0.082,
-   "CI97.5%": 0.461,
+   "CI2.5%": -0.074,
+   "CI97.5%": 0.493,
    "Boot SE": 0.142,
    "Significant (CI excludes 0)": "No"
   },
@@ -2612,26 +2805,26 @@
    "Dependent": "COL",
    "Independent": "OPE",
    "Beta": 0.31,
-   "CI2.5%": 0.141,
-   "CI97.5%": 0.471,
-   "Boot SE": 0.084,
+   "CI2.5%": 0.127,
+   "CI97.5%": 0.463,
+   "Boot SE": 0.085,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "COL",
    "Independent": "STR",
    "Beta": 0.247,
-   "CI2.5%": 0.069,
-   "CI97.5%": 0.441,
-   "Boot SE": 0.095,
+   "CI2.5%": 0.058,
+   "CI97.5%": 0.419,
+   "Boot SE": 0.091,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "COL",
    "Independent": "NOR",
    "Beta": 0.281,
-   "CI2.5%": 0.1,
-   "CI97.5%": 0.471,
+   "CI2.5%": 0.107,
+   "CI97.5%": 0.479,
    "Boot SE": 0.095,
    "Significant (CI excludes 0)": "Yes"
   },
@@ -2639,62 +2832,62 @@
    "Dependent": "LED",
    "Independent": "OPE",
    "Beta": 0.24,
-   "CI2.5%": 0.002,
-   "CI97.5%": 0.497,
-   "Boot SE": 0.132,
-   "Significant (CI excludes 0)": "Yes"
+   "CI2.5%": -0.018,
+   "CI97.5%": 0.476,
+   "Boot SE": 0.126,
+   "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "LED",
    "Independent": "STR",
    "Beta": 0.224,
-   "CI2.5%": 0.01,
-   "CI97.5%": 0.46,
+   "CI2.5%": -0.007,
+   "CI97.5%": 0.472,
    "Boot SE": 0.119,
-   "Significant (CI excludes 0)": "Yes"
+   "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "LED",
    "Independent": "NOR",
    "Beta": 0.276,
-   "CI2.5%": 0.008,
-   "CI97.5%": 0.48,
-   "Boot SE": 0.119,
+   "CI2.5%": 0.066,
+   "CI97.5%": 0.491,
+   "Boot SE": 0.114,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "SHA",
    "Independent": "PAR",
    "Beta": 0.049,
-   "CI2.5%": -0.037,
-   "CI97.5%": 0.147,
-   "Boot SE": 0.047,
+   "CI2.5%": -0.038,
+   "CI97.5%": 0.157,
+   "Boot SE": 0.049,
    "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "SHA",
    "Independent": "COL",
    "Beta": 0.626,
-   "CI2.5%": 0.487,
-   "CI97.5%": 0.751,
-   "Boot SE": 0.067,
+   "CI2.5%": 0.484,
+   "CI97.5%": 0.746,
+   "Boot SE": 0.07,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "SHA",
    "Independent": "LED",
    "Beta": 0.257,
-   "CI2.5%": 0.119,
-   "CI97.5%": 0.389,
-   "Boot SE": 0.067,
+   "CI2.5%": 0.115,
+   "CI97.5%": 0.396,
+   "Boot SE": 0.071,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "TRU",
    "Independent": "PAR",
    "Beta": 0.073,
-   "CI2.5%": -0.027,
-   "CI97.5%": 0.16,
+   "CI2.5%": -0.016,
+   "CI97.5%": 0.173,
    "Boot SE": 0.049,
    "Significant (CI excludes 0)": "No"
   },
@@ -2703,7 +2896,7 @@
    "Independent": "COL",
    "Beta": 0.373,
    "CI2.5%": 0.26,
-   "CI97.5%": 0.49,
+   "CI97.5%": 0.503,
    "Boot SE": 0.06,
    "Significant (CI excludes 0)": "Yes"
   },
@@ -2711,53 +2904,53 @@
    "Dependent": "TRU",
    "Independent": "LED",
    "Beta": 0.54,
-   "CI2.5%": 0.421,
+   "CI2.5%": 0.401,
    "CI97.5%": 0.649,
-   "Boot SE": 0.06,
+   "Boot SE": 0.061,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "ENG",
    "Independent": "SHA",
    "Beta": 0.126,
-   "CI2.5%": -0.089,
-   "CI97.5%": 0.338,
-   "Boot SE": 0.109,
+   "CI2.5%": -0.081,
+   "CI97.5%": 0.337,
+   "Boot SE": 0.112,
    "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "ENG",
    "Independent": "TRU",
    "Beta": 0.326,
-   "CI2.5%": 0.119,
-   "CI97.5%": 0.541,
-   "Boot SE": 0.104,
+   "CI2.5%": 0.112,
+   "CI97.5%": 0.54,
+   "Boot SE": 0.111,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "RES",
    "Independent": "SHA",
    "Beta": 0.297,
-   "CI2.5%": 0.1,
-   "CI97.5%": 0.505,
-   "Boot SE": 0.101,
+   "CI2.5%": 0.082,
+   "CI97.5%": 0.464,
+   "Boot SE": 0.097,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "RES",
    "Independent": "TRU",
    "Beta": 0.327,
-   "CI2.5%": 0.139,
-   "CI97.5%": 0.498,
-   "Boot SE": 0.092,
+   "CI2.5%": 0.171,
+   "CI97.5%": 0.51,
+   "Boot SE": 0.09,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "COM",
    "Independent": "SHA",
    "Beta": 0.147,
-   "CI2.5%": -0.08,
-   "CI97.5%": 0.372,
+   "CI2.5%": -0.075,
+   "CI97.5%": 0.369,
    "Boot SE": 0.114,
    "Significant (CI excludes 0)": "No"
   },
@@ -2765,35 +2958,35 @@
    "Dependent": "COM",
    "Independent": "TRU",
    "Beta": 0.187,
-   "CI2.5%": -0.021,
-   "CI97.5%": 0.391,
-   "Boot SE": 0.108,
+   "CI2.5%": -0.048,
+   "CI97.5%": 0.408,
+   "Boot SE": 0.117,
    "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "GLO",
    "Independent": "PAR",
    "Beta": 0.043,
-   "CI2.5%": -0.031,
-   "CI97.5%": 0.129,
-   "Boot SE": 0.04,
+   "CI2.5%": -0.035,
+   "CI97.5%": 0.131,
+   "Boot SE": 0.042,
    "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "GLO",
    "Independent": "COL",
    "Beta": 0.597,
-   "CI2.5%": 0.497,
-   "CI97.5%": 0.698,
-   "Boot SE": 0.052,
+   "CI2.5%": 0.486,
+   "CI97.5%": 0.701,
+   "Boot SE": 0.053,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "GLO",
    "Independent": "LED",
    "Beta": 0.324,
-   "CI2.5%": 0.234,
-   "CI97.5%": 0.425,
+   "CI2.5%": 0.227,
+   "CI97.5%": 0.416,
    "Boot SE": 0.05,
    "Significant (CI excludes 0)": "Yes"
   },
@@ -2801,17 +2994,17 @@
    "Dependent": "GLO",
    "Independent": "ENG",
    "Beta": -0.042,
-   "CI2.5%": -0.11,
+   "CI2.5%": -0.114,
    "CI97.5%": 0.038,
-   "Boot SE": 0.041,
+   "Boot SE": 0.039,
    "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "GLO",
    "Independent": "RES",
    "Beta": 0.069,
-   "CI2.5%": -0.007,
-   "CI97.5%": 0.137,
+   "CI2.5%": -0.003,
+   "CI97.5%": 0.147,
    "Boot SE": 0.038,
    "Significant (CI excludes 0)": "No"
   },
@@ -2819,54 +3012,54 @@
    "Dependent": "GLO",
    "Independent": "COM",
    "Beta": 0.026,
-   "CI2.5%": -0.03,
-   "CI97.5%": 0.079,
-   "Boot SE": 0.029,
+   "CI2.5%": -0.036,
+   "CI97.5%": 0.083,
+   "Boot SE": 0.031,
    "Significant (CI excludes 0)": "No"
   },
   {
    "Dependent": "PRO",
    "Independent": "GLO",
    "Beta": 0.749,
-   "CI2.5%": 0.687,
-   "CI97.5%": 0.812,
-   "Boot SE": 0.033,
+   "CI2.5%": 0.683,
+   "CI97.5%": 0.811,
+   "Boot SE": 0.032,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "WEG",
    "Independent": "GLO",
    "Beta": 0.649,
-   "CI2.5%": 0.555,
-   "CI97.5%": 0.731,
-   "Boot SE": 0.043,
+   "CI2.5%": 0.569,
+   "CI97.5%": 0.729,
+   "Boot SE": 0.04,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "SAT_J",
    "Independent": "GLO",
    "Beta": 0.722,
-   "CI2.5%": 0.659,
-   "CI97.5%": 0.779,
-   "Boot SE": 0.032,
+   "CI2.5%": 0.656,
+   "CI97.5%": 0.784,
+   "Boot SE": 0.034,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "SAT_O",
    "Independent": "GLO",
    "Beta": 0.815,
-   "CI2.5%": 0.77,
-   "CI97.5%": 0.852,
-   "Boot SE": 0.021,
+   "CI2.5%": 0.764,
+   "CI97.5%": 0.855,
+   "Boot SE": 0.024,
    "Significant (CI excludes 0)": "Yes"
   },
   {
    "Dependent": "OCM",
    "Independent": "GLO",
    "Beta": 0.738,
-   "CI2.5%": 0.658,
-   "CI97.5%": 0.796,
-   "Boot SE": 0.036,
+   "CI2.5%": 0.656,
+   "CI97.5%": 0.802,
+   "Boot SE": 0.039,
    "Significant (CI excludes 0)": "Yes"
   }
  ],

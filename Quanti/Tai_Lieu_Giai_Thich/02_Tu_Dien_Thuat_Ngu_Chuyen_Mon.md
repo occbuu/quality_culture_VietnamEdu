@@ -497,12 +497,12 @@ J. Mã các thang đo trong nghiên cứu
 -   **LED:** Lãnh đạo.
 -   **COL:** Giao tiếp.
 -   **PAR:** Tham gia.
--   **TRU:** Tin tưởng.
--   **SHA:** Giá trị chung.
--   **COM:** Cam kết chất lượng.
--   **RES:** Trách nhiệm.
--   **ENG:** Gắn kết chất lượng.
--   **GLO:** Văn hóa chất lượng tổng thể.
+-   **TRU:** Niềm tin (khối Tâm lý – Tổ chức, cấp độ tập thể).
+-   **SHA:** Các giá trị (khối Tâm lý – Tổ chức, cấp độ tập thể).
+-   **COM:** Cam kết (khối Tâm lý – Tổ chức, cấp độ cá nhân).
+-   **RES:** Trách nhiệm (khối Tâm lý – Tổ chức, cấp độ cá nhân).
+-   **ENG:** Gắn kết (khối Tâm lý – Tổ chức, cấp độ cá nhân).
+-   **GLO:** Các khía cạnh tổng thể — thang đo dùng để **đo** văn hóa chất lượng.
 -   **OCM:** Cam kết tổ chức.
 -   **SAT\_O:** Hài lòng với tổ chức.
 -   **SAT\_J:** Hài lòng với công việc.

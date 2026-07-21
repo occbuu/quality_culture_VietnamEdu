@@ -39,6 +39,39 @@ Các notebook có phụ thuộc lẫn nhau. Chạy sai thứ tự sẽ báo lỗ
 | 3 | `Phan_Tich_Dinh_Tinh_AI_PhoBERT.ipynb` | `ket_qua_ai/` | 30–90 phút (CPU), 10–20 phút (GPU) |
 | 4 | `Phan_Tich_Hon_Hop_Mixed_Methods.ipynb` | `ket_qua_mixed/` | dưới 2 phút |
 
+## 2b. Đối chiếu với Bảng tham chiếu mã hóa
+
+Toàn bộ phần định lượng được neo vào `KetQuaPhanTich/BangThamChieu.pdf`. Ba nơi cùng khai báo cấu trúc thang đo và phải luôn khớp nhau:
+
+| Nơi khai báo | Biến |
+|---|---|
+| `Phan_Tich_VHCL.ipynb`, ô 2 | `CONSTRUCTS`, `TEN_VN`, `BLOCKS`, `SOURCES`, `N_DESIGN` |
+| `Quality_Culture_Analysis_EN.ipynb`, ô 2 | như trên, nhãn tiếng Anh |
+| `mi_cluster.py` / `mi_cluster.ipynb` | `CONS`, `NAMES`, `BLOCKS`, `N_DESIGN` |
+
+Mỗi lần chạy, các file này được sinh ra để kiểm tra nhanh:
+
+- `ket_qua/bang_thang_do_tham_chieu.csv`
+- `results_en/table_scale_reference.csv`
+- `ket_qua_MI_Cluster/00_scale_reference.csv`
+
+Mỗi bảng có cột **Số item (thiết kế)** và **Số item (phân tích)**. Ba dòng lệch nhau là bình thường và đã được giải thích:
+
+- **SHA:** 4 → 2. SHA3/SHA4 là câu hỏi nhiều lựa chọn trên danh mục 24 giá trị, không phải thang Likert; phân tích riêng ở mục 13.
+- **COM:** 4 → 3 sau hiệu chỉnh. COM4r bị loại do CITC < 0,30.
+- **RES:** 4 → 2 sau hiệu chỉnh. RES3 và RES4r bị loại do CITC < 0,30.
+
+Vì vậy 87 biến thiết kế tương ứng 85 biến quan sát Likert trong mô hình. Nếu con số in ra khác 87/85, nghĩa là một trong ba nơi khai báo đã lệch — sửa trước khi đọc kết quả.
+
+## 2c. Bootstrap PLS-SEM có lưu điểm dừng
+
+Ô bootstrap trong cả hai notebook (`PLS_BOOT`, mặc định 500) nay ghi các mẫu đã tính vào `ket_qua/_pls_boot_cache.npz` (và `results_en/_pls_boot_cache.npz`). Hệ quả:
+
+- Chạy lại ô này **không** tính lại từ đầu, chỉ bổ sung phần còn thiếu.
+- Muốn CI ổn định hơn cho bản công bố, tăng `PLS_BOOT` lên 5.000 rồi chạy lại ô đó; 500 mẫu cũ được giữ nguyên và chỉ tính thêm 4.500 mẫu.
+- Muốn tính lại hoàn toàn, xóa file `_pls_boot_cache.npz`.
+- Mỗi mẫu dùng seed riêng (`42 + số thứ tự`) nên kết quả tái lập được.
+
 ## 3. Notebook định tính AI — những điều cần biết trước khi chạy
 
 ### 3.1. Cài đặt

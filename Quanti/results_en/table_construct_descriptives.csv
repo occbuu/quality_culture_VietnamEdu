@@ -1,18 +1,18 @@
-﻿,Scale name,Mean,Std. deviation,Skewness,Kurtosis
-NOR,Norms,4.62,1.122,-1.31,1.555
-STR,Strategy,4.527,1.139,-0.967,0.579
-OPE,Operations,4.648,1.078,-1.133,1.421
-LED,Leadership,4.69,0.989,-1.522,2.714
-COL,Communication,4.756,0.888,-1.316,2.303
-PAR,Participation,4.71,0.725,-1.014,2.603
-TRU,Trust,4.748,0.913,-1.209,2.027
-SHA,Shared values,4.617,1.053,-1.227,1.9
-COM,Quality commitment,5.203,0.617,-0.81,1.922
-RES,Responsibility,5.064,0.87,-1.252,2.118
-ENG,Quality engagement,5.085,0.606,-0.719,1.701
-GLO,Quality culture (overall),4.569,0.971,-1.281,2.043
-OCM,Organizational commitment,4.833,0.991,-1.391,2.365
-SAT_O,Organizational satisfaction,3.664,0.752,-0.751,0.677
-SAT_J,Job satisfaction,3.838,0.661,-0.649,1.016
-WEG,Work engagement,4.675,0.743,-0.696,1.005
-PRO,Professional development,4.852,0.696,-0.645,0.574
+﻿,Scale name,Block,Mean,Std. deviation,Skewness,Kurtosis
+NOR,Normative,Structural-formal Elements,4.62,1.122,-1.31,1.555
+STR,Strategic,Structural-formal Elements,4.527,1.139,-0.967,0.579
+OPE,Operative,Structural-formal Elements,4.648,1.078,-1.133,1.421
+LED,Leadership,Intermediary Factor,4.69,0.989,-1.522,2.714
+COL,Communication,Intermediary Factor,4.756,0.888,-1.316,2.303
+PAR,Participation,Intermediary Factor,4.71,0.725,-1.014,2.603
+TRU,Trust,Organizational-psychological Elements,4.748,0.913,-1.209,2.027
+SHA,Shared Value,Organizational-psychological Elements,4.617,1.053,-1.227,1.9
+COM,Commitment,Organizational-psychological Elements,5.203,0.617,-0.81,1.922
+RES,Responsibility,Organizational-psychological Elements,5.064,0.87,-1.252,2.118
+ENG,Engagement,Organizational-psychological Elements,5.085,0.606,-0.719,1.701
+GLO,Global Aspects,Measuring Quality Culture through Global Aspects,4.569,0.971,-1.281,2.043
+OCM,Organizational Commitment,Outcome Variables,4.833,0.991,-1.391,2.365
+SAT_O,Organizational Satisfaction,Outcome Variables,3.664,0.752,-0.751,0.677
+SAT_J,Job Satisfaction,Outcome Variables,3.838,0.661,-0.649,1.016
+WEG,Work Engagement,Outcome Variables,4.675,0.743,-0.696,1.005
+PRO,Professional Development,Outcome Variables,4.852,0.696,-0.645,0.574

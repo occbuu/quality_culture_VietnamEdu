@@ -1,15 +1,15 @@
 ﻿,Name,R2
 COL,Communication,0.634
-COM,Quality commitment,0.099
-ENG,Quality engagement,0.185
-GLO,Quality culture (overall),0.836
+COM,Commitment,0.099
+ENG,Engagement,0.185
+GLO,Global Aspects,0.836
 LED,Leadership,0.495
-OCM,Organizational commitment,0.544
+OCM,Organizational Commitment,0.544
 PAR,Participation,0.257
-PRO,Professional development,0.561
+PRO,Professional Development,0.561
 RES,Responsibility,0.344
-SAT_J,Job satisfaction,0.522
-SAT_O,Organizational satisfaction,0.664
-SHA,Shared values,0.735
+SAT_J,Job Satisfaction,0.522
+SAT_O,Organizational Satisfaction,0.664
+SHA,Shared Value,0.735
 TRU,Trust,0.793
-WEG,Work engagement,0.421
+WEG,Work Engagement,0.421

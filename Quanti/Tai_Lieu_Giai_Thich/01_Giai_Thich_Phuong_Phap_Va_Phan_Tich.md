@@ -71,25 +71,46 @@ Mô hình cạnh tranh M3 bổ sung các đường trực tiếp NOR, STR và OP
 
 ### 3.1. Thang đo
 
-Bộ công cụ ban đầu gồm 85 biến quan sát thuộc 17 thang đo:
+Bộ công cụ được thiết kế theo **Bảng đối chiếu mã hóa và nguồn tham khảo** (`BangThamChieu.pdf`): 87 biến quan sát thuộc 17 thang đo, tổ chức thành 5 khối.
 
--   NOR: Chuẩn mực, 3 biến;
--   STR: Chiến lược, 3 biến;
--   OPE: Hành động, 3 biến;
--   LED: Lãnh đạo, 12 biến;
--   COL: Giao tiếp, 6 biến;
--   PAR: Tham gia, 4 biến;
--   TRU: Tin tưởng, 4 biến;
--   SHA: Giá trị chung, 2 biến;
--   COM: Cam kết chất lượng, 4 biến ban đầu;
--   RES: Trách nhiệm, 4 biến ban đầu;
--   ENG: Gắn kết chất lượng, 4 biến;
--   GLO: Văn hóa chất lượng tổng thể, 8 biến;
--   OCM: Cam kết tổ chức, 3 biến;
--   SAT\_O: Hài lòng với tổ chức, 6 biến;
--   SAT\_J: Hài lòng với công việc, 4 biến;
--   WEG: Gắn kết công việc, 9 biến;
--   PRO: Phát triển chuyên môn, 6 biến.
+**Khối 1 — Yếu tố Tâm lý (TL) – Tổ chức (TC), 20 biến thiết kế**
+
+*Cấp độ cá nhân:*
+
+-   COM: Cam kết, 4 biến — Jackson (2004); Sattler và cộng sự (2016); Hildesheim & Sonntag (2019);
+-   RES: Trách nhiệm, 4 biến — nguồn như trên;
+-   ENG: Gắn kết, 4 biến — nguồn như trên.
+
+*Cấp độ tập thể:*
+
+-   SHA: Các giá trị, 4 biến thiết kế — Sattler và cộng sự (2016); Hildesheim & Sonntag (2019);
+-   TRU: Niềm tin, 4 biến — Zeitz và cộng sự (1997); Hildesheim & Sonntag (2019).
+
+**Khối 2 — Yếu tố Cấu trúc (CT) – Hình thức (HT), 9 biến**
+
+-   NOR: Chuẩn mực, 3 biến — Sattler và cộng sự (2016); Verschueren và cộng sự (2023);
+-   STR: Chiến lược, 3 biến — nguồn như trên;
+-   OPE: Hành động, 3 biến — nguồn như trên.
+
+**Khối 3 — Yếu tố trung gian kết nối TL–TC và CT–HT, 22 biến**
+
+-   LED: Lãnh đạo, 12 biến — Heinitz & Rowold (2007); Hildesheim & Sonntag (2019);
+-   COL: Giao tiếp, 6 biến — Brodbeck và cộng sự (2000); Hildesheim & Sonntag (2019);
+-   PAR: Tham gia, 4 biến — Staufenbiel & Hartz (2000); Hildesheim & Sonntag (2019).
+
+**Khối 4 — Đo văn hóa chất lượng bằng các khía cạnh tổng thể, 8 biến**
+
+-   GLO: Các khía cạnh tổng thể, 8 biến — Sattler và cộng sự (2016); Hildesheim & Sonntag (2019).
+
+**Khối 5 — Các biến kết quả, 28 biến**
+
+-   SAT\_O: Hài lòng với tổ chức, 6 biến — Hildesheim & Sonntag (2019);
+-   SAT\_J: Hài lòng với công việc, 4 biến — Hildesheim & Sonntag (2019);
+-   WEG: Gắn kết công việc, 9 biến — Schaufeli và cộng sự (2006);
+-   PRO: Phát triển chuyên môn, 6 biến — Mourão và cộng sự (2022);
+-   OCM: Cam kết tổ chức, 3 biến — Sattler và cộng sự (2016).
+
+**Lưu ý về chênh lệch 87 so với 85.** SHA3 và SHA4 trong bảng tham chiếu là câu hỏi nhiều lựa chọn trên danh mục 24 giá trị, không phải thang Likert, nên không thể đưa vào Cronbach's Alpha, EFA hay SEM. Hai biến này được phân tích riêng bằng thống kê tần suất lựa chọn (mục 13 của notebook). Vì vậy **87 biến thiết kế tương ứng 85 biến quan sát Likert** đưa vào mô hình, trong đó SHA chỉ còn 2 biến (SHA1, SHA2).
 
 Phần lớn biến sử dụng Likert 6 mức. SAT\_O và SAT\_J dùng thang 5 mức. Khi so sánh trung bình, phải lưu ý hai nhóm thang đo này có miền giá trị khác nhau.
 
