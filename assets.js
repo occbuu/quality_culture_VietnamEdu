@@ -63,9 +63,7 @@
 
     groups.forEach(function (g) {
       html += '<div class="explorer-group">';
-      html += '<div class="explorer-group-head"><h3>' + escapeHtml(g.label) + '</h3>' +
-        (g.folder ? '<a class="chip" href="' + g.folder + '/" target="_blank" rel="noopener">Mở thư mục gốc</a>' : '') +
-      '</div>';
+      html += '<div class="explorer-group-head"><h3>' + escapeHtml(g.label) + '</h3></div>';
       if (g.images && g.images.length) {
         html += '<div class="gallery-grid">' + g.images.map(function (f) {
           return buildImageCard(f, allImages.indexOf(f));
