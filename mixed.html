@@ -68,24 +68,14 @@
       <h2>Kho dữ liệu</h2>
       <div class="file-list">
         <div class="item"><strong>HTML chính</strong><br /><a href="viewer.html?type=html&file=Mixed/Phan_Tich_Hon_Hop_Mixed_Methods.html">Mixed/Phan_Tich_Hon_Hop_Mixed_Methods.html</a></div>
-        <div class="item"><strong>Thư mục kết quả</strong><br /><a href="Mixed/ket_qua_mixed/">ket_qua_mixed/</a><br />01_joint_display.csv<br />02_convergence_matrix.csv<br />fig_mixed_design.png<br />SUMMARY_MIXED.json</div>
+        <div class="item"><strong>Thư mục kết quả</strong><br /><a href="Mixed/ket_qua_mixed/">ket_qua_mixed/</a></div>
       </div>
-      <div class="asset-grid">
-        <article class="asset-card">
-          <h3>Hình ảnh kết quả</h3>
-          <img src="Mixed/ket_qua_mixed/fig_mixed_design.png" alt="Mixed design" />
-          <div class="asset-list">
-            <a class="asset-link" href="viewer.html?type=image&file=Mixed/ket_qua_mixed/fig_mixed_design.png">fig_mixed_design.png</a>
-          </div>
-        </article>
-        <article class="asset-card">
-          <h3>CSV / JSON</h3>
-          <div class="asset-list">
-            <a class="asset-link" href="viewer.html?type=text&file=Mixed/ket_qua_mixed/01_joint_display.csv">01_joint_display.csv</a>
-            <a class="asset-link" href="viewer.html?type=text&file=Mixed/ket_qua_mixed/SUMMARY_MIXED.json">SUMMARY_MIXED.json</a>
-          </div>
-        </article>
-      </div>
+    </section>
+
+    <section class="section panel">
+      <h2>Trực quan hóa toàn bộ kết quả</h2>
+      <p style="color: var(--muted); margin-top: -4px;">Toàn bộ hình ảnh, bảng CSV và tệp JSON của phân tích mixed methods — bấm vào ảnh để phóng to, bấm vào tệp dữ liệu để xem dạng bảng/biểu tương tác.</p>
+      <div id="mixed-explorer"></div>
     </section>
   </main>
 
@@ -96,5 +86,34 @@
     </div>
     <div>Developed by <a href="https://haolaoshi.site/#" target="_blank" rel="noopener">Hao Lee</a> · All rights reserved.</div>
   </footer>
+
+  <script src="assets.js"></script>
+  <script>
+    renderAssetExplorer('mixed-explorer', [
+      {
+        label: 'ket_qua_mixed/ · Joint display & hội tụ bằng chứng',
+        folder: 'Mixed/ket_qua_mixed',
+        images: [
+          "Mixed/ket_qua_mixed/fig_mixed_design.png",
+          "Mixed/ket_qua_mixed/fig_school_level_corr.png"
+        ],
+        data: [
+          "Mixed/ket_qua_mixed/00_bang_phu_cau_hoi_nghien_cuu.csv",
+          "Mixed/ket_qua_mixed/01_joint_display.csv",
+          "Mixed/ket_qua_mixed/02_convergence_matrix.csv",
+          "Mixed/ket_qua_mixed/03_school_level_merged.csv",
+          "Mixed/ket_qua_mixed/04_school_level_correlations.csv",
+          "Mixed/ket_qua_mixed/05_gap_evidence_layers.csv",
+          "Mixed/ket_qua_mixed/06_legitimation_assessment.csv",
+          "Mixed/ket_qua_mixed/07_meta_inferences.csv",
+          "Mixed/ket_qua_mixed/V2_school_sentiment_corrected.csv",
+          "Mixed/ket_qua_mixed/SUMMARY_MIXED.json",
+          "Mixed/ket_qua_mixed/V2_sentiment_correction.json",
+          "Mixed/ket_qua_mixed/01_joint_display.xlsx",
+          "Mixed/ket_qua_mixed/07_meta_inferences.xlsx"
+        ]
+      }
+    ]);
+  </script>
 </body>
 </html>

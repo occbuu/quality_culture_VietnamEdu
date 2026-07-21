@@ -69,25 +69,14 @@
       <h2>Kho dữ liệu</h2>
       <div class="file-list">
         <div class="item"><strong>HTML chính</strong><br /><a href="viewer.html?type=html&file=Quali/Phan_Tich_Dinh_Tinh_AI_PhoBERT.html">Quali/Phan_Tich_Dinh_Tinh_AI_PhoBERT.html</a><br /><a href="viewer.html?type=html&file=Quali/rq_supplement.html">Quali/rq_supplement.html</a></div>
-        <div class="item"><strong>Thư mục kết quả</strong><br /><a href="Quali/ket_qua_ai/">ket_qua_ai/</a><br />00_segments_tidy.csv<br />01_ai_human_agreement.csv<br />04_bertopic_topics.csv<br />REAL_QUAL_RESULTS.json</div>
+        <div class="item"><strong>Thư mục kết quả</strong><br /><a href="Quali/ket_qua_ai/">ket_qua_ai/</a></div>
       </div>
-      <div class="asset-grid">
-        <article class="asset-card">
-          <h3>Hình ảnh kết quả</h3>
-          <img src="Quali/ket_qua_ai/fig_code_network.png" alt="Code network" />
-          <div class="asset-list">
-            <a class="asset-link" href="viewer.html?type=image&file=Quali/ket_qua_ai/fig_code_network.png">fig_code_network.png</a>
-            <a class="asset-link" href="viewer.html?type=image&file=Quali/ket_qua_ai/fig_sentiment.png">fig_sentiment.png</a>
-          </div>
-        </article>
-        <article class="asset-card">
-          <h3>CSV / JSON</h3>
-          <div class="asset-list">
-            <a class="asset-link" href="viewer.html?type=text&file=Quali/ket_qua_ai/01_ai_human_agreement.csv">01_ai_human_agreement.csv</a>
-            <a class="asset-link" href="viewer.html?type=text&file=Quali/ket_qua_ai/REAL_QUAL_RESULTS.json">REAL_QUAL_RESULTS.json</a>
-          </div>
-        </article>
-      </div>
+    </section>
+
+    <section class="section panel">
+      <h2>Trực quan hóa toàn bộ kết quả</h2>
+      <p style="color: var(--muted); margin-top: -4px;">Toàn bộ hình ảnh, bảng CSV và tệp JSON của phân tích định tính AI/PhoBERT — bấm vào ảnh để phóng to, bấm vào tệp dữ liệu để xem dạng bảng/biểu tương tác.</p>
+      <div id="quali-explorer"></div>
     </section>
   </main>
 
@@ -98,5 +87,46 @@
     </div>
     <div>Developed by <a href="https://haolaoshi.site/#" target="_blank" rel="noopener">Hao Lee</a> · All rights reserved.</div>
   </footer>
+
+  <script src="assets.js"></script>
+  <script>
+    renderAssetExplorer('quali-explorer', [
+      {
+        label: 'ket_qua_ai/ · Chủ đề, cảm xúc, mạng ý nghĩa',
+        folder: 'Quali/ket_qua_ai',
+        images: [
+          "Quali/ket_qua_ai/fig_ai_vs_human_crosstab.png",
+          "Quali/ket_qua_ai/fig_code_network.png",
+          "Quali/ket_qua_ai/fig_corpus_overview.png",
+          "Quali/ket_qua_ai/fig_discourse_map.png",
+          "Quali/ket_qua_ai/fig_school_similarity.png",
+          "Quali/ket_qua_ai/fig_sentiment.png"
+        ],
+        data: [
+          "Quali/ket_qua_ai/00_segments_tidy.csv",
+          "Quali/ket_qua_ai/00b_analyst_synthesis.csv",
+          "Quali/ket_qua_ai/01_ai_human_agreement.csv",
+          "Quali/ket_qua_ai/02_crosstab_ai_human.csv",
+          "Quali/ket_qua_ai/03_cluster_keywords.csv",
+          "Quali/ket_qua_ai/04_bertopic_topics.csv",
+          "Quali/ket_qua_ai/05_bertopic_vs_human.csv",
+          "Quali/ket_qua_ai/06_bertopic_school_divergence.csv",
+          "Quali/ket_qua_ai/07_sentiment_by_code.csv",
+          "Quali/ket_qua_ai/08_code_network_centrality.csv",
+          "Quali/ket_qua_ai/09_code_school_matrix.csv",
+          "Quali/ket_qua_ai/09b_manual_vs_auto_convergence.csv",
+          "Quali/ket_qua_ai/10_school_semantic_similarity.csv",
+          "Quali/ket_qua_ai/11_discourse_foreign_vs_vn.csv",
+          "Quali/ket_qua_ai/13_ai_human_kappa_report.csv",
+          "Quali/ket_qua_ai/14_qual_school_indices.csv",
+          "Quali/ket_qua_ai/15_qual_group_indices.csv",
+          "Quali/ket_qua_ai/16_segments_with_ai_labels.csv",
+          "Quali/ket_qua_ai/12_discourse_gap.json",
+          "Quali/ket_qua_ai/13_kappa.json",
+          "Quali/ket_qua_ai/SUMMARY_QUAL_AI.json"
+        ]
+      }
+    ]);
+  </script>
 </body>
 </html>

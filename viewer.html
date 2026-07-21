@@ -94,6 +94,120 @@
       margin-bottom: 16px;
       border: 1px solid var(--border);
     }
+
+    /* Data table (CSV) */
+    .table-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    .table-search {
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      min-width: 240px;
+      font-size: 0.9rem;
+    }
+    .table-count { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
+    .table-wrap {
+      overflow: auto;
+      max-height: 65vh;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    .data-table { border-collapse: collapse; width: 100%; font-size: 0.88rem; }
+    .data-table thead th {
+      position: sticky;
+      top: 0;
+      background: #f0f6fc;
+      color: var(--accent);
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 2px solid var(--border);
+      cursor: pointer;
+      white-space: nowrap;
+      user-select: none;
+    }
+    .data-table thead th:hover { background: #e3f0fc; }
+    .data-table td {
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+      max-width: 360px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .data-table td.num, .data-table th.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .data-table tbody tr:nth-child(even) { background: #f8fbff; }
+    .data-table tbody tr:hover { background: #eef6ff; }
+    .empty-cell { text-align: center; color: var(--muted); padding: 20px !important; white-space: normal; }
+    .table-pagination {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+    .table-pagination button {
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: white;
+      color: var(--accent);
+      cursor: pointer;
+    }
+    .table-pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+    .table-pagination span { color: var(--muted); font-size: 0.88rem; }
+    .sort-arrow { font-size: 0.75em; color: var(--accent-2); }
+
+    /* JSON viewer */
+    .json-toolbar { display: flex; justify-content: flex-end; margin-bottom: 12px; }
+    .json-toolbar button {
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: white;
+      color: var(--accent);
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+    .json-section {
+      border-left: 3px solid var(--border);
+      padding-left: 14px;
+      margin-bottom: 10px;
+    }
+    .json-section > summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--accent);
+      padding: 6px 0;
+      list-style: none;
+    }
+    .json-section > summary::-webkit-details-marker { display: none; }
+    .json-section > summary::before { content: '▸ '; color: var(--accent-2); }
+    .json-section[open] > summary::before { content: '▾ '; }
+    .json-badge {
+      font-size: 0.72rem;
+      font-weight: 600;
+      background: #eef6ff;
+      color: var(--accent-2);
+      padding: 2px 8px;
+      border-radius: 999px;
+      margin-left: 6px;
+    }
+    .json-section-body { padding: 6px 0 10px; }
+    .kv-table { border-collapse: collapse; margin: 6px 0 12px; }
+    .kv-table th { text-align: left; color: var(--muted); font-weight: 600; padding: 5px 14px 5px 0; white-space: nowrap; vertical-align: top; }
+    .kv-table td { padding: 5px 0; }
+    .chip-list { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
+    .chip-list .chip { background: #eef6ff; color: var(--accent); border-radius: 999px; padding: 4px 10px; font-size: 0.85rem; }
+    .json-empty { color: var(--muted); font-style: italic; }
+    .json-raw { display: none; }
+    .json-raw.open { display: block; }
   </style>
 </head>
 <body>
@@ -240,6 +354,283 @@
       return html;
     }
 
+    function extOf(name) {
+      const m = /\.([a-zA-Z0-9]+)$/.exec(name || '');
+      return m ? m[1].toLowerCase() : '';
+    }
+
+    function debounce(fn, wait) {
+      let t;
+      return function () {
+        const args = arguments;
+        clearTimeout(t);
+        t = setTimeout(function () { fn.apply(null, args); }, wait);
+      };
+    }
+
+    // ---------- CSV parsing ----------
+    function parseCSV(text) {
+      const rows = [];
+      let row = [];
+      let field = '';
+      let inQuotes = false;
+      const s = text.replace(/^﻿/, '');
+      for (let i = 0; i < s.length; i++) {
+        const c = s[i];
+        if (inQuotes) {
+          if (c === '"') {
+            if (s[i + 1] === '"') { field += '"'; i++; }
+            else { inQuotes = false; }
+          } else {
+            field += c;
+          }
+        } else if (c === '"') {
+          inQuotes = true;
+        } else if (c === ',') {
+          row.push(field); field = '';
+        } else if (c === '\n') {
+          row.push(field); rows.push(row); row = []; field = '';
+        } else if (c === '\r') {
+          // ignore, \n handles the newline
+        } else {
+          field += c;
+        }
+      }
+      if (field.length || row.length) { row.push(field); rows.push(row); }
+      while (rows.length && rows[rows.length - 1].length === 1 && rows[rows.length - 1][0] === '') rows.pop();
+      return rows;
+    }
+
+    // ---------- Sortable / searchable / paginated table ----------
+    function createDataTable(container, headers, dataRows, opts) {
+      opts = opts || {};
+      const state = { filter: '', sortCol: -1, sortDir: 1, page: 0, pageSize: opts.pageSize || 25 };
+      const isNumericCol = headers.map(function (_, ci) {
+        return dataRows.every(function (r) {
+          const v = (r[ci] == null ? '' : r[ci]).toString().trim();
+          return v === '' || !isNaN(v.replace(/,/g, ''));
+        });
+      });
+
+      function getFiltered() {
+        if (!state.filter) return dataRows;
+        const f = state.filter.toLowerCase();
+        return dataRows.filter(function (r) {
+          return r.some(function (cell) { return (cell == null ? '' : cell).toString().toLowerCase().indexOf(f) !== -1; });
+        });
+      }
+
+      function getSorted(rows) {
+        if (state.sortCol < 0) return rows;
+        const ci = state.sortCol, dir = state.sortDir, numeric = isNumericCol[ci];
+        return rows.slice().sort(function (a, b) {
+          let av = a[ci] == null ? '' : a[ci], bv = b[ci] == null ? '' : b[ci];
+          if (numeric) {
+            const an = parseFloat(av.toString().replace(/,/g, ''));
+            const bn = parseFloat(bv.toString().replace(/,/g, ''));
+            const aNum = isNaN(an) ? -Infinity : an, bNum = isNaN(bn) ? -Infinity : bn;
+            return (aNum - bNum) * dir;
+          }
+          return av.toString().localeCompare(bv.toString(), 'vi') * dir;
+        });
+      }
+
+      function render() {
+        const filtered = getSorted(getFiltered());
+        const totalPages = Math.max(1, Math.ceil(filtered.length / state.pageSize));
+        state.page = Math.min(state.page, totalPages - 1);
+        const start = state.page * state.pageSize;
+        const pageRows = filtered.slice(start, start + state.pageSize);
+
+        let html = '<div class="table-toolbar">' +
+          '<input type="search" class="table-search" placeholder="Tìm trong bảng…" value="' + escapeHtml(state.filter) + '" />' +
+          '<span class="table-count">Hiển thị ' + (filtered.length ? start + 1 : 0) + '–' + Math.min(start + state.pageSize, filtered.length) + ' / ' + filtered.length + ' dòng' +
+          (filtered.length !== dataRows.length ? ' (lọc từ ' + dataRows.length + ')' : '') + '</span>' +
+          '</div>';
+
+        html += '<div class="table-wrap"><table class="data-table"><thead><tr>';
+        headers.forEach(function (h, ci) {
+          let arrow = '';
+          if (state.sortCol === ci) arrow = state.sortDir === 1 ? ' ▲' : ' ▼';
+          html += '<th data-col="' + ci + '" class="' + (isNumericCol[ci] ? 'num' : '') + '">' + escapeHtml(h) + '<span class="sort-arrow">' + arrow + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        if (!pageRows.length) {
+          html += '<tr><td colspan="' + Math.max(1, headers.length) + '" class="empty-cell">Không có dòng nào khớp với tìm kiếm.</td></tr>';
+        }
+        pageRows.forEach(function (r) {
+          html += '<tr>' + headers.map(function (h, ci) {
+            const v = r[ci] == null ? '' : r[ci].toString();
+            return '<td class="' + (isNumericCol[ci] ? 'num' : '') + '" title="' + escapeHtml(v) + '">' + escapeHtml(v) + '</td>';
+          }).join('') + '</tr>';
+        });
+        html += '</tbody></table></div>';
+
+        html += '<div class="table-pagination">' +
+          '<button data-page="0"' + (state.page === 0 ? ' disabled' : '') + '>« Đầu</button>' +
+          '<button data-page="' + (state.page - 1) + '"' + (state.page === 0 ? ' disabled' : '') + '>‹ Trước</button>' +
+          '<span>Trang ' + (state.page + 1) + ' / ' + totalPages + '</span>' +
+          '<button data-page="' + (state.page + 1) + '"' + (state.page >= totalPages - 1 ? ' disabled' : '') + '>Sau ›</button>' +
+          '<button data-page="' + (totalPages - 1) + '"' + (state.page >= totalPages - 1 ? ' disabled' : '') + '>Cuối »</button>' +
+          '</div>';
+
+        container.innerHTML = html;
+
+        const searchInput = container.querySelector('.table-search');
+        searchInput.addEventListener('input', debounce(function (e) {
+          state.filter = e.target.value;
+          state.page = 0;
+          const pos = e.target.selectionStart;
+          render();
+          const again = container.querySelector('.table-search');
+          again.focus();
+          again.setSelectionRange(pos, pos);
+        }, 180));
+
+        container.querySelectorAll('thead th').forEach(function (th) {
+          th.addEventListener('click', function () {
+            const ci = parseInt(th.getAttribute('data-col'), 10);
+            if (state.sortCol === ci) state.sortDir *= -1; else { state.sortCol = ci; state.sortDir = 1; }
+            render();
+          });
+        });
+        container.querySelectorAll('.table-pagination button').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            const p = parseInt(btn.getAttribute('data-page'), 10);
+            if (!isNaN(p)) { state.page = p; render(); }
+          });
+        });
+      }
+
+      render();
+    }
+
+    function renderCsv(text, fileLabel) {
+      const rows = parseCSV(text);
+      if (!rows.length) {
+        body.innerHTML = '<div class="status">Tệp CSV rỗng: ' + escapeHtml(fileLabel) + '</div>';
+        return;
+      }
+      const headers = rows[0];
+      const dataRows = rows.slice(1);
+      body.innerHTML = '<div class="status">Bảng dữ liệu CSV từ ' + escapeHtml(fileLabel) + ' · ' + dataRows.length + ' dòng · ' + headers.length + ' cột</div>' +
+        '<div id="csv-table-root"></div>';
+      createDataTable(document.getElementById('csv-table-root'), headers, dataRows, { pageSize: 25 });
+    }
+
+    // ---------- JSON tree rendering ----------
+    let jsonTableQueue = [];
+    let jsonTableCounter = 0;
+
+    function isPlainObject(v) { return v !== null && typeof v === 'object' && !Array.isArray(v); }
+    function isArrayOfObjects(arr) { return Array.isArray(arr) && arr.length > 0 && arr.every(isPlainObject); }
+
+    function humanizeKey(key) {
+      return key.replace(/_/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+    }
+
+    function formatScalar(v) {
+      if (v === null) return 'null';
+      if (typeof v === 'number' && !Number.isInteger(v)) return String(Math.round(v * 1e6) / 1e6);
+      return String(v);
+    }
+
+    function objectsToTable(arr) {
+      const headers = [];
+      arr.forEach(function (obj) {
+        Object.keys(obj).forEach(function (k) { if (headers.indexOf(k) === -1) headers.push(k); });
+      });
+      const rows = arr.map(function (obj) {
+        return headers.map(function (h) { return obj[h] === undefined ? '' : formatScalar(obj[h]); });
+      });
+      return { headers: headers, rows: rows };
+    }
+
+    function badgeFor(value) {
+      if (Array.isArray(value)) return value.length + ' mục';
+      if (isPlainObject(value)) return Object.keys(value).length + ' thuộc tính';
+      return '';
+    }
+
+    function renderJsonNode(value) {
+      if (Array.isArray(value)) {
+        if (isArrayOfObjects(value)) {
+          const t = objectsToTable(value);
+          const id = 'jtbl-' + (jsonTableCounter++);
+          jsonTableQueue.push({ id: id, headers: t.headers, rows: t.rows });
+          return '<div class="json-table-holder" id="' + id + '"></div>';
+        }
+        if (!value.length) return '<span class="json-empty">[ ] (mảng rỗng)</span>';
+        return '<div class="chip-list">' + value.map(function (v) {
+          return '<span class="chip">' + escapeHtml(formatScalar(v)) + '</span>';
+        }).join('') + '</div>';
+      }
+      if (isPlainObject(value)) {
+        const keys = Object.keys(value);
+        if (!keys.length) return '<span class="json-empty">{ } (đối tượng rỗng)</span>';
+        const allPrimitive = keys.every(function (k) { return value[k] === null || typeof value[k] !== 'object'; });
+        if (allPrimitive) {
+          return '<table class="kv-table">' + keys.map(function (k) {
+            return '<tr><th>' + escapeHtml(humanizeKey(k)) + '</th><td>' + escapeHtml(formatScalar(value[k])) + '</td></tr>';
+          }).join('') + '</table>';
+        }
+        return keys.map(function (k) { return renderJsonSection(k, value[k]); }).join('');
+      }
+      return '<span class="json-scalar">' + escapeHtml(formatScalar(value)) + '</span>';
+    }
+
+    function renderJsonSection(key, value, depth) {
+      depth = depth || 1;
+      const badge = badgeFor(value);
+      return '<details class="json-section"' + (depth <= 1 ? ' open' : '') + '>' +
+        '<summary>' + escapeHtml(humanizeKey(key)) + (badge ? ' <span class="json-badge">' + badge + '</span>' : '') + '</summary>' +
+        '<div class="json-section-body">' + renderJsonNode(value) + '</div>' +
+      '</details>';
+    }
+
+    function sanitizeJsonText(text) {
+      // Some exports (pandas/numpy) emit non-standard NaN/Infinity literals.
+      return text.replace(/\bNaN\b/g, 'null').replace(/-?\bInfinity\b/g, 'null');
+    }
+
+    function renderJson(text, fileLabel) {
+      let data;
+      try {
+        data = JSON.parse(sanitizeJsonText(text));
+      } catch (error) {
+        body.innerHTML = '<div class="status">Không thể phân tích JSON: ' + escapeHtml(error.message) + '</div><pre>' + escapeHtml(text) + '</pre>';
+        return;
+      }
+      jsonTableQueue = [];
+      jsonTableCounter = 0;
+      let treeHtml;
+      if (Array.isArray(data) && isArrayOfObjects(data)) {
+        treeHtml = renderJsonNode(data);
+      } else if (isPlainObject(data)) {
+        treeHtml = Object.keys(data).map(function (k) { return renderJsonSection(k, data[k], 1); }).join('');
+      } else {
+        treeHtml = renderJsonNode(data);
+      }
+
+      body.innerHTML = '<div class="status">Dữ liệu JSON từ ' + escapeHtml(fileLabel) + '</div>' +
+        '<div class="json-toolbar"><button id="json-raw-toggle" type="button">Xem JSON gốc</button></div>' +
+        '<div id="json-tree-root">' + treeHtml + '</div>' +
+        '<pre class="json-raw" id="json-raw">' + escapeHtml(JSON.stringify(data, null, 2)) + '</pre>';
+
+      jsonTableQueue.forEach(function (item) {
+        createDataTable(document.getElementById(item.id), item.headers, item.rows, { pageSize: 15 });
+      });
+
+      document.getElementById('json-raw-toggle').addEventListener('click', function () {
+        const raw = document.getElementById('json-raw');
+        const tree = document.getElementById('json-tree-root');
+        const showRaw = !raw.classList.contains('open');
+        raw.classList.toggle('open', showRaw);
+        tree.style.display = showRaw ? 'none' : '';
+        this.textContent = showRaw ? 'Xem dạng trực quan' : 'Xem JSON gốc';
+      });
+    }
+
     const params = new URLSearchParams(window.location.search);
     const type = params.get('type') || 'md';
     const fileParam = params.get('file');
@@ -255,30 +646,29 @@
       title.textContent = fileParam;
       openLink.href = resolved.href;
 
+      const ext = extOf(fileParam);
+
       if (type === 'html') {
         body.innerHTML = '<div class="status">Đang hiển thị báo cáo HTML trong khung nội bộ từ ' + fileParam + '</div><iframe title="embedded-report" src="' + resolved.href + '" loading="lazy"></iframe>';
       } else if (type === 'image') {
         body.innerHTML = '<div class="status">Đang hiển thị hình ảnh kết quả từ ' + fileParam + '</div><img src="' + resolved.href + '" alt="Hình ảnh kết quả" />';
-      } else if (type === 'text') {
-        fetch(resolved.href)
-          .then(function (response) {
-            if (!response.ok) throw new Error('Không thể tải file');
-            return response.text();
-          })
-          .then(function (text) {
-            body.innerHTML = '<div class="status">Đang hiển thị nội dung văn bản từ ' + fileParam + '</div><pre>' + escapeHtml(text) + '</pre>';
-          })
-          .catch(function (error) {
-            body.innerHTML = '<div class="status">Không thể tải tài liệu: ' + error.message + '</div>';
-          });
       } else {
+        body.innerHTML = '<div class="status">Đang tải nội dung…</div>';
         fetch(resolved.href)
           .then(function (response) {
             if (!response.ok) throw new Error('Không thể tải file');
             return response.text();
           })
           .then(function (text) {
-            body.innerHTML = '<div class="status">Đang hiển thị nội dung Markdown từ ' + fileParam + '</div>' + renderMarkdown(text);
+            if (ext === 'csv') {
+              renderCsv(text, fileParam);
+            } else if (ext === 'json') {
+              renderJson(text, fileParam);
+            } else if (type === 'md' || ext === 'md') {
+              body.innerHTML = '<div class="status">Đang hiển thị nội dung Markdown từ ' + fileParam + '</div>' + renderMarkdown(text);
+            } else {
+              body.innerHTML = '<div class="status">Đang hiển thị nội dung văn bản từ ' + fileParam + '</div><pre>' + escapeHtml(text) + '</pre>';
+            }
           })
           .catch(function (error) {
             body.innerHTML = '<div class="status">Không thể tải tài liệu: ' + error.message + '</div>';

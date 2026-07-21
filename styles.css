@@ -259,3 +259,133 @@ footer {
   main { width: min(100%, calc(100% - 20px)); }
   footer { justify-content: center; text-align: center; }
 }
+
+/* Asset explorer (image gallery + CSV/JSON cards) */
+.explorer-search { margin: 4px 0 22px; }
+.explorer-search input {
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.explorer-search input:focus { outline: 2px solid var(--accent-2); outline-offset: 1px; }
+.explorer-group { margin-top: 30px; }
+.explorer-group:first-of-type { margin-top: 0; }
+.explorer-group-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.explorer-group-head h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--accent);
+}
+.explorer-group-empty { color: var(--muted); font-size: 0.9rem; padding: 10px 0 20px; }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.gallery-card {
+  margin: 0;
+  padding: 8px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  cursor: zoom-in;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.gallery-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.gallery-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid var(--border);
+  display: block;
+}
+.gallery-card figcaption {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 7px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 10px;
+}
+.data-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text);
+  text-decoration: none;
+}
+.data-card:hover { border-color: var(--accent-2); text-decoration: none; background: #f4f8fb; }
+.data-icon { font-size: 1.3rem; line-height: 1; }
+.data-meta { display: flex; flex-direction: column; gap: 2px; overflow: hidden; min-width: 0; }
+.data-meta strong { font-size: 0.88rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.data-meta small { color: var(--muted); font-size: 0.74rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.data-badge {
+  margin-left: auto;
+  font-size: 0.66rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eef6ff;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+/* Lightbox for gallery images */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 20, 30, 0.88);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 40px;
+}
+.lightbox.open { display: flex; }
+.lightbox figure { margin: 0; max-width: min(90vw, 1100px); text-align: center; }
+.lightbox img { max-width: 100%; max-height: 78vh; border-radius: 10px; background: white; }
+.lightbox figcaption { color: #eef6ff; margin-top: 12px; font-size: 0.9rem; }
+.lightbox-close, .lightbox-prev, .lightbox-next {
+  position: absolute;
+  background: rgba(255,255,255,0.12);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  width: 44px;
+  height: 44px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.lightbox-close:hover, .lightbox-prev:hover, .lightbox-next:hover { background: rgba(255,255,255,0.25); }
+.lightbox-close { top: 24px; right: 24px; }
+.lightbox-prev { left: 24px; top: 50%; transform: translateY(-50%); }
+.lightbox-next { right: 24px; top: 50%; transform: translateY(-50%); }
+@media (max-width: 640px) {
+  .lightbox { padding: 16px; }
+  .lightbox-prev, .lightbox-next { width: 36px; height: 36px; }
+  .lightbox-close { width: 36px; height: 36px; top: 12px; right: 12px; }
+}

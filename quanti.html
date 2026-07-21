@@ -76,23 +76,12 @@
         <div class="item"><strong>HTML chính</strong><br /><a href="viewer.html?type=html&file=Quanti/Phan_Tich_VHCL.html">Quanti/Phan_Tich_VHCL.html</a><br /><a href="viewer.html?type=html&file=Quanti/Quality_Culture_Analysis_EN.html">Quanti/Quality_Culture_Analysis_EN.html</a><br /><a href="viewer.html?type=html&file=Quanti/mi_cluster_executed.html">Quanti/mi_cluster_executed.html</a></div>
         <div class="item"><strong>Thư mục kết quả</strong><br /><a href="Quanti/results_en/">results_en/</a><br /><a href="Quanti/ket_qua/">ket_qua/</a><br /><a href="Quanti/ket_qua_MI_Cluster/">ket_qua_MI_Cluster/</a><br /><a href="Quanti/Tai_Lieu_Giai_Thich/">Tai_Lieu_Giai_Thich/</a></div>
       </div>
-      <div class="asset-grid">
-        <article class="asset-card">
-          <h3>Hình ảnh kết quả</h3>
-          <img src="Quanti/results_en/fig_cronbach_alpha.png" alt="Cronbach alpha" />
-          <div class="asset-list">
-            <a class="asset-link" href="viewer.html?type=image&file=Quanti/results_en/fig_cronbach_alpha.png">fig_cronbach_alpha.png</a>
-            <a class="asset-link" href="viewer.html?type=image&file=Quanti/results_en/fig_path_model_pls.png">fig_path_model_pls.png</a>
-          </div>
-        </article>
-        <article class="asset-card">
-          <h3>CSV / JSON</h3>
-          <div class="asset-list">
-            <a class="asset-link" href="viewer.html?type=text&file=Quanti/results_en/table_path_model.csv">table_path_model.csv</a>
-            <a class="asset-link" href="viewer.html?type=text&file=Quanti/results_en/summary.json">summary.json</a>
-          </div>
-        </article>
-      </div>
+    </section>
+
+    <section class="section panel">
+      <h2>Trực quan hóa toàn bộ kết quả</h2>
+      <p style="color: var(--muted); margin-top: -4px;">Toàn bộ hình ảnh, bảng CSV và tệp JSON trong ba thư mục kết quả định lượng — bấm vào ảnh để phóng to, bấm vào tệp dữ liệu để xem dạng bảng/biểu tương tác.</p>
+      <div id="quanti-explorer"></div>
     </section>
   </main>
 
@@ -103,5 +92,168 @@
     </div>
     <div>Developed by <a href="https://haolaoshi.site/#" target="_blank" rel="noopener">Hao Lee</a> · All rights reserved.</div>
   </footer>
+
+  <script src="assets.js"></script>
+  <script>
+    renderAssetExplorer('quanti-explorer', [
+      {
+        label: 'ket_qua/ · Thống kê chính (VN)',
+        folder: 'Quanti/ket_qua',
+        images: [
+          "Quanti/ket_qua/hinh_co_cau_mau.png",
+          "Quanti/ket_qua/hinh_cronbach_alpha.png",
+          "Quanti/ket_qua/hinh_efa_loadings_iv.png",
+          "Quanti/ket_qua/hinh_gia_tri_VHCL.png",
+          "Quanti/ket_qua/hinh_hoi_quy_GLO.png",
+          "Quanti/ket_qua/hinh_mo_hinh_path_pls.png",
+          "Quanti/ket_qua/hinh_mo_hinh_path_semopy.png",
+          "Quanti/ket_qua/hinh_path_betas_semopy.png",
+          "Quanti/ket_qua/hinh_pls_ave.png",
+          "Quanti/ket_qua/hinh_pls_loadings.png",
+          "Quanti/ket_qua/hinh_pls_path_ci.png",
+          "Quanti/ket_qua/hinh_r2_pls.png",
+          "Quanti/ket_qua/hinh_r2_semopy.png",
+          "Quanti/ket_qua/hinh_rq1_cau_truc_khoi.png",
+          "Quanti/ket_qua/hinh_rq2_thuc_trang.png",
+          "Quanti/ket_qua/hinh_tong_hop_gia_thuyet.png",
+          "Quanti/ket_qua/hinh_trung_binh_thang_do.png",
+          "Quanti/ket_qua/hinh_trung_gian_heatmap.png",
+          "Quanti/ket_qua/hinh_trung_gian_loai.png",
+          "Quanti/ket_qua/hinh_tuong_quan.png"
+        ],
+        data: [
+          "Quanti/ket_qua/bang_anova.csv",
+          "Quanti/ket_qua/bang_ave_cr.csv",
+          "Quanti/ket_qua/bang_cronbach_alpha.csv",
+          "Quanti/ket_qua/bang_cronbach_alpha_sau_hieu_chinh.csv",
+          "Quanti/ket_qua/bang_do_phu_hop.csv",
+          "Quanti/ket_qua/bang_fornell_larcker_viph.csv",
+          "Quanti/ket_qua/bang_gia_tri_VHCL.csv",
+          "Quanti/ket_qua/bang_hoi_quy_GLO.csv",
+          "Quanti/ket_qua/bang_hoi_quy_ket_qua.csv",
+          "Quanti/ket_qua/bang_htmt.csv",
+          "Quanti/ket_qua/bang_htmt_vuot_nguong.csv",
+          "Quanti/ket_qua/bang_ket_luan_gia_thuyet.csv",
+          "Quanti/ket_qua/bang_m3_glo_paths.csv",
+          "Quanti/ket_qua/bang_mo_hinh_canh_tranh.csv",
+          "Quanti/ket_qua/bang_mo_ta_bien_quan_sat.csv",
+          "Quanti/ket_qua/bang_mo_ta_mau.csv",
+          "Quanti/ket_qua/bang_mo_ta_thang_do.csv",
+          "Quanti/ket_qua/bang_path_model.csv",
+          "Quanti/ket_qua/bang_r2.csv",
+          "Quanti/ket_qua/bang_robustness_GLO_rut_gon.csv",
+          "Quanti/ket_qua/bang_rq1_so_sanh_cau_truc.csv",
+          "Quanti/ket_qua/bang_rq1_tai_cau_phan.csv",
+          "Quanti/ket_qua/bang_rq2_muc_thuc_trang.csv",
+          "Quanti/ket_qua/bang_rq2_phan_hoa_giua_truong.csv",
+          "Quanti/ket_qua/bang_rq2_thuc_trang_theo_truong.csv",
+          "Quanti/ket_qua/bang_sem_full.csv",
+          "Quanti/ket_qua/bang_thang_do_tham_chieu.csv",
+          "Quanti/ket_qua/bang_trung_gian.csv",
+          "Quanti/ket_qua/bang_ttest.csv",
+          "Quanti/ket_qua/bang_tuong_quan.csv",
+          "Quanti/ket_qua/efa_loadings_doc_lap.csv",
+          "Quanti/ket_qua/efa_loadings_phu_thuoc.csv",
+          "Quanti/ket_qua/efa_loadings_trung_gian_GLO.csv",
+          "Quanti/ket_qua/pls_fornell_larcker_viph.csv",
+          "Quanti/ket_qua/pls_ket_luan_gia_thuyet.csv",
+          "Quanti/ket_qua/pls_measurement.csv",
+          "Quanti/ket_qua/pls_outer_loadings.csv",
+          "Quanti/ket_qua/pls_paths.csv",
+          "Quanti/ket_qua/pls_paths_bootstrap.csv",
+          "Quanti/ket_qua/pls_r2.csv",
+          "Quanti/ket_qua/paper2_extra.json",
+          "Quanti/ket_qua/summary.json"
+        ]
+      },
+      {
+        label: 'ket_qua_MI_Cluster/ · Bất biến đo lường & cluster-robust',
+        folder: 'Quanti/ket_qua_MI_Cluster',
+        images: [],
+        data: [
+          "Quanti/ket_qua_MI_Cluster/00_scale_reference.csv",
+          "Quanti/ket_qua_MI_Cluster/CL_01_ICC.csv",
+          "Quanti/ket_qua_MI_Cluster/CL_02_cluster_robust.csv",
+          "Quanti/ket_qua_MI_Cluster/CL_03_GLO_cluster_robust.csv",
+          "Quanti/ket_qua_MI_Cluster/CL_04_mixed_model.csv",
+          "Quanti/ket_qua_MI_Cluster/MI_01_configural.csv",
+          "Quanti/ket_qua_MI_Cluster/MI_02_congruence.csv",
+          "Quanti/ket_qua_MI_Cluster/MI_03_DIF_screening.csv",
+          "Quanti/ket_qua_MI_Cluster/MI_04_role_congruence.csv",
+          "Quanti/ket_qua_MI_Cluster/nationality_mediation.json",
+          "Quanti/ket_qua_MI_Cluster/summary_MI_cluster.json"
+        ]
+      },
+      {
+        label: 'results_en/ · Bản tiếng Anh',
+        folder: 'Quanti/results_en',
+        images: [
+          "Quanti/results_en/fig_construct_means.png",
+          "Quanti/results_en/fig_correlation_heatmap.png",
+          "Quanti/results_en/fig_cronbach_alpha.png",
+          "Quanti/results_en/fig_efa_loadings_iv.png",
+          "Quanti/results_en/fig_hypothesis_summary.png",
+          "Quanti/results_en/fig_mediation_heatmap.png",
+          "Quanti/results_en/fig_mediation_types.png",
+          "Quanti/results_en/fig_path_betas_semopy.png",
+          "Quanti/results_en/fig_path_model_pls.png",
+          "Quanti/results_en/fig_path_model_semopy.png",
+          "Quanti/results_en/fig_pls_ave.png",
+          "Quanti/results_en/fig_pls_loadings.png",
+          "Quanti/results_en/fig_pls_path_ci.png",
+          "Quanti/results_en/fig_quality_culture_values.png",
+          "Quanti/results_en/fig_r2_pls.png",
+          "Quanti/results_en/fig_r2_semopy.png",
+          "Quanti/results_en/fig_regression_GLO.png",
+          "Quanti/results_en/fig_rq1_block_structure.png",
+          "Quanti/results_en/fig_rq2_current_state.png",
+          "Quanti/results_en/fig_sample_composition.png"
+        ],
+        data: [
+          "Quanti/results_en/efa_loadings_dependent.csv",
+          "Quanti/results_en/efa_loadings_independent.csv",
+          "Quanti/results_en/efa_loadings_mediator_GLO.csv",
+          "Quanti/results_en/pls_fornell_larcker_violations.csv",
+          "Quanti/results_en/pls_hypothesis_conclusions.csv",
+          "Quanti/results_en/pls_measurement.csv",
+          "Quanti/results_en/pls_outer_loadings.csv",
+          "Quanti/results_en/pls_paths.csv",
+          "Quanti/results_en/pls_paths_bootstrap.csv",
+          "Quanti/results_en/pls_r2.csv",
+          "Quanti/results_en/table_anova.csv",
+          "Quanti/results_en/table_ave_cr.csv",
+          "Quanti/results_en/table_competing_models.csv",
+          "Quanti/results_en/table_construct_descriptives.csv",
+          "Quanti/results_en/table_correlations.csv",
+          "Quanti/results_en/table_cronbach_alpha.csv",
+          "Quanti/results_en/table_cronbach_alpha_refined.csv",
+          "Quanti/results_en/table_fornell_larcker_violations.csv",
+          "Quanti/results_en/table_htmt.csv",
+          "Quanti/results_en/table_htmt_above_threshold.csv",
+          "Quanti/results_en/table_hypothesis_conclusions.csv",
+          "Quanti/results_en/table_item_descriptives.csv",
+          "Quanti/results_en/table_m3_glo_paths.csv",
+          "Quanti/results_en/table_mediation.csv",
+          "Quanti/results_en/table_model_fit.csv",
+          "Quanti/results_en/table_path_model.csv",
+          "Quanti/results_en/table_quality_culture_values.csv",
+          "Quanti/results_en/table_r2.csv",
+          "Quanti/results_en/table_regression_GLO.csv",
+          "Quanti/results_en/table_regression_outcomes.csv",
+          "Quanti/results_en/table_robustness_reduced_GLO.csv",
+          "Quanti/results_en/table_rq1_component_loadings.csv",
+          "Quanti/results_en/table_rq1_structure_comparison.csv",
+          "Quanti/results_en/table_rq2_between_school_spread.csv",
+          "Quanti/results_en/table_rq2_current_state.csv",
+          "Quanti/results_en/table_rq2_state_by_school.csv",
+          "Quanti/results_en/table_sample_descriptives.csv",
+          "Quanti/results_en/table_scale_reference.csv",
+          "Quanti/results_en/table_sem_full.csv",
+          "Quanti/results_en/table_ttest.csv",
+          "Quanti/results_en/summary.json"
+        ]
+      }
+    ]);
+  </script>
 </body>
 </html>
