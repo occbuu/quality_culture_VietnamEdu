@@ -1091,6 +1091,574 @@
    "Kurtosis": 0.574
   }
  ],
+ "rq1_model_fit": [
+  {
+   "Model": "MA — five blocks (as in the reference table)",
+   "chi2": 629.563,
+   "DoF": 109.0,
+   "CFI": 0.89,
+   "TLI": 0.863,
+   "RMSEA": 0.131,
+   "GFI": 0.871,
+   "AIC": 83.519
+  },
+  {
+   "Model": "ME — six blocks (individual / collective split)",
+   "chi2": 562.486,
+   "DoF": 104.0,
+   "CFI": 0.903,
+   "TLI": 0.873,
+   "RMSEA": 0.125,
+   "GFI": 0.884,
+   "AIC": 93.997
+  },
+  {
+   "Model": "MC — single general factor (no components)",
+   "chi2": 903.026,
+   "DoF": 119.0,
+   "CFI": 0.834,
+   "TLI": 0.81,
+   "RMSEA": 0.153,
+   "GFI": 0.814,
+   "AIC": 61.573
+  },
+  {
+   "Model": "MF — second order: QC above the component blocks",
+   "chi2": 658.867,
+   "DoF": 113.0,
+   "CFI": 0.885,
+   "TLI": 0.861,
+   "RMSEA": 0.131,
+   "GFI": 0.865,
+   "AIC": 75.311
+  }
+ ],
+ "rq1_delta_MA_ME": {
+  "delta_chi2": 67.1,
+  "ddf": 5,
+  "p": 4.153065425896469e-13
+ },
+ "rq1_loadings": [
+  {
+   "Component block": "Global aspects (measuring QC)",
+   "Construct": "GLO",
+   "Name": "Global Aspects",
+   "Standardised loading": 0.661,
+   "Assessment": "Adequate"
+  },
+  {
+   "Component block": "Intermediary (leadership/communication/participation)",
+   "Construct": "COL",
+   "Name": "Communication",
+   "Standardised loading": 0.866,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Intermediary (leadership/communication/participation)",
+   "Construct": "LED",
+   "Name": "Leadership",
+   "Standardised loading": 0.818,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Intermediary (leadership/communication/participation)",
+   "Construct": "PAR",
+   "Name": "Participation",
+   "Standardised loading": 0.639,
+   "Assessment": "Adequate"
+  },
+  {
+   "Component block": "Organizational-psychological: collective",
+   "Construct": "SHA",
+   "Name": "Shared Value",
+   "Standardised loading": 0.875,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Organizational-psychological: collective",
+   "Construct": "TRU",
+   "Name": "Trust",
+   "Standardised loading": 0.87,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Organizational-psychological: individual",
+   "Construct": "RES",
+   "Name": "Responsibility",
+   "Standardised loading": 0.734,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Organizational-psychological: individual",
+   "Construct": "ENG",
+   "Name": "Engagement",
+   "Standardised loading": 0.706,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Organizational-psychological: individual",
+   "Construct": "COM",
+   "Name": "Commitment",
+   "Standardised loading": 0.528,
+   "Assessment": "Adequate"
+  },
+  {
+   "Component block": "Outcome variables",
+   "Construct": "SAT_O",
+   "Name": "Organizational Satisfaction",
+   "Standardised loading": 0.841,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Outcome variables",
+   "Construct": "SAT_J",
+   "Name": "Job Satisfaction",
+   "Standardised loading": 0.798,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Outcome variables",
+   "Construct": "OCM",
+   "Name": "Organizational Commitment",
+   "Standardised loading": 0.796,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Outcome variables",
+   "Construct": "PRO",
+   "Name": "Professional Development",
+   "Standardised loading": 0.73,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Outcome variables",
+   "Construct": "WEG",
+   "Name": "Work Engagement",
+   "Standardised loading": 0.712,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Structural-formal",
+   "Construct": "STR",
+   "Name": "Strategic",
+   "Standardised loading": 0.935,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Structural-formal",
+   "Construct": "OPE",
+   "Name": "Operative",
+   "Standardised loading": 0.928,
+   "Assessment": "Strong"
+  },
+  {
+   "Component block": "Structural-formal",
+   "Construct": "NOR",
+   "Name": "Normative",
+   "Standardised loading": 0.91,
+   "Assessment": "Strong"
+  }
+ ],
+ "rq2_levels": [
+  {
+   "Construct": "COM",
+   "Name": "Commitment",
+   "Block": "Organizational-psychological Elements",
+   "Scale": "6-point",
+   "Mean": 5.203,
+   "SD": 0.617,
+   "% of scale": 84.1,
+   "Level": "Rất cao"
+  },
+  {
+   "Construct": "ENG",
+   "Name": "Engagement",
+   "Block": "Organizational-psychological Elements",
+   "Scale": "6-point",
+   "Mean": 5.085,
+   "SD": 0.606,
+   "% of scale": 81.7,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "RES",
+   "Name": "Responsibility",
+   "Block": "Organizational-psychological Elements",
+   "Scale": "6-point",
+   "Mean": 5.064,
+   "SD": 0.87,
+   "% of scale": 81.3,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "PRO",
+   "Name": "Professional Development",
+   "Block": "Outcome Variables",
+   "Scale": "6-point",
+   "Mean": 4.852,
+   "SD": 0.696,
+   "% of scale": 77.0,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "OCM",
+   "Name": "Organizational Commitment",
+   "Block": "Outcome Variables",
+   "Scale": "6-point",
+   "Mean": 4.833,
+   "SD": 0.991,
+   "% of scale": 76.7,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "COL",
+   "Name": "Communication",
+   "Block": "Intermediary Factor",
+   "Scale": "6-point",
+   "Mean": 4.756,
+   "SD": 0.888,
+   "% of scale": 75.1,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "TRU",
+   "Name": "Trust",
+   "Block": "Organizational-psychological Elements",
+   "Scale": "6-point",
+   "Mean": 4.748,
+   "SD": 0.913,
+   "% of scale": 75.0,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "PAR",
+   "Name": "Participation",
+   "Block": "Intermediary Factor",
+   "Scale": "6-point",
+   "Mean": 4.71,
+   "SD": 0.725,
+   "% of scale": 74.2,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "LED",
+   "Name": "Leadership",
+   "Block": "Intermediary Factor",
+   "Scale": "6-point",
+   "Mean": 4.69,
+   "SD": 0.989,
+   "% of scale": 73.8,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "WEG",
+   "Name": "Work Engagement",
+   "Block": "Outcome Variables",
+   "Scale": "6-point",
+   "Mean": 4.675,
+   "SD": 0.743,
+   "% of scale": 73.5,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "OPE",
+   "Name": "Operative",
+   "Block": "Structural-formal Elements",
+   "Scale": "6-point",
+   "Mean": 4.648,
+   "SD": 1.078,
+   "% of scale": 73.0,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "NOR",
+   "Name": "Normative",
+   "Block": "Structural-formal Elements",
+   "Scale": "6-point",
+   "Mean": 4.62,
+   "SD": 1.122,
+   "% of scale": 72.4,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "SHA",
+   "Name": "Shared Value",
+   "Block": "Organizational-psychological Elements",
+   "Scale": "6-point",
+   "Mean": 4.617,
+   "SD": 1.053,
+   "% of scale": 72.3,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "GLO",
+   "Name": "Global Aspects",
+   "Block": "Measuring Quality Culture through Global Aspects",
+   "Scale": "6-point",
+   "Mean": 4.569,
+   "SD": 0.971,
+   "% of scale": 71.4,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "SAT_J",
+   "Name": "Job Satisfaction",
+   "Block": "Outcome Variables",
+   "Scale": "5-point",
+   "Mean": 3.838,
+   "SD": 0.661,
+   "% of scale": 71.0,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "STR",
+   "Name": "Strategic",
+   "Block": "Structural-formal Elements",
+   "Scale": "6-point",
+   "Mean": 4.527,
+   "SD": 1.139,
+   "% of scale": 70.5,
+   "Level": "Cao"
+  },
+  {
+   "Construct": "SAT_O",
+   "Name": "Organizational Satisfaction",
+   "Block": "Outcome Variables",
+   "Scale": "5-point",
+   "Mean": 3.664,
+   "SD": 0.752,
+   "% of scale": 66.6,
+   "Level": "Khá"
+  }
+ ],
+ "rq2_by_school": [
+  {
+   "School": 4,
+   "n": 63,
+   "NOR": 79.6,
+   "STR": 79.0,
+   "OPE": 82.2,
+   "LED": 78.2,
+   "COL": 79.2,
+   "PAR": 77.2,
+   "TRU": 79.5,
+   "SHA": 76.7,
+   "COM": 84.7,
+   "RES": 85.2,
+   "ENG": 83.8,
+   "GLO": 77.9,
+   "OCM": 79.7,
+   "SAT_O": 73.8,
+   "SAT_J": 74.7,
+   "WEG": 76.6,
+   "PRO": 79.9
+  },
+  {
+   "School": 3,
+   "n": 55,
+   "NOR": 77.5,
+   "STR": 75.9,
+   "OPE": 75.5,
+   "LED": 76.5,
+   "COL": 78.8,
+   "PAR": 75.5,
+   "TRU": 78.4,
+   "SHA": 75.6,
+   "COM": 83.5,
+   "RES": 81.3,
+   "ENG": 80.9,
+   "GLO": 75.2,
+   "OCM": 75.8,
+   "SAT_O": 69.8,
+   "SAT_J": 71.1,
+   "WEG": 72.7,
+   "PRO": 76.4
+  },
+  {
+   "School": 1,
+   "n": 52,
+   "NOR": 72.2,
+   "STR": 71.5,
+   "OPE": 71.9,
+   "LED": 75.8,
+   "COL": 77.3,
+   "PAR": 76.8,
+   "TRU": 76.9,
+   "SHA": 72.5,
+   "COM": 85.4,
+   "RES": 81.7,
+   "ENG": 82.8,
+   "GLO": 71.6,
+   "OCM": 78.7,
+   "SAT_O": 66.4,
+   "SAT_J": 71.3,
+   "WEG": 74.8,
+   "PRO": 80.0
+  },
+  {
+   "School": 5,
+   "n": 56,
+   "NOR": 75.7,
+   "STR": 70.0,
+   "OPE": 71.1,
+   "LED": 70.0,
+   "COL": 73.4,
+   "PAR": 69.2,
+   "TRU": 70.4,
+   "SHA": 70.9,
+   "COM": 80.4,
+   "RES": 78.8,
+   "ENG": 79.3,
+   "GLO": 69.0,
+   "OCM": 73.8,
+   "SAT_O": 66.2,
+   "SAT_J": 71.0,
+   "WEG": 69.0,
+   "PRO": 74.9
+  },
+  {
+   "School": 2,
+   "n": 55,
+   "NOR": 56.0,
+   "STR": 55.0,
+   "OPE": 62.7,
+   "LED": 68.1,
+   "COL": 66.4,
+   "PAR": 72.0,
+   "TRU": 69.2,
+   "SHA": 65.5,
+   "COM": 86.4,
+   "RES": 78.9,
+   "ENG": 81.5,
+   "GLO": 62.3,
+   "OCM": 75.0,
+   "SAT_O": 55.7,
+   "SAT_J": 66.1,
+   "WEG": 74.1,
+   "PRO": 73.7
+  }
+ ],
+ "rq2_school_spread": [
+  {
+   "Construct": "STR",
+   "Name": "Strategic",
+   "Lowest": 55.0,
+   "Highest": 79.0,
+   "Range": 24.0
+  },
+  {
+   "Construct": "NOR",
+   "Name": "Normative",
+   "Lowest": 56.0,
+   "Highest": 79.6,
+   "Range": 23.6
+  },
+  {
+   "Construct": "OPE",
+   "Name": "Operative",
+   "Lowest": 62.7,
+   "Highest": 82.2,
+   "Range": 19.5
+  },
+  {
+   "Construct": "SAT_O",
+   "Name": "Organizational Satisfaction",
+   "Lowest": 55.7,
+   "Highest": 73.8,
+   "Range": 18.1
+  },
+  {
+   "Construct": "GLO",
+   "Name": "Global Aspects",
+   "Lowest": 62.3,
+   "Highest": 77.9,
+   "Range": 15.6
+  },
+  {
+   "Construct": "COL",
+   "Name": "Communication",
+   "Lowest": 66.4,
+   "Highest": 79.2,
+   "Range": 12.8
+  },
+  {
+   "Construct": "SHA",
+   "Name": "Shared Value",
+   "Lowest": 65.5,
+   "Highest": 76.7,
+   "Range": 11.2
+  },
+  {
+   "Construct": "TRU",
+   "Name": "Trust",
+   "Lowest": 69.2,
+   "Highest": 79.5,
+   "Range": 10.3
+  },
+  {
+   "Construct": "LED",
+   "Name": "Leadership",
+   "Lowest": 68.1,
+   "Highest": 78.2,
+   "Range": 10.1
+  },
+  {
+   "Construct": "SAT_J",
+   "Name": "Job Satisfaction",
+   "Lowest": 66.1,
+   "Highest": 74.7,
+   "Range": 8.6
+  },
+  {
+   "Construct": "PAR",
+   "Name": "Participation",
+   "Lowest": 69.2,
+   "Highest": 77.2,
+   "Range": 8.0
+  },
+  {
+   "Construct": "WEG",
+   "Name": "Work Engagement",
+   "Lowest": 69.0,
+   "Highest": 76.6,
+   "Range": 7.6
+  },
+  {
+   "Construct": "RES",
+   "Name": "Responsibility",
+   "Lowest": 78.8,
+   "Highest": 85.2,
+   "Range": 6.4
+  },
+  {
+   "Construct": "PRO",
+   "Name": "Professional Development",
+   "Lowest": 73.7,
+   "Highest": 80.0,
+   "Range": 6.3
+  },
+  {
+   "Construct": "COM",
+   "Name": "Commitment",
+   "Lowest": 80.4,
+   "Highest": 86.4,
+   "Range": 6.0
+  },
+  {
+   "Construct": "OCM",
+   "Name": "Organizational Commitment",
+   "Lowest": 73.8,
+   "Highest": 79.7,
+   "Range": 5.9
+  },
+  {
+   "Construct": "ENG",
+   "Name": "Engagement",
+   "Lowest": 79.3,
+   "Highest": 83.8,
+   "Range": 4.5
+  }
+ ],
  "corr_GLO": {
   "NOR": 0.827,
   "STR": 0.833,

@@ -1,0 +1,18 @@
+﻿Component block,Construct,Name,Standardised loading,Assessment
+Global aspects (measuring QC),GLO,Global Aspects,0.661,Adequate
+Intermediary (leadership/communication/participation),COL,Communication,0.866,Strong
+Intermediary (leadership/communication/participation),LED,Leadership,0.818,Strong
+Intermediary (leadership/communication/participation),PAR,Participation,0.639,Adequate
+Organizational-psychological: collective,SHA,Shared Value,0.875,Strong
+Organizational-psychological: collective,TRU,Trust,0.87,Strong
+Organizational-psychological: individual,RES,Responsibility,0.734,Strong
+Organizational-psychological: individual,ENG,Engagement,0.706,Strong
+Organizational-psychological: individual,COM,Commitment,0.528,Adequate
+Outcome variables,SAT_O,Organizational Satisfaction,0.841,Strong
+Outcome variables,SAT_J,Job Satisfaction,0.798,Strong
+Outcome variables,OCM,Organizational Commitment,0.796,Strong
+Outcome variables,PRO,Professional Development,0.73,Strong
+Outcome variables,WEG,Work Engagement,0.712,Strong
+Structural-formal,STR,Strategic,0.935,Strong
+Structural-formal,OPE,Operative,0.928,Strong
+Structural-formal,NOR,Normative,0.91,Strong

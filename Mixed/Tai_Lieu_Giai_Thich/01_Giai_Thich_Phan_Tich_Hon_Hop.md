@@ -185,3 +185,40 @@ Cụ thể:
 3. **Thay cột sentiment** trong `03_school_level_merged.csv` bằng bản đã sửa
 4. Ghi rõ trong bài: thứ tự thu thập hai nhánh, và việc hai nhánh khác cá nhân
 5. Nếu có điều kiện: phỏng vấn thêm giáo viên nước ngoài ở trường khác TrB để gỡ nhiễu quốc tịch–trường
+
+## Cập nhật: truy vết bốn câu hỏi nghiên cứu
+
+Joint display trước đây có một lỗi cấu trúc: mỗi dòng khai báo một **tên cột khác nhau** cho phần
+định tính (`Định tính (khối 01_STRUCTURAL)`, `Định tính (khối 04_LEADERSHIP)`, …), nên khi đưa vào
+`pandas` bảng sinh ra sáu cột thưa với gần như toàn ô trống thay vì một cột đọc được. Lỗi đã được sửa:
+
+- Gộp về **một cột** `Phát hiện định tính`, kèm cột `Nguồn định tính` ghi rõ khối/mã đã dùng.
+- Thêm cột **`Câu hỏi`** để truy vết mỗi dòng về CHNC1–CHNC4.
+- Cột định tính nay được **điền tự động** từ `R0_segments_clean.csv`: số đoạn trích, các mã nổi bật
+  kèm tần suất và độ phủ trường, cùng một trích dẫn tiêu biểu. Nghiên cứu sinh rà lại và thay bằng
+  trích dẫn đắt hơn khi viết.
+- Bảng mở rộng từ 7 lên **12 dòng**, bổ sung ba dòng cho CHNC4 (thuận lợi, khó khăn, giải pháp),
+  một dòng cho cấp độ tập thể (TRU/SHA) và một dòng riêng cho CHNC3.
+
+File `00_bang_phu_cau_hoi_nghien_cuu.csv` tổng hợp số dòng joint display phục vụ mỗi câu hỏi:
+CHNC1 có 6 dòng, CHNC2 có 8, CHNC3 có 2, CHNC4 có 6.
+
+### Phát hiện hội tụ đáng chú ý
+
+Ba nguồn độc lập cùng chỉ về một kết luận: **lõi của văn hóa chất lượng nằm ở cấp độ tập thể, còn
+điểm nghẽn nằm ở khối cấu trúc.**
+
+| Nguồn | Bằng chứng |
+|---|---|
+| CFA cấu phần (CHNC1) | SHA và TRU tải 0,875 và 0,870 lên khối Tâm lý – Tổ chức; COM chỉ 0,528 |
+| Thực trạng theo trường (CHNC2) | Chiến lược và Chuẩn mực phân hóa mạnh nhất giữa 5 trường (24,0 và 23,6 điểm phần trăm) |
+| Cán cân định tính (CHNC4) | Khối Cấu trúc – Hình thức có cân bằng −11; khối Tập thể +4 |
+
+Đây là dạng hội tụ mạnh nhất trong nghiên cứu hỗn hợp: cùng kết luận, ba phương pháp khác nhau,
+hai loại dữ liệu khác nhau.
+
+### Notebook nay chạy được ngoài Colab
+
+Đường dẫn `ROOT` trước đây bị gán cứng vào thư mục Google Drive. Nay notebook tự dò: ưu tiên đường dẫn
+Colab, sau đó tới thư mục cha của notebook. Ô gắn Drive cũng bỏ qua êm khi không chạy trên Colab.
+Nhờ vậy có thể chạy lại toàn bộ phần tích hợp trên máy cá nhân.

@@ -72,6 +72,51 @@ Vì vậy 87 biến thiết kế tương ứng 85 biến quan sát Likert trong 
 - Muốn tính lại hoàn toàn, xóa file `_pls_boot_cache.npz`.
 - Mỗi mẫu dùng seed riêng (`42 + số thứ tự`) nên kết quả tái lập được.
 
+## 2d. File kết quả theo từng câu hỏi nghiên cứu
+
+Sau khi chạy đủ ba nhánh, mỗi câu hỏi nghiên cứu có bộ file riêng để trích dẫn:
+
+**CHNC1 — cấu phần của VHCL**
+
+- `ket_qua/bang_rq1_so_sanh_cau_truc.csv` — so sánh 4 cấu trúc đo lường cạnh tranh
+- `ket_qua/bang_rq1_tai_cau_phan.csv` — tải của từng thang đo lên khối cấu phần
+- `ket_qua/hinh_rq1_cau_truc_khoi.png`
+- `ket_qua_ai/RQ_00_crosswalk_khoi_cau_phan.csv` — ánh xạ khối định tính sang cấu phần
+
+**CHNC2 — thực trạng**
+
+- `ket_qua/bang_rq2_muc_thuc_trang.csv` — mức đánh giá + % thang đo (dùng cột **% thang đo** để xếp hạng, không dùng trung bình thô)
+- `ket_qua/bang_rq2_thuc_trang_theo_truong.csv` — hồ sơ 5 trường
+- `ket_qua/bang_rq2_phan_hoa_giua_truong.csv` — cấu phần nào phân hóa mạnh nhất
+- `ket_qua/hinh_rq2_thuc_trang.png`
+
+**CHNC3 — tương quan với kết quả đội ngũ**
+
+- `ket_qua/bang_hoi_quy_ket_qua.csv`, `bang_path_model.csv`, `pls_paths_bootstrap.csv`, `bang_trung_gian.csv`
+- **Bắt buộc đọc kèm** `ket_qua_MI_Cluster/CL_02_cluster_robust.csv` và `CL_03_GLO_cluster_robust.csv`
+
+**CHNC4 — yếu tố, thuận lợi, khó khăn, giải pháp**
+
+- `ket_qua/bang_hoi_quy_GLO.csv` — yếu tố ảnh hưởng (định lượng)
+- `ket_qua_ai/RQ4_01_thuan_loi.csv` — điều kiện thuận lợi
+- `ket_qua_ai/RQ4_02_kho_khan.csv` — khó khăn nổi bật
+- `ket_qua_ai/RQ4_03_can_bang_thuan_loi_kho_khan.csv` — cán cân theo cấu phần
+- `ket_qua_ai/RQ4_04_trich_dan_thuan_loi.csv` — trích dẫn minh họa
+- `ket_qua_mixed/00_bang_phu_cau_hoi_nghien_cuu.csv` — bảng phủ 4 câu hỏi
+
+## 2e. Cảnh báo bắt buộc khi báo cáo CHNC3
+
+`mi_cluster.py` cho thấy dữ liệu có cấu trúc phân cụm theo trường: ICC(1) ≥ 0,05 ở GLO, OCM và WEG.
+Khi ước lượng lại với sai số chuẩn cụm theo trường, **hai hệ số đổi kết luận** trong phương trình
+tiền đề của VHCL: STR (p từ 0,012 lên 0,067) và RES (p từ 0,049 lên 0,120).
+
+Hệ quả khi viết luận án và bài báo:
+
+- Không được báo cáo hai hệ số này là "có ý nghĩa thống kê" mà không nêu kết quả cụm.
+- Quan hệ VHCL → 5 biến kết quả **vẫn vững** sau khi hiệu chỉnh cụm (cả 5 đều giữ nguyên kết luận),
+  nên phát hiện chính của CHNC3 không bị ảnh hưởng.
+- Nên nêu cỡ mẫu hiệu dụng (effective N) trong phần giới hạn, lấy từ `CL_01_ICC.csv`.
+
 ## 3. Notebook định tính AI — những điều cần biết trước khi chạy
 
 ### 3.1. Cài đặt

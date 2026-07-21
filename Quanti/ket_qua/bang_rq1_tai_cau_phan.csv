@@ -1,0 +1,18 @@
+﻿Khối cấu phần,Thang đo,Tên,Tải chuẩn hóa,Đánh giá
+Các biến kết quả,SAT_O,Hài lòng với tổ chức,0.841,Mạnh
+Các biến kết quả,SAT_J,Hài lòng với công việc,0.798,Mạnh
+Các biến kết quả,OCM,Cam kết tổ chức,0.796,Mạnh
+Các biến kết quả,PRO,Phát triển chuyên môn,0.73,Mạnh
+Các biến kết quả,WEG,Gắn kết công việc,0.712,Mạnh
+Cấu trúc – Hình thức,STR,Chiến lược,0.935,Mạnh
+Cấu trúc – Hình thức,OPE,Hành động,0.928,Mạnh
+Cấu trúc – Hình thức,NOR,Chuẩn mực,0.91,Mạnh
+Khía cạnh tổng thể (đo VHCL),GLO,Các khía cạnh tổng thể,0.661,Đạt
+Trung gian (Lãnh đạo/Giao tiếp/Tham gia),COL,Giao tiếp,0.866,Mạnh
+Trung gian (Lãnh đạo/Giao tiếp/Tham gia),LED,Lãnh đạo,0.818,Mạnh
+Trung gian (Lãnh đạo/Giao tiếp/Tham gia),PAR,Tham gia,0.639,Đạt
+Tâm lý – Tổ chức: Cá nhân,RES,Trách nhiệm,0.734,Mạnh
+Tâm lý – Tổ chức: Cá nhân,ENG,Gắn kết,0.706,Mạnh
+Tâm lý – Tổ chức: Cá nhân,COM,Cam kết,0.528,Đạt
+Tâm lý – Tổ chức: Tập thể,SHA,Các giá trị,0.875,Mạnh
+Tâm lý – Tổ chức: Tập thể,TRU,Niềm tin,0.87,Mạnh

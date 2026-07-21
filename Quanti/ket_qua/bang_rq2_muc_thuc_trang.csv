@@ -1,0 +1,18 @@
+﻿Thang đo,Tên,Khối,Thang,Trung bình,Độ lệch chuẩn,% thang đo,Mức đánh giá
+COM,Cam kết,Yếu tố Tâm lý (TL) – Tổ chức (TC),6 mức,5.203,0.617,84.1,Rất cao
+ENG,Gắn kết,Yếu tố Tâm lý (TL) – Tổ chức (TC),6 mức,5.085,0.606,81.7,Cao
+RES,Trách nhiệm,Yếu tố Tâm lý (TL) – Tổ chức (TC),6 mức,5.064,0.87,81.3,Cao
+PRO,Phát triển chuyên môn,Các biến kết quả,6 mức,4.852,0.696,77.0,Cao
+OCM,Cam kết tổ chức,Các biến kết quả,6 mức,4.833,0.991,76.7,Cao
+COL,Giao tiếp,Yếu tố trung gian kết nối TL–TC & CT–HT,6 mức,4.756,0.888,75.1,Cao
+TRU,Niềm tin,Yếu tố Tâm lý (TL) – Tổ chức (TC),6 mức,4.748,0.913,75.0,Cao
+PAR,Tham gia,Yếu tố trung gian kết nối TL–TC & CT–HT,6 mức,4.71,0.725,74.2,Cao
+LED,Lãnh đạo,Yếu tố trung gian kết nối TL–TC & CT–HT,6 mức,4.69,0.989,73.8,Cao
+WEG,Gắn kết công việc,Các biến kết quả,6 mức,4.675,0.743,73.5,Cao
+OPE,Hành động,Yếu tố Cấu trúc (CT) – Hình thức (HT),6 mức,4.648,1.078,73.0,Cao
+NOR,Chuẩn mực,Yếu tố Cấu trúc (CT) – Hình thức (HT),6 mức,4.62,1.122,72.4,Cao
+SHA,Các giá trị,Yếu tố Tâm lý (TL) – Tổ chức (TC),6 mức,4.617,1.053,72.3,Cao
+GLO,Các khía cạnh tổng thể,Đo VHCL bằng các khía cạnh tổng thể,6 mức,4.569,0.971,71.4,Cao
+SAT_J,Hài lòng với công việc,Các biến kết quả,5 mức,3.838,0.661,71.0,Cao
+STR,Chiến lược,Yếu tố Cấu trúc (CT) – Hình thức (HT),6 mức,4.527,1.139,70.5,Cao
+SAT_O,Hài lòng với tổ chức,Các biến kết quả,5 mức,3.664,0.752,66.6,Khá

@@ -1,9 +1,9 @@
 ﻿Construct,Tucker's phi,Max |delta loading|,Interpretation
-GLO,0.994,0.228,Equivalent (phi >= .95)
-OCM,0.965,0.305,Equivalent (phi >= .95)
-SAT_O,0.988,0.214,Equivalent (phi >= .95)
-SAT_J,0.986,0.248,Equivalent (phi >= .95)
-WEG,0.939,0.414,Fair (.90-.95)
-PRO,0.97,0.39,Equivalent (phi >= .95)
-LED,0.99,0.36,Equivalent (phi >= .95)
-COL,0.939,0.406,Fair (.90-.95)
+GLO,,,not estimable
+OCM,,,not estimable
+SAT_O,,,not estimable
+SAT_J,,,not estimable
+WEG,,,not estimable
+PRO,,,not estimable
+LED,,,not estimable
+COL,,,not estimable

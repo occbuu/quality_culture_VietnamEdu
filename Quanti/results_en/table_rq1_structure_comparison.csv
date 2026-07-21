@@ -1,0 +1,5 @@
+﻿Model,chi2,DoF,CFI,TLI,RMSEA,GFI,AIC
+MA — five blocks (as in the reference table),629.563,109.0,0.89,0.863,0.131,0.871,83.519
+ME — six blocks (individual / collective split),562.486,104.0,0.903,0.873,0.125,0.884,93.997
+MC — single general factor (no components),903.026,119.0,0.834,0.81,0.153,0.814,61.573
+MF — second order: QC above the component blocks,658.867,113.0,0.885,0.861,0.131,0.865,75.311

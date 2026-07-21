@@ -10,13 +10,13 @@
 ĐL2: Hồi quy có kiểm soát + SE cụm,SAT_J,"β(VHCL) = 0.656, p_cụm = 0.0",Unchanged
 ĐL2: Hồi quy có kiểm soát + SE cụm,WEG,"β(VHCL) = 0.716, p_cụm = 0.0",Unchanged
 ĐL2: Hồi quy có kiểm soát + SE cụm,PRO,"β(VHCL) = 0.738, p_cụm = 0.0",Unchanged
-ĐL3: Bất biến đo lường (congruence),GLO,phi = 0.994,Equivalent (φ ≥ .95)
-ĐL3: Bất biến đo lường (congruence),OCM,phi = 0.965,Equivalent (φ ≥ .95)
-ĐL3: Bất biến đo lường (congruence),SAT_O,phi = 0.988,Equivalent (φ ≥ .95)
-ĐL3: Bất biến đo lường (congruence),SAT_J,phi = 0.986,Equivalent (φ ≥ .95)
-ĐL3: Bất biến đo lường (congruence),WEG,phi = 0.939,Fair (.90–.95)
-ĐL3: Bất biến đo lường (congruence),PRO,phi = 0.97,Equivalent (φ ≥ .95)
-ĐL3: Bất biến đo lường (congruence),LED,phi = 0.99,Equivalent (φ ≥ .95)
-ĐL3: Bất biến đo lường (congruence),COL,phi = 0.939,Fair (.90–.95)
+ĐL3: Bất biến đo lường (congruence),GLO,phi = 0.994,Equivalent (phi >= .95)
+ĐL3: Bất biến đo lường (congruence),OCM,phi = 0.965,Equivalent (phi >= .95)
+ĐL3: Bất biến đo lường (congruence),SAT_O,phi = 0.988,Equivalent (phi >= .95)
+ĐL3: Bất biến đo lường (congruence),SAT_J,phi = 0.986,Equivalent (phi >= .95)
+ĐL3: Bất biến đo lường (congruence),WEG,phi = 0.939,Fair (.90-.95)
+ĐL3: Bất biến đo lường (congruence),PRO,phi = 0.97,Equivalent (phi >= .95)
+ĐL3: Bất biến đo lường (congruence),LED,phi = 0.99,Equivalent (phi >= .95)
+ĐL3: Bất biến đo lường (congruence),COL,phi = 0.939,Fair (.90-.95)
 ĐT: Khoảng cách diễn ngôn (PhoBERT),cosine VN vs NN,0.7992829084396362,kiểm định hoán vị p = 0.0
 ĐT: Giọng điệu (sentiment),VN vs NN,-0.127 vs 0.916,NGƯỢC chiều — cần xem lại

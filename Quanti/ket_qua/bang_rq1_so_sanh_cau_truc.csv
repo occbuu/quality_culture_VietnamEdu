@@ -1,0 +1,5 @@
+﻿Mô hình,chi2,DoF,CFI,TLI,RMSEA,GFI,AIC
+MA — 5 khối (đúng bảng tham chiếu),629.563,109.0,0.89,0.863,0.131,0.871,83.519
+ME — 6 khối (tách Cá nhân / Tập thể),562.486,104.0,0.903,0.873,0.125,0.884,93.997
+MC — một nhân tố chung (không phân cấu phần),903.026,119.0,0.834,0.81,0.153,0.814,61.573
+MF — bậc hai: VHCL bao trùm các khối,658.867,113.0,0.885,0.861,0.131,0.865,75.311

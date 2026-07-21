@@ -1,4 +1,91 @@
 {
+ "scale_reference": {
+  "NOR": {
+   "block": "Structural-formal Elements",
+   "n_design": 3,
+   "n_analysis": 3
+  },
+  "STR": {
+   "block": "Structural-formal Elements",
+   "n_design": 3,
+   "n_analysis": 3
+  },
+  "OPE": {
+   "block": "Structural-formal Elements",
+   "n_design": 3,
+   "n_analysis": 3
+  },
+  "LED": {
+   "block": "Intermediary Factor",
+   "n_design": 12,
+   "n_analysis": 12
+  },
+  "COL": {
+   "block": "Intermediary Factor",
+   "n_design": 6,
+   "n_analysis": 6
+  },
+  "PAR": {
+   "block": "Intermediary Factor",
+   "n_design": 4,
+   "n_analysis": 4
+  },
+  "TRU": {
+   "block": "Organizational-psychological Elements",
+   "n_design": 4,
+   "n_analysis": 4
+  },
+  "SHA": {
+   "block": "Organizational-psychological Elements",
+   "n_design": 4,
+   "n_analysis": 2
+  },
+  "COM": {
+   "block": "Organizational-psychological Elements",
+   "n_design": 4,
+   "n_analysis": 3
+  },
+  "RES": {
+   "block": "Organizational-psychological Elements",
+   "n_design": 4,
+   "n_analysis": 2
+  },
+  "ENG": {
+   "block": "Organizational-psychological Elements",
+   "n_design": 4,
+   "n_analysis": 4
+  },
+  "GLO": {
+   "block": "Measuring Quality Culture through Global Aspects",
+   "n_design": 8,
+   "n_analysis": 8
+  },
+  "OCM": {
+   "block": "Outcome Variables",
+   "n_design": 3,
+   "n_analysis": 3
+  },
+  "SAT_O": {
+   "block": "Outcome Variables",
+   "n_design": 6,
+   "n_analysis": 6
+  },
+  "SAT_J": {
+   "block": "Outcome Variables",
+   "n_design": 4,
+   "n_analysis": 4
+  },
+  "WEG": {
+   "block": "Outcome Variables",
+   "n_design": 9,
+   "n_analysis": 9
+  },
+  "PRO": {
+   "block": "Outcome Variables",
+   "n_design": 6,
+   "n_analysis": 6
+  }
+ },
  "group_n": {
   "Vietnamese": 245,
   "Expatriate": 36
@@ -96,51 +183,51 @@
  "congruence": [
   {
    "Construct": "GLO",
-   "Tucker's phi": 0.994,
-   "Max |delta loading|": 0.228,
-   "Interpretation": "Equivalent (phi >= .95)"
+   "Tucker's phi": NaN,
+   "Max |delta loading|": NaN,
+   "Interpretation": "not estimable"
   },
   {
    "Construct": "OCM",
-   "Tucker's phi": 0.965,
-   "Max |delta loading|": 0.305,
-   "Interpretation": "Equivalent (phi >= .95)"
+   "Tucker's phi": NaN,
+   "Max |delta loading|": NaN,
+   "Interpretation": "not estimable"
   },
   {
    "Construct": "SAT_O",
-   "Tucker's phi": 0.988,
-   "Max |delta loading|": 0.214,
-   "Interpretation": "Equivalent (phi >= .95)"
+   "Tucker's phi": NaN,
+   "Max |delta loading|": NaN,
+   "Interpretation": "not estimable"
   },
   {
    "Construct": "SAT_J",
-   "Tucker's phi": 0.986,
-   "Max |delta loading|": 0.248,
-   "Interpretation": "Equivalent (phi >= .95)"
+   "Tucker's phi": NaN,
+   "Max |delta loading|": NaN,
+   "Interpretation": "not estimable"
   },
   {
    "Construct": "WEG",
-   "Tucker's phi": 0.939,
-   "Max |delta loading|": 0.414,
-   "Interpretation": "Fair (.90-.95)"
+   "Tucker's phi": NaN,
+   "Max |delta loading|": NaN,
+   "Interpretation": "not estimable"
   },
   {
    "Construct": "PRO",
-   "Tucker's phi": 0.97,
-   "Max |delta loading|": 0.39,
-   "Interpretation": "Equivalent (phi >= .95)"
+   "Tucker's phi": NaN,
+   "Max |delta loading|": NaN,
+   "Interpretation": "not estimable"
   },
   {
    "Construct": "LED",
-   "Tucker's phi": 0.99,
-   "Max |delta loading|": 0.36,
-   "Interpretation": "Equivalent (phi >= .95)"
+   "Tucker's phi": NaN,
+   "Max |delta loading|": NaN,
+   "Interpretation": "not estimable"
   },
   {
    "Construct": "COL",
-   "Tucker's phi": 0.939,
-   "Max |delta loading|": 0.406,
-   "Interpretation": "Fair (.90-.95)"
+   "Tucker's phi": NaN,
+   "Max |delta loading|": NaN,
+   "Interpretation": "not estimable"
   }
  ],
  "dif": [
@@ -339,18 +426,18 @@
  "role_congruence": [
   {
    "Construct": "GLO",
-   "Tucker's phi (teacher vs leader)": 0.936,
-   "Interpretation": "Fair/Non-equivalent"
+   "Tucker's phi (teacher vs leader)": NaN,
+   "Interpretation": "not estimable"
   },
   {
    "Construct": "LED",
-   "Tucker's phi (teacher vs leader)": 0.978,
-   "Interpretation": "Equivalent"
+   "Tucker's phi (teacher vs leader)": NaN,
+   "Interpretation": "not estimable"
   },
   {
    "Construct": "COL",
-   "Tucker's phi (teacher vs leader)": 0.995,
-   "Interpretation": "Equivalent"
+   "Tucker's phi (teacher vs leader)": NaN,
+   "Interpretation": "not estimable"
   }
  ],
  "icc": [

@@ -1091,6 +1091,574 @@
    "Kurtosis": 0.574
   }
  ],
+ "rq1_model_fit": [
+  {
+   "Mô hình": "MA — 5 khối (đúng bảng tham chiếu)",
+   "chi2": 629.563,
+   "DoF": 109.0,
+   "CFI": 0.89,
+   "TLI": 0.863,
+   "RMSEA": 0.131,
+   "GFI": 0.871,
+   "AIC": 83.519
+  },
+  {
+   "Mô hình": "ME — 6 khối (tách Cá nhân / Tập thể)",
+   "chi2": 562.486,
+   "DoF": 104.0,
+   "CFI": 0.903,
+   "TLI": 0.873,
+   "RMSEA": 0.125,
+   "GFI": 0.884,
+   "AIC": 93.997
+  },
+  {
+   "Mô hình": "MC — một nhân tố chung (không phân cấu phần)",
+   "chi2": 903.026,
+   "DoF": 119.0,
+   "CFI": 0.834,
+   "TLI": 0.81,
+   "RMSEA": 0.153,
+   "GFI": 0.814,
+   "AIC": 61.573
+  },
+  {
+   "Mô hình": "MF — bậc hai: VHCL bao trùm các khối",
+   "chi2": 658.867,
+   "DoF": 113.0,
+   "CFI": 0.885,
+   "TLI": 0.861,
+   "RMSEA": 0.131,
+   "GFI": 0.865,
+   "AIC": 75.311
+  }
+ ],
+ "rq1_delta_MA_ME": {
+  "delta_chi2": 67.1,
+  "ddf": 5,
+  "p": 4.153065425896469e-13
+ },
+ "rq1_loadings": [
+  {
+   "Khối cấu phần": "Các biến kết quả",
+   "Thang đo": "SAT_O",
+   "Tên": "Hài lòng với tổ chức",
+   "Tải chuẩn hóa": 0.841,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Các biến kết quả",
+   "Thang đo": "SAT_J",
+   "Tên": "Hài lòng với công việc",
+   "Tải chuẩn hóa": 0.798,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Các biến kết quả",
+   "Thang đo": "OCM",
+   "Tên": "Cam kết tổ chức",
+   "Tải chuẩn hóa": 0.796,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Các biến kết quả",
+   "Thang đo": "PRO",
+   "Tên": "Phát triển chuyên môn",
+   "Tải chuẩn hóa": 0.73,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Các biến kết quả",
+   "Thang đo": "WEG",
+   "Tên": "Gắn kết công việc",
+   "Tải chuẩn hóa": 0.712,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Cấu trúc – Hình thức",
+   "Thang đo": "STR",
+   "Tên": "Chiến lược",
+   "Tải chuẩn hóa": 0.935,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Cấu trúc – Hình thức",
+   "Thang đo": "OPE",
+   "Tên": "Hành động",
+   "Tải chuẩn hóa": 0.928,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Cấu trúc – Hình thức",
+   "Thang đo": "NOR",
+   "Tên": "Chuẩn mực",
+   "Tải chuẩn hóa": 0.91,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Khía cạnh tổng thể (đo VHCL)",
+   "Thang đo": "GLO",
+   "Tên": "Các khía cạnh tổng thể",
+   "Tải chuẩn hóa": 0.661,
+   "Đánh giá": "Đạt"
+  },
+  {
+   "Khối cấu phần": "Trung gian (Lãnh đạo/Giao tiếp/Tham gia)",
+   "Thang đo": "COL",
+   "Tên": "Giao tiếp",
+   "Tải chuẩn hóa": 0.866,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Trung gian (Lãnh đạo/Giao tiếp/Tham gia)",
+   "Thang đo": "LED",
+   "Tên": "Lãnh đạo",
+   "Tải chuẩn hóa": 0.818,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Trung gian (Lãnh đạo/Giao tiếp/Tham gia)",
+   "Thang đo": "PAR",
+   "Tên": "Tham gia",
+   "Tải chuẩn hóa": 0.639,
+   "Đánh giá": "Đạt"
+  },
+  {
+   "Khối cấu phần": "Tâm lý – Tổ chức: Cá nhân",
+   "Thang đo": "RES",
+   "Tên": "Trách nhiệm",
+   "Tải chuẩn hóa": 0.734,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Tâm lý – Tổ chức: Cá nhân",
+   "Thang đo": "ENG",
+   "Tên": "Gắn kết",
+   "Tải chuẩn hóa": 0.706,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Tâm lý – Tổ chức: Cá nhân",
+   "Thang đo": "COM",
+   "Tên": "Cam kết",
+   "Tải chuẩn hóa": 0.528,
+   "Đánh giá": "Đạt"
+  },
+  {
+   "Khối cấu phần": "Tâm lý – Tổ chức: Tập thể",
+   "Thang đo": "SHA",
+   "Tên": "Các giá trị",
+   "Tải chuẩn hóa": 0.875,
+   "Đánh giá": "Mạnh"
+  },
+  {
+   "Khối cấu phần": "Tâm lý – Tổ chức: Tập thể",
+   "Thang đo": "TRU",
+   "Tên": "Niềm tin",
+   "Tải chuẩn hóa": 0.87,
+   "Đánh giá": "Mạnh"
+  }
+ ],
+ "rq2_levels": [
+  {
+   "Thang đo": "COM",
+   "Tên": "Cam kết",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Thang": "6 mức",
+   "Trung bình": 5.203,
+   "Độ lệch chuẩn": 0.617,
+   "% thang đo": 84.1,
+   "Mức đánh giá": "Rất cao"
+  },
+  {
+   "Thang đo": "ENG",
+   "Tên": "Gắn kết",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Thang": "6 mức",
+   "Trung bình": 5.085,
+   "Độ lệch chuẩn": 0.606,
+   "% thang đo": 81.7,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "RES",
+   "Tên": "Trách nhiệm",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Thang": "6 mức",
+   "Trung bình": 5.064,
+   "Độ lệch chuẩn": 0.87,
+   "% thang đo": 81.3,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "PRO",
+   "Tên": "Phát triển chuyên môn",
+   "Khối": "Các biến kết quả",
+   "Thang": "6 mức",
+   "Trung bình": 4.852,
+   "Độ lệch chuẩn": 0.696,
+   "% thang đo": 77.0,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "OCM",
+   "Tên": "Cam kết tổ chức",
+   "Khối": "Các biến kết quả",
+   "Thang": "6 mức",
+   "Trung bình": 4.833,
+   "Độ lệch chuẩn": 0.991,
+   "% thang đo": 76.7,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "COL",
+   "Tên": "Giao tiếp",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
+   "Thang": "6 mức",
+   "Trung bình": 4.756,
+   "Độ lệch chuẩn": 0.888,
+   "% thang đo": 75.1,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "TRU",
+   "Tên": "Niềm tin",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Thang": "6 mức",
+   "Trung bình": 4.748,
+   "Độ lệch chuẩn": 0.913,
+   "% thang đo": 75.0,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "PAR",
+   "Tên": "Tham gia",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
+   "Thang": "6 mức",
+   "Trung bình": 4.71,
+   "Độ lệch chuẩn": 0.725,
+   "% thang đo": 74.2,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "LED",
+   "Tên": "Lãnh đạo",
+   "Khối": "Yếu tố trung gian kết nối TL–TC & CT–HT",
+   "Thang": "6 mức",
+   "Trung bình": 4.69,
+   "Độ lệch chuẩn": 0.989,
+   "% thang đo": 73.8,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "WEG",
+   "Tên": "Gắn kết công việc",
+   "Khối": "Các biến kết quả",
+   "Thang": "6 mức",
+   "Trung bình": 4.675,
+   "Độ lệch chuẩn": 0.743,
+   "% thang đo": 73.5,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "OPE",
+   "Tên": "Hành động",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
+   "Thang": "6 mức",
+   "Trung bình": 4.648,
+   "Độ lệch chuẩn": 1.078,
+   "% thang đo": 73.0,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "NOR",
+   "Tên": "Chuẩn mực",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
+   "Thang": "6 mức",
+   "Trung bình": 4.62,
+   "Độ lệch chuẩn": 1.122,
+   "% thang đo": 72.4,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "SHA",
+   "Tên": "Các giá trị",
+   "Khối": "Yếu tố Tâm lý (TL) – Tổ chức (TC)",
+   "Thang": "6 mức",
+   "Trung bình": 4.617,
+   "Độ lệch chuẩn": 1.053,
+   "% thang đo": 72.3,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "GLO",
+   "Tên": "Các khía cạnh tổng thể",
+   "Khối": "Đo VHCL bằng các khía cạnh tổng thể",
+   "Thang": "6 mức",
+   "Trung bình": 4.569,
+   "Độ lệch chuẩn": 0.971,
+   "% thang đo": 71.4,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "SAT_J",
+   "Tên": "Hài lòng với công việc",
+   "Khối": "Các biến kết quả",
+   "Thang": "5 mức",
+   "Trung bình": 3.838,
+   "Độ lệch chuẩn": 0.661,
+   "% thang đo": 71.0,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "STR",
+   "Tên": "Chiến lược",
+   "Khối": "Yếu tố Cấu trúc (CT) – Hình thức (HT)",
+   "Thang": "6 mức",
+   "Trung bình": 4.527,
+   "Độ lệch chuẩn": 1.139,
+   "% thang đo": 70.5,
+   "Mức đánh giá": "Cao"
+  },
+  {
+   "Thang đo": "SAT_O",
+   "Tên": "Hài lòng với tổ chức",
+   "Khối": "Các biến kết quả",
+   "Thang": "5 mức",
+   "Trung bình": 3.664,
+   "Độ lệch chuẩn": 0.752,
+   "% thang đo": 66.6,
+   "Mức đánh giá": "Khá"
+  }
+ ],
+ "rq2_by_school": [
+  {
+   "Trường": 4,
+   "n": 63,
+   "NOR": 79.6,
+   "STR": 79.0,
+   "OPE": 82.2,
+   "LED": 78.2,
+   "COL": 79.2,
+   "PAR": 77.2,
+   "TRU": 79.5,
+   "SHA": 76.7,
+   "COM": 84.7,
+   "RES": 85.2,
+   "ENG": 83.8,
+   "GLO": 77.9,
+   "OCM": 79.7,
+   "SAT_O": 73.8,
+   "SAT_J": 74.7,
+   "WEG": 76.6,
+   "PRO": 79.9
+  },
+  {
+   "Trường": 3,
+   "n": 55,
+   "NOR": 77.5,
+   "STR": 75.9,
+   "OPE": 75.5,
+   "LED": 76.5,
+   "COL": 78.8,
+   "PAR": 75.5,
+   "TRU": 78.4,
+   "SHA": 75.6,
+   "COM": 83.5,
+   "RES": 81.3,
+   "ENG": 80.9,
+   "GLO": 75.2,
+   "OCM": 75.8,
+   "SAT_O": 69.8,
+   "SAT_J": 71.1,
+   "WEG": 72.7,
+   "PRO": 76.4
+  },
+  {
+   "Trường": 1,
+   "n": 52,
+   "NOR": 72.2,
+   "STR": 71.5,
+   "OPE": 71.9,
+   "LED": 75.8,
+   "COL": 77.3,
+   "PAR": 76.8,
+   "TRU": 76.9,
+   "SHA": 72.5,
+   "COM": 85.4,
+   "RES": 81.7,
+   "ENG": 82.8,
+   "GLO": 71.6,
+   "OCM": 78.7,
+   "SAT_O": 66.4,
+   "SAT_J": 71.3,
+   "WEG": 74.8,
+   "PRO": 80.0
+  },
+  {
+   "Trường": 5,
+   "n": 56,
+   "NOR": 75.7,
+   "STR": 70.0,
+   "OPE": 71.1,
+   "LED": 70.0,
+   "COL": 73.4,
+   "PAR": 69.2,
+   "TRU": 70.4,
+   "SHA": 70.9,
+   "COM": 80.4,
+   "RES": 78.8,
+   "ENG": 79.3,
+   "GLO": 69.0,
+   "OCM": 73.8,
+   "SAT_O": 66.2,
+   "SAT_J": 71.0,
+   "WEG": 69.0,
+   "PRO": 74.9
+  },
+  {
+   "Trường": 2,
+   "n": 55,
+   "NOR": 56.0,
+   "STR": 55.0,
+   "OPE": 62.7,
+   "LED": 68.1,
+   "COL": 66.4,
+   "PAR": 72.0,
+   "TRU": 69.2,
+   "SHA": 65.5,
+   "COM": 86.4,
+   "RES": 78.9,
+   "ENG": 81.5,
+   "GLO": 62.3,
+   "OCM": 75.0,
+   "SAT_O": 55.7,
+   "SAT_J": 66.1,
+   "WEG": 74.1,
+   "PRO": 73.7
+  }
+ ],
+ "rq2_school_spread": [
+  {
+   "Thang đo": "STR",
+   "Tên": "Chiến lược",
+   "Thấp nhất": 55.0,
+   "Cao nhất": 79.0,
+   "Khoảng cách": 24.0
+  },
+  {
+   "Thang đo": "NOR",
+   "Tên": "Chuẩn mực",
+   "Thấp nhất": 56.0,
+   "Cao nhất": 79.6,
+   "Khoảng cách": 23.6
+  },
+  {
+   "Thang đo": "OPE",
+   "Tên": "Hành động",
+   "Thấp nhất": 62.7,
+   "Cao nhất": 82.2,
+   "Khoảng cách": 19.5
+  },
+  {
+   "Thang đo": "SAT_O",
+   "Tên": "Hài lòng với tổ chức",
+   "Thấp nhất": 55.7,
+   "Cao nhất": 73.8,
+   "Khoảng cách": 18.1
+  },
+  {
+   "Thang đo": "GLO",
+   "Tên": "Các khía cạnh tổng thể",
+   "Thấp nhất": 62.3,
+   "Cao nhất": 77.9,
+   "Khoảng cách": 15.6
+  },
+  {
+   "Thang đo": "COL",
+   "Tên": "Giao tiếp",
+   "Thấp nhất": 66.4,
+   "Cao nhất": 79.2,
+   "Khoảng cách": 12.8
+  },
+  {
+   "Thang đo": "SHA",
+   "Tên": "Các giá trị",
+   "Thấp nhất": 65.5,
+   "Cao nhất": 76.7,
+   "Khoảng cách": 11.2
+  },
+  {
+   "Thang đo": "TRU",
+   "Tên": "Niềm tin",
+   "Thấp nhất": 69.2,
+   "Cao nhất": 79.5,
+   "Khoảng cách": 10.3
+  },
+  {
+   "Thang đo": "LED",
+   "Tên": "Lãnh đạo",
+   "Thấp nhất": 68.1,
+   "Cao nhất": 78.2,
+   "Khoảng cách": 10.1
+  },
+  {
+   "Thang đo": "SAT_J",
+   "Tên": "Hài lòng với công việc",
+   "Thấp nhất": 66.1,
+   "Cao nhất": 74.7,
+   "Khoảng cách": 8.6
+  },
+  {
+   "Thang đo": "PAR",
+   "Tên": "Tham gia",
+   "Thấp nhất": 69.2,
+   "Cao nhất": 77.2,
+   "Khoảng cách": 8.0
+  },
+  {
+   "Thang đo": "WEG",
+   "Tên": "Gắn kết công việc",
+   "Thấp nhất": 69.0,
+   "Cao nhất": 76.6,
+   "Khoảng cách": 7.6
+  },
+  {
+   "Thang đo": "RES",
+   "Tên": "Trách nhiệm",
+   "Thấp nhất": 78.8,
+   "Cao nhất": 85.2,
+   "Khoảng cách": 6.4
+  },
+  {
+   "Thang đo": "PRO",
+   "Tên": "Phát triển chuyên môn",
+   "Thấp nhất": 73.7,
+   "Cao nhất": 80.0,
+   "Khoảng cách": 6.3
+  },
+  {
+   "Thang đo": "COM",
+   "Tên": "Cam kết",
+   "Thấp nhất": 80.4,
+   "Cao nhất": 86.4,
+   "Khoảng cách": 6.0
+  },
+  {
+   "Thang đo": "OCM",
+   "Tên": "Cam kết tổ chức",
+   "Thấp nhất": 73.8,
+   "Cao nhất": 79.7,
+   "Khoảng cách": 5.9
+  },
+  {
+   "Thang đo": "ENG",
+   "Tên": "Gắn kết",
+   "Thấp nhất": 79.3,
+   "Cao nhất": 83.8,
+   "Khoảng cách": 4.5
+  }
+ ],
  "corr_GLO": {
   "NOR": 0.827,
   "STR": 0.833,

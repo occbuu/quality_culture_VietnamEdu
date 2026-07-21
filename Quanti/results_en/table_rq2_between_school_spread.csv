@@ -1,0 +1,18 @@
+﻿Construct,Name,Lowest,Highest,Range
+STR,Strategic,55.0,79.0,24.0
+NOR,Normative,56.0,79.6,23.6
+OPE,Operative,62.7,82.2,19.5
+SAT_O,Organizational Satisfaction,55.7,73.8,18.1
+GLO,Global Aspects,62.3,77.9,15.6
+COL,Communication,66.4,79.2,12.8
+SHA,Shared Value,65.5,76.7,11.2
+TRU,Trust,69.2,79.5,10.3
+LED,Leadership,68.1,78.2,10.1
+SAT_J,Job Satisfaction,66.1,74.7,8.6
+PAR,Participation,69.2,77.2,8.0
+WEG,Work Engagement,69.0,76.6,7.6
+RES,Responsibility,78.8,85.2,6.4
+PRO,Professional Development,73.7,80.0,6.3
+COM,Commitment,80.4,86.4,6.0
+OCM,Organizational Commitment,73.8,79.7,5.9
+ENG,Engagement,79.3,83.8,4.5
