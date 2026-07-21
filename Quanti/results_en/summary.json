@@ -1,0 +1,3359 @@
+{
+ "demographics": [
+  {
+   "Characteristic": "Nhom_CB",
+   "Group": "Vietnamese teachers",
+   "Count": 210,
+   "Percent (%)": 74.7
+  },
+  {
+   "Characteristic": "Nhom_CB",
+   "Group": "Foreign teachers",
+   "Count": 26,
+   "Percent (%)": 9.3
+  },
+  {
+   "Characteristic": "Nhom_CB",
+   "Group": "Vietnamese administrators",
+   "Count": 35,
+   "Percent (%)": 12.5
+  },
+  {
+   "Characteristic": "Nhom_CB",
+   "Group": "Foreign administrators",
+   "Count": 10,
+   "Percent (%)": 3.6
+  },
+  {
+   "Characteristic": "Gioi_tinh",
+   "Group": "Male",
+   "Count": 72,
+   "Percent (%)": 25.6
+  },
+  {
+   "Characteristic": "Gioi_tinh",
+   "Group": "Female",
+   "Count": 209,
+   "Percent (%)": 74.4
+  },
+  {
+   "Characteristic": "Do_tuoi",
+   "Group": "Under 30",
+   "Count": 104,
+   "Percent (%)": 37.0
+  },
+  {
+   "Characteristic": "Do_tuoi",
+   "Group": "30–39",
+   "Count": 125,
+   "Percent (%)": 44.5
+  },
+  {
+   "Characteristic": "Do_tuoi",
+   "Group": "40–49",
+   "Count": 44,
+   "Percent (%)": 15.7
+  },
+  {
+   "Characteristic": "Do_tuoi",
+   "Group": "50–59",
+   "Count": 7,
+   "Percent (%)": 2.5
+  },
+  {
+   "Characteristic": "Do_tuoi",
+   "Group": "60+",
+   "Count": 1,
+   "Percent (%)": 0.4
+  },
+  {
+   "Characteristic": "Bang_cap",
+   "Group": "Bachelor's",
+   "Count": 194,
+   "Percent (%)": 69.0
+  },
+  {
+   "Characteristic": "Bang_cap",
+   "Group": "Master's",
+   "Count": 78,
+   "Percent (%)": 27.8
+  },
+  {
+   "Characteristic": "Bang_cap",
+   "Group": "Doctorate",
+   "Count": 8,
+   "Percent (%)": 2.8
+  },
+  {
+   "Characteristic": "Bang_cap",
+   "Group": "Other",
+   "Count": 1,
+   "Percent (%)": 0.4
+  },
+  {
+   "Characteristic": "Hop_dong",
+   "Group": "Fixed-term contract",
+   "Count": 129,
+   "Percent (%)": 45.9
+  },
+  {
+   "Characteristic": "Hop_dong",
+   "Group": "No fixed-term contract",
+   "Count": 148,
+   "Percent (%)": 52.7
+  },
+  {
+   "Characteristic": "Hop_dong",
+   "Group": "Other",
+   "Count": 4,
+   "Percent (%)": 1.4
+  },
+  {
+   "Characteristic": "Thoi_gian_cong_tac",
+   "Group": "Under 3 years",
+   "Count": 54,
+   "Percent (%)": 19.2
+  },
+  {
+   "Characteristic": "Thoi_gian_cong_tac",
+   "Group": "3–<8 years",
+   "Count": 103,
+   "Percent (%)": 36.7
+  },
+  {
+   "Characteristic": "Thoi_gian_cong_tac",
+   "Group": "8–<15 years",
+   "Count": 70,
+   "Percent (%)": 24.9
+  },
+  {
+   "Characteristic": "Thoi_gian_cong_tac",
+   "Group": "15–<25 years",
+   "Count": 43,
+   "Percent (%)": 15.3
+  },
+  {
+   "Characteristic": "Thoi_gian_cong_tac",
+   "Group": "25+ years",
+   "Count": 11,
+   "Percent (%)": 3.9
+  },
+  {
+   "Characteristic": "Truong",
+   "Group": "School 1",
+   "Count": 52,
+   "Percent (%)": 18.5
+  },
+  {
+   "Characteristic": "Truong",
+   "Group": "School 2",
+   "Count": 55,
+   "Percent (%)": 19.6
+  },
+  {
+   "Characteristic": "Truong",
+   "Group": "School 3",
+   "Count": 55,
+   "Percent (%)": 19.6
+  },
+  {
+   "Characteristic": "Truong",
+   "Group": "School 4",
+   "Count": 63,
+   "Percent (%)": 22.4
+  },
+  {
+   "Characteristic": "Truong",
+   "Group": "School 5",
+   "Count": 56,
+   "Percent (%)": 19.9
+  }
+ ],
+ "cronbach": [
+  {
+   "Scale": "NOR",
+   "Name": "Norms",
+   "No. of items": 3,
+   "Cronbach Alpha": 0.938,
+   "Min CITC": 0.852,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "STR",
+   "Name": "Strategy",
+   "No. of items": 3,
+   "Cronbach Alpha": 0.909,
+   "Min CITC": 0.78,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "OPE",
+   "Name": "Operations",
+   "No. of items": 3,
+   "Cronbach Alpha": 0.889,
+   "Min CITC": 0.759,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "LED",
+   "Name": "Leadership",
+   "No. of items": 12,
+   "Cronbach Alpha": 0.966,
+   "Min CITC": 0.597,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "COL",
+   "Name": "Communication",
+   "No. of items": 6,
+   "Cronbach Alpha": 0.909,
+   "Min CITC": 0.604,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "PAR",
+   "Name": "Participation",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.759,
+   "Min CITC": 0.499,
+   "Evaluation": "Met"
+  },
+  {
+   "Scale": "TRU",
+   "Name": "Trust",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.831,
+   "Min CITC": 0.571,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "SHA",
+   "Name": "Shared values",
+   "No. of items": 2,
+   "Cronbach Alpha": 0.848,
+   "Min CITC": 0.736,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "COM",
+   "Name": "Quality commitment",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.574,
+   "Min CITC": 0.236,
+   "Evaluation": "Not met"
+  },
+  {
+   "Scale": "RES",
+   "Name": "Responsibility",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.527,
+   "Min CITC": 0.211,
+   "Evaluation": "Not met"
+  },
+  {
+   "Scale": "ENG",
+   "Name": "Quality engagement",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.758,
+   "Min CITC": 0.532,
+   "Evaluation": "Met"
+  },
+  {
+   "Scale": "GLO",
+   "Name": "Quality culture (overall)",
+   "No. of items": 8,
+   "Cronbach Alpha": 0.947,
+   "Min CITC": 0.749,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "OCM",
+   "Name": "Organizational commitment",
+   "No. of items": 3,
+   "Cronbach Alpha": 0.857,
+   "Min CITC": 0.71,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "SAT_O",
+   "Name": "Organizational satisfaction",
+   "No. of items": 6,
+   "Cronbach Alpha": 0.9,
+   "Min CITC": 0.467,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "SAT_J",
+   "Name": "Job satisfaction",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.847,
+   "Min CITC": 0.61,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "WEG",
+   "Name": "Work engagement",
+   "No. of items": 9,
+   "Cronbach Alpha": 0.89,
+   "Min CITC": 0.406,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "PRO",
+   "Name": "Professional development",
+   "No. of items": 6,
+   "Cronbach Alpha": 0.832,
+   "Min CITC": 0.544,
+   "Evaluation": "Good"
+  }
+ ],
+ "cronbach_refined": [
+  {
+   "Scale": "NOR",
+   "Name": "Norms",
+   "No. of items": 3,
+   "Cronbach Alpha": 0.938,
+   "Min CITC": 0.852,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "STR",
+   "Name": "Strategy",
+   "No. of items": 3,
+   "Cronbach Alpha": 0.909,
+   "Min CITC": 0.78,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "OPE",
+   "Name": "Operations",
+   "No. of items": 3,
+   "Cronbach Alpha": 0.889,
+   "Min CITC": 0.759,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "LED",
+   "Name": "Leadership",
+   "No. of items": 12,
+   "Cronbach Alpha": 0.966,
+   "Min CITC": 0.597,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "COL",
+   "Name": "Communication",
+   "No. of items": 6,
+   "Cronbach Alpha": 0.909,
+   "Min CITC": 0.604,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "PAR",
+   "Name": "Participation",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.759,
+   "Min CITC": 0.499,
+   "Evaluation": "Met"
+  },
+  {
+   "Scale": "TRU",
+   "Name": "Trust",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.831,
+   "Min CITC": 0.571,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "SHA",
+   "Name": "Shared values",
+   "No. of items": 2,
+   "Cronbach Alpha": 0.848,
+   "Min CITC": 0.736,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "COM",
+   "Name": "Quality commitment",
+   "No. of items": 3,
+   "Cronbach Alpha": 0.753,
+   "Min CITC": 0.502,
+   "Evaluation": "Met"
+  },
+  {
+   "Scale": "RES",
+   "Name": "Responsibility",
+   "No. of items": 2,
+   "Cronbach Alpha": 0.761,
+   "Min CITC": 0.621,
+   "Evaluation": "Met"
+  },
+  {
+   "Scale": "ENG",
+   "Name": "Quality engagement",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.758,
+   "Min CITC": 0.532,
+   "Evaluation": "Met"
+  },
+  {
+   "Scale": "GLO",
+   "Name": "Quality culture (overall)",
+   "No. of items": 8,
+   "Cronbach Alpha": 0.947,
+   "Min CITC": 0.749,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "OCM",
+   "Name": "Organizational commitment",
+   "No. of items": 3,
+   "Cronbach Alpha": 0.857,
+   "Min CITC": 0.71,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "SAT_O",
+   "Name": "Organizational satisfaction",
+   "No. of items": 6,
+   "Cronbach Alpha": 0.9,
+   "Min CITC": 0.467,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "SAT_J",
+   "Name": "Job satisfaction",
+   "No. of items": 4,
+   "Cronbach Alpha": 0.847,
+   "Min CITC": 0.61,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "WEG",
+   "Name": "Work engagement",
+   "No. of items": 9,
+   "Cronbach Alpha": 0.89,
+   "Min CITC": 0.406,
+   "Evaluation": "Good"
+  },
+  {
+   "Scale": "PRO",
+   "Name": "Professional development",
+   "No. of items": 6,
+   "Cronbach Alpha": 0.832,
+   "Min CITC": 0.544,
+   "Evaluation": "Good"
+  }
+ ],
+ "dropped_items": [
+  "COM4r",
+  "RES3",
+  "RES4r"
+ ],
+ "efa_iv": {
+  "kmo": 0.957,
+  "bartlett_p": 0.0,
+  "variance": 73.44
+ },
+ "efa_med": {
+  "kmo": 0.93,
+  "variance": 73.04
+ },
+ "efa_dv": {
+  "kmo": 0.932,
+  "variance": 65.13
+ },
+ "ave_cr": [
+  {
+   "Scale": "NOR",
+   "Name": "Norms",
+   "CR": 0.939,
+   "AVE": 0.836,
+   "√AVE": 0.914,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "STR",
+   "Name": "Strategy",
+   "CR": 0.911,
+   "AVE": 0.773,
+   "√AVE": 0.879,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "OPE",
+   "Name": "Operations",
+   "CR": 0.889,
+   "AVE": 0.729,
+   "√AVE": 0.854,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "LED",
+   "Name": "Leadership",
+   "CR": 0.966,
+   "AVE": 0.707,
+   "√AVE": 0.841,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "COL",
+   "Name": "Communication",
+   "CR": 0.912,
+   "AVE": 0.635,
+   "√AVE": 0.797,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "PAR",
+   "Name": "Participation",
+   "CR": 0.769,
+   "AVE": 0.459,
+   "√AVE": 0.678,
+   "AVE≥.50 met": "Not met"
+  },
+  {
+   "Scale": "TRU",
+   "Name": "Trust",
+   "CR": 0.832,
+   "AVE": 0.557,
+   "√AVE": 0.747,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "SHA",
+   "Name": "Shared values",
+   "CR": 0.848,
+   "AVE": 0.736,
+   "√AVE": 0.858,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "COM",
+   "Name": "Quality commitment",
+   "CR": 0.774,
+   "AVE": 0.538,
+   "√AVE": 0.734,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "RES",
+   "Name": "Responsibility",
+   "CR": 0.766,
+   "AVE": 0.621,
+   "√AVE": 0.788,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "ENG",
+   "Name": "Quality engagement",
+   "CR": 0.767,
+   "AVE": 0.453,
+   "√AVE": 0.673,
+   "AVE≥.50 met": "Not met"
+  },
+  {
+   "Scale": "GLO",
+   "Name": "Quality culture (overall)",
+   "CR": 0.947,
+   "AVE": 0.692,
+   "√AVE": 0.832,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "OCM",
+   "Name": "Organizational commitment",
+   "CR": 0.859,
+   "AVE": 0.67,
+   "√AVE": 0.819,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "SAT_O",
+   "Name": "Organizational satisfaction",
+   "CR": 0.901,
+   "AVE": 0.61,
+   "√AVE": 0.781,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "SAT_J",
+   "Name": "Job satisfaction",
+   "CR": 0.853,
+   "AVE": 0.597,
+   "√AVE": 0.773,
+   "AVE≥.50 met": "Met"
+  },
+  {
+   "Scale": "WEG",
+   "Name": "Work engagement",
+   "CR": 0.894,
+   "AVE": 0.495,
+   "√AVE": 0.703,
+   "AVE≥.50 met": "Not met"
+  },
+  {
+   "Scale": "PRO",
+   "Name": "Professional development",
+   "CR": 0.839,
+   "AVE": 0.469,
+   "√AVE": 0.685,
+   "AVE≥.50 met": "Not met"
+  }
+ ],
+ "htmt_high": [
+  {
+   "Construct pair": "STR – OPE",
+   "HTMT": 0.971,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "SHA – GLO",
+   "HTMT": 0.952,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "SAT_O – SAT_J",
+   "HTMT": 0.947,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "COL – SHA",
+   "HTMT": 0.927,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "NOR – STR",
+   "HTMT": 0.926,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "COL – GLO",
+   "HTMT": 0.919,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "OPE – GLO",
+   "HTMT": 0.917,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "NOR – OPE",
+   "HTMT": 0.916,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "COL – TRU",
+   "HTMT": 0.905,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "TRU – SHA",
+   "HTMT": 0.902,
+   "Level": "Exceeds 0.90"
+  },
+  {
+   "Construct pair": "STR – GLO",
+   "HTMT": 0.898,
+   "Level": "0,85–0,90"
+  },
+  {
+   "Construct pair": "LED – TRU",
+   "HTMT": 0.894,
+   "Level": "0,85–0,90"
+  },
+  {
+   "Construct pair": "TRU – GLO",
+   "HTMT": 0.894,
+   "Level": "0,85–0,90"
+  },
+  {
+   "Construct pair": "NOR – GLO",
+   "HTMT": 0.877,
+   "Level": "0,85–0,90"
+  },
+  {
+   "Construct pair": "GLO – SAT_O",
+   "HTMT": 0.873,
+   "Level": "0,85–0,90"
+  },
+  {
+   "Construct pair": "SHA – SAT_O",
+   "HTMT": 0.857,
+   "Level": "0,85–0,90"
+  },
+  {
+   "Construct pair": "COL – SAT_O",
+   "HTMT": 0.856,
+   "Level": "0,85–0,90"
+  },
+  {
+   "Construct pair": "OPE – SHA",
+   "HTMT": 0.855,
+   "Level": "0,85–0,90"
+  }
+ ],
+ "fl_violations": [
+  {
+   "Pair": "STR – OPE",
+   "r": 0.871,
+   "Smaller √AVE": 0.854
+  },
+  {
+   "Pair": "STR – GLO",
+   "r": 0.833,
+   "Smaller √AVE": 0.832
+  },
+  {
+   "Pair": "OPE – GLO",
+   "r": 0.841,
+   "Smaller √AVE": 0.832
+  },
+  {
+   "Pair": "LED – TRU",
+   "r": 0.815,
+   "Smaller √AVE": 0.747
+  },
+  {
+   "Pair": "COL – TRU",
+   "r": 0.791,
+   "Smaller √AVE": 0.747
+  },
+  {
+   "Pair": "COL – SHA",
+   "r": 0.822,
+   "Smaller √AVE": 0.797
+  },
+  {
+   "Pair": "COL – GLO",
+   "r": 0.861,
+   "Smaller √AVE": 0.797
+  },
+  {
+   "Pair": "TRU – SHA",
+   "r": 0.761,
+   "Smaller √AVE": 0.747
+  },
+  {
+   "Pair": "TRU – GLO",
+   "r": 0.8,
+   "Smaller √AVE": 0.747
+  },
+  {
+   "Pair": "SHA – GLO",
+   "r": 0.853,
+   "Smaller √AVE": 0.832
+  },
+  {
+   "Pair": "GLO – SAT_O",
+   "r": 0.809,
+   "Smaller √AVE": 0.781
+  },
+  {
+   "Pair": "OCM – WEG",
+   "r": 0.721,
+   "Smaller √AVE": 0.703
+  },
+  {
+   "Pair": "SAT_O – SAT_J",
+   "r": 0.825,
+   "Smaller √AVE": 0.773
+  }
+ ],
+ "construct_desc": [
+  {
+   "Code": "NOR",
+   "Scale name": "Norms",
+   "Mean": 4.62,
+   "Std. deviation": 1.122,
+   "Skewness": -1.31,
+   "Kurtosis": 1.555
+  },
+  {
+   "Code": "STR",
+   "Scale name": "Strategy",
+   "Mean": 4.527,
+   "Std. deviation": 1.139,
+   "Skewness": -0.967,
+   "Kurtosis": 0.579
+  },
+  {
+   "Code": "OPE",
+   "Scale name": "Operations",
+   "Mean": 4.648,
+   "Std. deviation": 1.078,
+   "Skewness": -1.133,
+   "Kurtosis": 1.421
+  },
+  {
+   "Code": "LED",
+   "Scale name": "Leadership",
+   "Mean": 4.69,
+   "Std. deviation": 0.989,
+   "Skewness": -1.522,
+   "Kurtosis": 2.714
+  },
+  {
+   "Code": "COL",
+   "Scale name": "Communication",
+   "Mean": 4.756,
+   "Std. deviation": 0.888,
+   "Skewness": -1.316,
+   "Kurtosis": 2.303
+  },
+  {
+   "Code": "PAR",
+   "Scale name": "Participation",
+   "Mean": 4.71,
+   "Std. deviation": 0.725,
+   "Skewness": -1.014,
+   "Kurtosis": 2.603
+  },
+  {
+   "Code": "TRU",
+   "Scale name": "Trust",
+   "Mean": 4.748,
+   "Std. deviation": 0.913,
+   "Skewness": -1.209,
+   "Kurtosis": 2.027
+  },
+  {
+   "Code": "SHA",
+   "Scale name": "Shared values",
+   "Mean": 4.617,
+   "Std. deviation": 1.053,
+   "Skewness": -1.227,
+   "Kurtosis": 1.9
+  },
+  {
+   "Code": "COM",
+   "Scale name": "Quality commitment",
+   "Mean": 5.203,
+   "Std. deviation": 0.617,
+   "Skewness": -0.81,
+   "Kurtosis": 1.922
+  },
+  {
+   "Code": "RES",
+   "Scale name": "Responsibility",
+   "Mean": 5.064,
+   "Std. deviation": 0.87,
+   "Skewness": -1.252,
+   "Kurtosis": 2.118
+  },
+  {
+   "Code": "ENG",
+   "Scale name": "Quality engagement",
+   "Mean": 5.085,
+   "Std. deviation": 0.606,
+   "Skewness": -0.719,
+   "Kurtosis": 1.701
+  },
+  {
+   "Code": "GLO",
+   "Scale name": "Quality culture (overall)",
+   "Mean": 4.569,
+   "Std. deviation": 0.971,
+   "Skewness": -1.281,
+   "Kurtosis": 2.043
+  },
+  {
+   "Code": "OCM",
+   "Scale name": "Organizational commitment",
+   "Mean": 4.833,
+   "Std. deviation": 0.991,
+   "Skewness": -1.391,
+   "Kurtosis": 2.365
+  },
+  {
+   "Code": "SAT_O",
+   "Scale name": "Organizational satisfaction",
+   "Mean": 3.664,
+   "Std. deviation": 0.752,
+   "Skewness": -0.751,
+   "Kurtosis": 0.677
+  },
+  {
+   "Code": "SAT_J",
+   "Scale name": "Job satisfaction",
+   "Mean": 3.838,
+   "Std. deviation": 0.661,
+   "Skewness": -0.649,
+   "Kurtosis": 1.016
+  },
+  {
+   "Code": "WEG",
+   "Scale name": "Work engagement",
+   "Mean": 4.675,
+   "Std. deviation": 0.743,
+   "Skewness": -0.696,
+   "Kurtosis": 1.005
+  },
+  {
+   "Code": "PRO",
+   "Scale name": "Professional development",
+   "Mean": 4.852,
+   "Std. deviation": 0.696,
+   "Skewness": -0.645,
+   "Kurtosis": 0.574
+  }
+ ],
+ "corr_GLO": {
+  "NOR": 0.827,
+  "STR": 0.833,
+  "OPE": 0.841,
+  "LED": 0.793,
+  "COL": 0.861,
+  "PAR": 0.601,
+  "TRU": 0.8,
+  "SHA": 0.853,
+  "COM": 0.295,
+  "RES": 0.578,
+  "ENG": 0.409,
+  "OCM": 0.732,
+  "SAT_O": 0.809,
+  "SAT_J": 0.71,
+  "WEG": 0.633,
+  "PRO": 0.672
+ },
+ "ttest": [
+  {
+   "Comparison": "Teachers vs Administrators",
+   "Variable": "GLO",
+   "Mean group 1 (Teachers)": 4.52,
+   "Mean group 2 (Administrators)": 4.81,
+   "t": -2.034,
+   "p": 0.0458,
+   "Cohen d": 0.301,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Teachers vs Administrators",
+   "Variable": "OCM",
+   "Mean group 1 (Teachers)": 4.79,
+   "Mean group 2 (Administrators)": 5.06,
+   "t": -2.226,
+   "p": 0.0286,
+   "Cohen d": 0.273,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Teachers vs Administrators",
+   "Variable": "SAT_J",
+   "Mean group 1 (Teachers)": 3.83,
+   "Mean group 2 (Administrators)": 3.88,
+   "t": -0.543,
+   "p": 0.589,
+   "Cohen d": 0.081,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Teachers vs Administrators",
+   "Variable": "SAT_O",
+   "Mean group 1 (Teachers)": 3.67,
+   "Mean group 2 (Administrators)": 3.62,
+   "t": 0.376,
+   "p": 0.7081,
+   "Cohen d": 0.066,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Teachers vs Administrators",
+   "Variable": "WEG",
+   "Mean group 1 (Teachers)": 4.65,
+   "Mean group 2 (Administrators)": 4.8,
+   "t": -1.425,
+   "p": 0.1583,
+   "Cohen d": 0.2,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Teachers vs Administrators",
+   "Variable": "PRO",
+   "Mean group 1 (Teachers)": 4.86,
+   "Mean group 2 (Administrators)": 4.79,
+   "t": 0.503,
+   "p": 0.6174,
+   "Cohen d": 0.101,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Vietnamese vs Foreign",
+   "Variable": "GLO",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 7.423,
+   "p": 0.0,
+   "Cohen d": 2.084,
+   "Mean group 1 (Vietnamese)": 4.78,
+   "Mean group 2 (Foreign)": 3.12,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Vietnamese vs Foreign",
+   "Variable": "OCM",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 6.046,
+   "p": 0.0,
+   "Cohen d": 1.633,
+   "Mean group 1 (Vietnamese)": 5.01,
+   "Mean group 2 (Foreign)": 3.59,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Vietnamese vs Foreign",
+   "Variable": "SAT_J",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 7.062,
+   "p": 0.0,
+   "Cohen d": 1.645,
+   "Mean group 1 (Vietnamese)": 3.96,
+   "Mean group 2 (Foreign)": 3.01,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Vietnamese vs Foreign",
+   "Variable": "SAT_O",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 8.12,
+   "p": 0.0,
+   "Cohen d": 1.983,
+   "Mean group 1 (Vietnamese)": 3.82,
+   "Mean group 2 (Foreign)": 2.58,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Vietnamese vs Foreign",
+   "Variable": "WEG",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 3.856,
+   "p": 0.0004,
+   "Cohen d": 0.807,
+   "Mean group 1 (Vietnamese)": 4.75,
+   "Mean group 2 (Foreign)": 4.17,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Vietnamese vs Foreign",
+   "Variable": "PRO",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 4.839,
+   "p": 0.0,
+   "Cohen d": 1.086,
+   "Mean group 1 (Vietnamese)": 4.94,
+   "Mean group 2 (Foreign)": 4.23,
+   "Mean group 1 (1)": NaN,
+   "Mean group 2 (0)": NaN
+  },
+  {
+   "Comparison": "Male vs Female",
+   "Variable": "GLO",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 2.163,
+   "p": 0.0328,
+   "Cohen d": 0.33,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": 4.65,
+   "Mean group 2 (0)": 4.33
+  },
+  {
+   "Comparison": "Male vs Female",
+   "Variable": "OCM",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 2.9,
+   "p": 0.0045,
+   "Cohen d": 0.433,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": 4.94,
+   "Mean group 2 (0)": 4.52
+  },
+  {
+   "Comparison": "Male vs Female",
+   "Variable": "SAT_J",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 1.524,
+   "p": 0.1304,
+   "Cohen d": 0.222,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": 3.88,
+   "Mean group 2 (0)": 3.73
+  },
+  {
+   "Comparison": "Male vs Female",
+   "Variable": "SAT_O",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 1.992,
+   "p": 0.0491,
+   "Cohen d": 0.307,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": 3.72,
+   "Mean group 2 (0)": 3.49
+  },
+  {
+   "Comparison": "Male vs Female",
+   "Variable": "WEG",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 1.541,
+   "p": 0.1257,
+   "Cohen d": 0.206,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": 4.71,
+   "Mean group 2 (0)": 4.56
+  },
+  {
+   "Comparison": "Male vs Female",
+   "Variable": "PRO",
+   "Mean group 1 (Teachers)": NaN,
+   "Mean group 2 (Administrators)": NaN,
+   "t": 0.782,
+   "p": 0.4357,
+   "Cohen d": 0.111,
+   "Mean group 1 (Vietnamese)": NaN,
+   "Mean group 2 (Foreign)": NaN,
+   "Mean group 1 (1)": 4.87,
+   "Mean group 2 (0)": 4.79
+  }
+ ],
+ "anova": [
+  {
+   "Factor": "School",
+   "Variable": "GLO",
+   "F": 5.978,
+   "p": 0.0001,
+   "eta2p": 0.08
+  },
+  {
+   "Factor": "School",
+   "Variable": "OCM",
+   "F": 0.916,
+   "p": 0.4551,
+   "eta2p": 0.013
+  },
+  {
+   "Factor": "School",
+   "Variable": "SAT_J",
+   "F": 2.016,
+   "p": 0.0925,
+   "eta2p": 0.028
+  },
+  {
+   "Factor": "School",
+   "Variable": "SAT_O",
+   "F": 8.087,
+   "p": 0.0,
+   "eta2p": 0.105
+  },
+  {
+   "Factor": "School",
+   "Variable": "WEG",
+   "F": 2.169,
+   "p": 0.0727,
+   "eta2p": 0.03
+  },
+  {
+   "Factor": "School",
+   "Variable": "PRO",
+   "F": 2.484,
+   "p": 0.044,
+   "eta2p": 0.035
+  },
+  {
+   "Factor": "Tenure",
+   "Variable": "GLO",
+   "F": 3.417,
+   "p": 0.0095,
+   "eta2p": 0.047
+  },
+  {
+   "Factor": "Tenure",
+   "Variable": "OCM",
+   "F": 2.162,
+   "p": 0.0735,
+   "eta2p": 0.03
+  },
+  {
+   "Factor": "Tenure",
+   "Variable": "SAT_J",
+   "F": 2.467,
+   "p": 0.0452,
+   "eta2p": 0.035
+  },
+  {
+   "Factor": "Tenure",
+   "Variable": "SAT_O",
+   "F": 3.536,
+   "p": 0.0078,
+   "eta2p": 0.049
+  },
+  {
+   "Factor": "Tenure",
+   "Variable": "WEG",
+   "F": 1.724,
+   "p": 0.1449,
+   "eta2p": 0.024
+  },
+  {
+   "Factor": "Tenure",
+   "Variable": "PRO",
+   "F": 2.052,
+   "p": 0.0873,
+   "eta2p": 0.029
+  },
+  {
+   "Factor": "Age",
+   "Variable": "GLO",
+   "F": 1.321,
+   "p": 0.2623,
+   "eta2p": 0.019
+  },
+  {
+   "Factor": "Age",
+   "Variable": "OCM",
+   "F": 0.25,
+   "p": 0.9096,
+   "eta2p": 0.004
+  },
+  {
+   "Factor": "Age",
+   "Variable": "SAT_J",
+   "F": 1.081,
+   "p": 0.3663,
+   "eta2p": 0.015
+  },
+  {
+   "Factor": "Age",
+   "Variable": "SAT_O",
+   "F": 1.262,
+   "p": 0.2851,
+   "eta2p": 0.018
+  },
+  {
+   "Factor": "Age",
+   "Variable": "WEG",
+   "F": 1.206,
+   "p": 0.3086,
+   "eta2p": 0.017
+  },
+  {
+   "Factor": "Age",
+   "Variable": "PRO",
+   "F": 0.742,
+   "p": 0.5638,
+   "eta2p": 0.011
+  },
+  {
+   "Factor": "Respondent group",
+   "Variable": "GLO",
+   "F": 60.498,
+   "p": 0.0,
+   "eta2p": 0.396
+  },
+  {
+   "Factor": "Respondent group",
+   "Variable": "OCM",
+   "F": 40.759,
+   "p": 0.0,
+   "eta2p": 0.306
+  },
+  {
+   "Factor": "Respondent group",
+   "Variable": "SAT_J",
+   "F": 32.642,
+   "p": 0.0,
+   "eta2p": 0.261
+  },
+  {
+   "Factor": "Respondent group",
+   "Variable": "SAT_O",
+   "F": 44.737,
+   "p": 0.0,
+   "eta2p": 0.326
+  },
+  {
+   "Factor": "Respondent group",
+   "Variable": "WEG",
+   "F": 9.132,
+   "p": 0.0,
+   "eta2p": 0.09
+  },
+  {
+   "Factor": "Respondent group",
+   "Variable": "PRO",
+   "F": 12.254,
+   "p": 0.0,
+   "eta2p": 0.117
+  }
+ ],
+ "reg_GLO": {
+  "r2": 0.894,
+  "r2adj": 0.89,
+  "f": 206.55,
+  "betas": [
+   {
+    "Variable": "NOR",
+    "Std. beta": 0.116,
+    "t": 2.67,
+    "p": 0.008,
+    "VIF": 4.78
+   },
+   {
+    "Variable": "STR",
+    "Std. beta": 0.12,
+    "t": 2.52,
+    "p": 0.0124,
+    "VIF": 5.79
+   },
+   {
+    "Variable": "OPE",
+    "Std. beta": 0.158,
+    "t": 3.52,
+    "p": 0.0005,
+    "VIF": 5.13
+   },
+   {
+    "Variable": "LED",
+    "Std. beta": 0.214,
+    "t": 5.78,
+    "p": 0.0,
+    "VIF": 3.5
+   },
+   {
+    "Variable": "COL",
+    "Std. beta": 0.264,
+    "t": 6.26,
+    "p": 0.0,
+    "VIF": 4.51
+   },
+   {
+    "Variable": "PAR",
+    "Std. beta": 0.04,
+    "t": 1.42,
+    "p": 0.1572,
+    "VIF": 2.07
+   },
+   {
+    "Variable": "TRU",
+    "Std. beta": -0.038,
+    "t": -0.89,
+    "p": 0.3748,
+    "VIF": 4.68
+   },
+   {
+    "Variable": "SHA",
+    "Std. beta": 0.174,
+    "t": 4.34,
+    "p": 0.0,
+    "VIF": 4.11
+   },
+   {
+    "Variable": "COM",
+    "Std. beta": 0.033,
+    "t": 1.39,
+    "p": 0.1652,
+    "VIF": 1.42
+   },
+   {
+    "Variable": "RES",
+    "Std. beta": 0.052,
+    "t": 1.98,
+    "p": 0.0486,
+    "VIF": 1.76
+   },
+   {
+    "Variable": "ENG",
+    "Std. beta": -0.035,
+    "t": -1.34,
+    "p": 0.1807,
+    "VIF": 1.76
+   }
+  ]
+ },
+ "reg_outcomes": [
+  {
+   "Dependent": "OCM — Organizational commitment",
+   "Beta (GLO)": 0.732,
+   "t": 17.96,
+   "p": 0.0,
+   "R2": 0.536
+  },
+  {
+   "Dependent": "SAT_O — Organizational satisfaction",
+   "Beta (GLO)": 0.809,
+   "t": 23.02,
+   "p": 0.0,
+   "R2": 0.655
+  },
+  {
+   "Dependent": "SAT_J — Job satisfaction",
+   "Beta (GLO)": 0.71,
+   "t": 16.83,
+   "p": 0.0,
+   "R2": 0.504
+  },
+  {
+   "Dependent": "WEG — Work engagement",
+   "Beta (GLO)": 0.633,
+   "t": 13.67,
+   "p": 0.0,
+   "R2": 0.401
+  },
+  {
+   "Dependent": "PRO — Professional development",
+   "Beta (GLO)": 0.672,
+   "t": 15.17,
+   "p": 0.0,
+   "R2": 0.452
+  }
+ ],
+ "path_fit": {
+  "Baseline model (H1–H6)": {
+   "chi2": 1021.642,
+   "DoF": 107.0,
+   "CFI": 0.806,
+   "TLI": 0.749,
+   "RMSEA": 0.175,
+   "GFI": 0.79,
+   "AIC": 84.729
+  },
+  "Adjusted model (+ same-level residual covariances)": {
+   "chi2": 567.649,
+   "DoF": 90.0,
+   "CFI": 0.899,
+   "TLI": 0.844,
+   "RMSEA": 0.138,
+   "GFI": 0.883,
+   "AIC": 121.96
+  }
+ },
+ "paths": [
+  {
+   "Dependent": "LED",
+   "~": "~",
+   "Independent": "NOR",
+   "Std. beta": 0.267,
+   "p": 0.0024,
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "LED",
+   "~": "~",
+   "Independent": "STR",
+   "Std. beta": 0.223,
+   "p": 0.0232,
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "LED",
+   "~": "~",
+   "Independent": "OPE",
+   "Std. beta": 0.246,
+   "p": 0.008,
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "COL",
+   "~": "~",
+   "Independent": "NOR",
+   "Std. beta": 0.231,
+   "p": 0.0025,
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "COL",
+   "~": "~",
+   "Independent": "STR",
+   "Std. beta": 0.266,
+   "p": 0.0019,
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "COL",
+   "~": "~",
+   "Independent": "OPE",
+   "Std. beta": 0.326,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "PAR",
+   "~": "~",
+   "Independent": "NOR",
+   "Std. beta": 0.186,
+   "p": 0.0837,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "PAR",
+   "~": "~",
+   "Independent": "STR",
+   "Std. beta": 0.096,
+   "p": 0.4225,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "PAR",
+   "~": "~",
+   "Independent": "OPE",
+   "Std. beta": 0.232,
+   "p": 0.0406,
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "TRU",
+   "~": "~",
+   "Independent": "LED",
+   "Std. beta": 0.497,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "TRU",
+   "~": "~",
+   "Independent": "COL",
+   "Std. beta": 0.419,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "TRU",
+   "~": "~",
+   "Independent": "PAR",
+   "Std. beta": 0.064,
+   "p": 0.0854,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "SHA",
+   "~": "~",
+   "Independent": "LED",
+   "Std. beta": 0.293,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "SHA",
+   "~": "~",
+   "Independent": "COL",
+   "Std. beta": 0.605,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "SHA",
+   "~": "~",
+   "Independent": "PAR",
+   "Std. beta": 0.032,
+   "p": 0.4315,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "COM",
+   "~": "~",
+   "Independent": "TRU",
+   "Std. beta": 0.161,
+   "p": 0.069,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "COM",
+   "~": "~",
+   "Independent": "SHA",
+   "Std. beta": 0.125,
+   "p": 0.1568,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "RES",
+   "~": "~",
+   "Independent": "TRU",
+   "Std. beta": 0.323,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "RES",
+   "~": "~",
+   "Independent": "SHA",
+   "Std. beta": 0.301,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "ENG",
+   "~": "~",
+   "Independent": "TRU",
+   "Std. beta": 0.329,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "ENG",
+   "~": "~",
+   "Independent": "SHA",
+   "Std. beta": 0.125,
+   "p": 0.1331,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "GLO",
+   "~": "~",
+   "Independent": "COM",
+   "Std. beta": 0.024,
+   "p": 0.4086,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "GLO",
+   "~": "~",
+   "Independent": "RES",
+   "Std. beta": 0.077,
+   "p": 0.0145,
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "GLO",
+   "~": "~",
+   "Independent": "ENG",
+   "Std. beta": -0.038,
+   "p": 0.2244,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "GLO",
+   "~": "~",
+   "Independent": "LED",
+   "Std. beta": 0.367,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "GLO",
+   "~": "~",
+   "Independent": "COL",
+   "Std. beta": 0.572,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "GLO",
+   "~": "~",
+   "Independent": "PAR",
+   "Std. beta": 0.02,
+   "p": 0.5283,
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "OCM",
+   "~": "~",
+   "Independent": "GLO",
+   "Std. beta": 0.731,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "SAT_O",
+   "~": "~",
+   "Independent": "GLO",
+   "Std. beta": 0.809,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "SAT_J",
+   "~": "~",
+   "Independent": "GLO",
+   "Std. beta": 0.709,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "WEG",
+   "~": "~",
+   "Independent": "GLO",
+   "Std. beta": 0.632,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "PRO",
+   "~": "~",
+   "Independent": "GLO",
+   "Std. beta": 0.671,
+   "p": "<.001",
+   "Conclusion": "Significant"
+  }
+ ],
+ "r2": [
+  {
+   "Variable": "LED",
+   "R2": 0.49
+  },
+  {
+   "Variable": "COL",
+   "R2": 0.614
+  },
+  {
+   "Variable": "PAR",
+   "R2": 0.239
+  },
+  {
+   "Variable": "TRU",
+   "R2": 0.775
+  },
+  {
+   "Variable": "SHA",
+   "R2": 0.726
+  },
+  {
+   "Variable": "COM",
+   "R2": 0.072
+  },
+  {
+   "Variable": "RES",
+   "R2": 0.343
+  },
+  {
+   "Variable": "ENG",
+   "R2": 0.186
+  },
+  {
+   "Variable": "GLO",
+   "R2": 0.83
+  },
+  {
+   "Variable": "OCM",
+   "R2": 0.536
+  },
+  {
+   "Variable": "SAT_O",
+   "R2": 0.655
+  },
+  {
+   "Variable": "SAT_J",
+   "R2": 0.504
+  },
+  {
+   "Variable": "WEG",
+   "R2": 0.401
+  },
+  {
+   "Variable": "PRO",
+   "R2": 0.452
+  }
+ ],
+ "model_compare": [
+  {
+   "Model": "M1 — baseline H1–H6",
+   "chi2": 1021.642,
+   "DoF": 107.0,
+   "CFI": 0.806,
+   "TLI": 0.749,
+   "RMSEA": 0.175,
+   "GFI": 0.79
+  },
+  {
+   "Model": "M2 — adjusted (primary)",
+   "chi2": 567.649,
+   "DoF": 90.0,
+   "CFI": 0.899,
+   "TLI": 0.844,
+   "RMSEA": 0.138,
+   "GFI": 0.883
+  },
+  {
+   "Model": "M3 — M2 + structure → GLO",
+   "chi2": 453.701,
+   "DoF": 87.0,
+   "CFI": 0.922,
+   "TLI": 0.876,
+   "RMSEA": 0.123,
+   "GFI": 0.907
+  },
+  {
+   "Model": "M4 — parsimonious (STRUC, SAT)",
+   "chi2": 378.589,
+   "DoF": 53.0,
+   "CFI": 0.908,
+   "TLI": 0.84,
+   "RMSEA": 0.148,
+   "GFI": 0.895
+  }
+ ],
+ "delta_chi2": {
+  "delta": 113.9,
+  "ddf": 3,
+  "p": 1.5508221451485828e-24
+ },
+ "m3_glo_paths": [
+  {
+   "Independent": "COM",
+   "Std. beta": 0.034,
+   "p": 0.1434
+  },
+  {
+   "Independent": "RES",
+   "Std. beta": 0.065,
+   "p": 0.012
+  },
+  {
+   "Independent": "ENG",
+   "Std. beta": -0.044,
+   "p": 0.0845
+  },
+  {
+   "Independent": "LED",
+   "Std. beta": 0.231,
+   "p": "<.001"
+  },
+  {
+   "Independent": "COL",
+   "Std. beta": 0.329,
+   "p": "<.001"
+  },
+  {
+   "Independent": "PAR",
+   "Std. beta": 0.046,
+   "p": 0.0828
+  },
+  {
+   "Independent": "NOR",
+   "Std. beta": 0.153,
+   "p": "<.001"
+  },
+  {
+   "Independent": "STR",
+   "Std. beta": 0.106,
+   "p": 0.0253
+  },
+  {
+   "Independent": "OPE",
+   "Std. beta": 0.178,
+   "p": "<.001"
+  }
+ ],
+ "robustness_col": {
+  "COL_beta": 0.237,
+  "COL_p": 0.0,
+  "LED_beta": 0.235,
+  "r2": 0.862
+ },
+ "pls_gof": 0.588,
+ "pls_measurement": [
+  {
+   "Code": "OPE",
+   "Name": "Operations",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.889,
+   "DG_rho": 0.931,
+   "eig1": 2.455,
+   "eig2": 0.305,
+   "ave": 0.818,
+   "r_squared": 0.0,
+   "sqrt_AVE": 0.905,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "STR",
+   "Name": "Strategy",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.91,
+   "DG_rho": 0.943,
+   "eig1": 2.543,
+   "eig2": 0.281,
+   "ave": 0.847,
+   "r_squared": 0.0,
+   "sqrt_AVE": 0.921,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "NOR",
+   "Name": "Norms",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.938,
+   "DG_rho": 0.96,
+   "eig1": 2.67,
+   "eig2": 0.201,
+   "ave": 0.89,
+   "r_squared": 0.0,
+   "sqrt_AVE": 0.943,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "PAR",
+   "Name": "Participation",
+   "mode": "A",
+   "mvs": 4.0,
+   "Cronbach_alpha": 0.764,
+   "DG_rho": 0.85,
+   "eig1": 2.351,
+   "eig2": 0.682,
+   "ave": 0.581,
+   "r_squared": 0.257,
+   "sqrt_AVE": 0.762,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "COL",
+   "Name": "Communication",
+   "mode": "A",
+   "mvs": 6.0,
+   "Cronbach_alpha": 0.909,
+   "DG_rho": 0.931,
+   "eig1": 4.152,
+   "eig2": 0.82,
+   "ave": 0.685,
+   "r_squared": 0.634,
+   "sqrt_AVE": 0.828,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "LED",
+   "Name": "Leadership",
+   "mode": "A",
+   "mvs": 12.0,
+   "Cronbach_alpha": 0.966,
+   "DG_rho": 0.97,
+   "eig1": 8.768,
+   "eig2": 0.889,
+   "ave": 0.73,
+   "r_squared": 0.495,
+   "sqrt_AVE": 0.854,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "SHA",
+   "Name": "Shared values",
+   "mode": "A",
+   "mvs": 2.0,
+   "Cronbach_alpha": 0.848,
+   "DG_rho": 0.929,
+   "eig1": 1.736,
+   "eig2": 0.264,
+   "ave": 0.868,
+   "r_squared": 0.735,
+   "sqrt_AVE": 0.932,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "TRU",
+   "Name": "Trust",
+   "mode": "A",
+   "mvs": 4.0,
+   "Cronbach_alpha": 0.832,
+   "DG_rho": 0.888,
+   "eig1": 2.663,
+   "eig2": 0.629,
+   "ave": 0.659,
+   "r_squared": 0.793,
+   "sqrt_AVE": 0.812,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "ENG",
+   "Name": "Quality engagement",
+   "mode": "A",
+   "mvs": 4.0,
+   "Cronbach_alpha": 0.765,
+   "DG_rho": 0.85,
+   "eig1": 2.348,
+   "eig2": 0.622,
+   "ave": 0.579,
+   "r_squared": 0.185,
+   "sqrt_AVE": 0.761,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "RES",
+   "Name": "Responsibility",
+   "mode": "A",
+   "mvs": 2.0,
+   "Cronbach_alpha": 0.766,
+   "DG_rho": 0.895,
+   "eig1": 1.621,
+   "eig2": 0.379,
+   "ave": 0.809,
+   "r_squared": 0.344,
+   "sqrt_AVE": 0.9,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "COM",
+   "Name": "Quality commitment",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.764,
+   "DG_rho": 0.865,
+   "eig1": 2.044,
+   "eig2": 0.603,
+   "ave": 0.674,
+   "r_squared": 0.099,
+   "sqrt_AVE": 0.821,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "GLO",
+   "Name": "Quality culture (overall)",
+   "mode": "A",
+   "mvs": 8.0,
+   "Cronbach_alpha": 0.947,
+   "DG_rho": 0.956,
+   "eig1": 5.843,
+   "eig2": 0.561,
+   "ave": 0.73,
+   "r_squared": 0.836,
+   "sqrt_AVE": 0.854,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "PRO",
+   "Name": "Professional development",
+   "mode": "A",
+   "mvs": 6.0,
+   "Cronbach_alpha": 0.839,
+   "DG_rho": 0.882,
+   "eig1": 3.333,
+   "eig2": 0.989,
+   "ave": 0.517,
+   "r_squared": 0.561,
+   "sqrt_AVE": 0.719,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "WEG",
+   "Name": "Work engagement",
+   "mode": "A",
+   "mvs": 9.0,
+   "Cronbach_alpha": 0.892,
+   "DG_rho": 0.914,
+   "eig1": 4.926,
+   "eig2": 0.974,
+   "ave": 0.544,
+   "r_squared": 0.421,
+   "sqrt_AVE": 0.738,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "SAT_J",
+   "Name": "Job satisfaction",
+   "mode": "A",
+   "mvs": 4.0,
+   "Cronbach_alpha": 0.85,
+   "DG_rho": 0.899,
+   "eig1": 2.765,
+   "eig2": 0.518,
+   "ave": 0.686,
+   "r_squared": 0.522,
+   "sqrt_AVE": 0.828,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "SAT_O",
+   "Name": "Organizational satisfaction",
+   "mode": "A",
+   "mvs": 6.0,
+   "Cronbach_alpha": 0.896,
+   "DG_rho": 0.922,
+   "eig1": 4.004,
+   "eig2": 0.738,
+   "ave": 0.664,
+   "r_squared": 0.664,
+   "sqrt_AVE": 0.815,
+   "AVE≥.50": "Met"
+  },
+  {
+   "Code": "OCM",
+   "Name": "Organizational commitment",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.858,
+   "DG_rho": 0.913,
+   "eig1": 2.336,
+   "eig2": 0.377,
+   "ave": 0.778,
+   "r_squared": 0.544,
+   "sqrt_AVE": 0.882,
+   "AVE≥.50": "Met"
+  }
+ ],
+ "pls_fl_violations": [
+  {
+   "Pair": "COL – SHA",
+   "r_LV": 0.834,
+   "min_sqrt_AVE": 0.828
+  },
+  {
+   "Pair": "COL – GLO",
+   "r_LV": 0.876,
+   "min_sqrt_AVE": 0.828
+  },
+  {
+   "Pair": "LED – TRU",
+   "r_LV": 0.84,
+   "min_sqrt_AVE": 0.812
+  },
+  {
+   "Pair": "SHA – GLO",
+   "r_LV": 0.856,
+   "min_sqrt_AVE": 0.854
+  },
+  {
+   "Pair": "SHA – PRO",
+   "r_LV": 0.731,
+   "min_sqrt_AVE": 0.719
+  },
+  {
+   "Pair": "GLO – PRO",
+   "r_LV": 0.749,
+   "min_sqrt_AVE": 0.719
+  },
+  {
+   "Pair": "SAT_J – SAT_O",
+   "r_LV": 0.827,
+   "min_sqrt_AVE": 0.815
+  }
+ ],
+ "pls_paths": [
+  {
+   "Dependent": "PAR",
+   "Independent": "OPE",
+   "Beta": 0.229,
+   "SE": 0.113,
+   "t": 2.02,
+   "p": 0.0447,
+   "f2": 0.015,
+   "f² size": "negligible",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "PAR",
+   "Independent": "STR",
+   "Beta": 0.105,
+   "SE": 0.12,
+   "t": 0.88,
+   "p": 0.3808,
+   "f2": 0.003,
+   "f² size": "negligible",
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "PAR",
+   "Independent": "NOR",
+   "Beta": 0.198,
+   "SE": 0.107,
+   "t": 1.86,
+   "p": 0.0644,
+   "f2": 0.012,
+   "f² size": "negligible",
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "COL",
+   "Independent": "OPE",
+   "Beta": 0.31,
+   "SE": 0.08,
+   "t": 3.89,
+   "p": "<.001",
+   "f2": 0.055,
+   "f² size": "small",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "COL",
+   "Independent": "STR",
+   "Beta": 0.247,
+   "SE": 0.084,
+   "t": 2.93,
+   "p": 0.0037,
+   "f2": 0.031,
+   "f² size": "small",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "COL",
+   "Independent": "NOR",
+   "Beta": 0.281,
+   "SE": 0.075,
+   "t": 3.75,
+   "p": "<.001",
+   "f2": 0.051,
+   "f² size": "small",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "LED",
+   "Independent": "OPE",
+   "Beta": 0.24,
+   "SE": 0.094,
+   "t": 2.57,
+   "p": 0.0107,
+   "f2": 0.024,
+   "f² size": "small",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "LED",
+   "Independent": "STR",
+   "Beta": 0.224,
+   "SE": 0.099,
+   "t": 2.27,
+   "p": 0.024,
+   "f2": 0.019,
+   "f² size": "negligible",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "LED",
+   "Independent": "NOR",
+   "Beta": 0.276,
+   "SE": 0.088,
+   "t": 3.13,
+   "p": 0.0019,
+   "f2": 0.035,
+   "f² size": "small",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "SHA",
+   "Independent": "PAR",
+   "Beta": 0.049,
+   "SE": 0.04,
+   "t": 1.21,
+   "p": 0.2263,
+   "f2": 0.005,
+   "f² size": "negligible",
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "SHA",
+   "Independent": "COL",
+   "Beta": 0.626,
+   "SE": 0.046,
+   "t": 13.57,
+   "p": "<.001",
+   "f2": 0.665,
+   "f² size": "large",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "SHA",
+   "Independent": "LED",
+   "Beta": 0.257,
+   "SE": 0.044,
+   "t": 5.82,
+   "p": "<.001",
+   "f2": 0.122,
+   "f² size": "small",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "TRU",
+   "Independent": "PAR",
+   "Beta": 0.073,
+   "SE": 0.036,
+   "t": 2.06,
+   "p": 0.0399,
+   "f2": 0.015,
+   "f² size": "negligible",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "TRU",
+   "Independent": "COL",
+   "Beta": 0.373,
+   "SE": 0.041,
+   "t": 9.15,
+   "p": "<.001",
+   "f2": 0.302,
+   "f² size": "medium",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "TRU",
+   "Independent": "LED",
+   "Beta": 0.54,
+   "SE": 0.039,
+   "t": 13.82,
+   "p": "<.001",
+   "f2": 0.69,
+   "f² size": "large",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "ENG",
+   "Independent": "SHA",
+   "Beta": 0.126,
+   "SE": 0.084,
+   "t": 1.51,
+   "p": 0.1324,
+   "f2": 0.008,
+   "f² size": "negligible",
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "ENG",
+   "Independent": "TRU",
+   "Beta": 0.326,
+   "SE": 0.084,
+   "t": 3.89,
+   "p": "<.001",
+   "f2": 0.055,
+   "f² size": "small",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "RES",
+   "Independent": "SHA",
+   "Beta": 0.297,
+   "SE": 0.075,
+   "t": 3.95,
+   "p": "<.001",
+   "f2": 0.056,
+   "f² size": "small",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "RES",
+   "Independent": "TRU",
+   "Beta": 0.327,
+   "SE": 0.075,
+   "t": 4.35,
+   "p": "<.001",
+   "f2": 0.068,
+   "f² size": "small",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "COM",
+   "Independent": "SHA",
+   "Beta": 0.147,
+   "SE": 0.088,
+   "t": 1.67,
+   "p": 0.097,
+   "f2": 0.01,
+   "f² size": "negligible",
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "COM",
+   "Independent": "TRU",
+   "Beta": 0.187,
+   "SE": 0.088,
+   "t": 2.12,
+   "p": 0.0346,
+   "f2": 0.016,
+   "f² size": "negligible",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "PAR",
+   "Beta": 0.043,
+   "SE": 0.034,
+   "t": 1.26,
+   "p": 0.2098,
+   "f2": 0.006,
+   "f² size": "negligible",
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "COL",
+   "Beta": 0.597,
+   "SE": 0.037,
+   "t": 16.13,
+   "p": "<.001",
+   "f2": 0.95,
+   "f² size": "large",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "LED",
+   "Beta": 0.324,
+   "SE": 0.036,
+   "t": 9.02,
+   "p": "<.001",
+   "f2": 0.297,
+   "f² size": "medium",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "ENG",
+   "Beta": -0.042,
+   "SE": 0.032,
+   "t": -1.32,
+   "p": 0.1881,
+   "f2": 0.006,
+   "f² size": "negligible",
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "RES",
+   "Beta": 0.069,
+   "SE": 0.032,
+   "t": 2.13,
+   "p": 0.0337,
+   "f2": 0.017,
+   "f² size": "negligible",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "COM",
+   "Beta": 0.026,
+   "SE": 0.029,
+   "t": 0.89,
+   "p": 0.3731,
+   "f2": 0.003,
+   "f² size": "negligible",
+   "Conclusion": "Not significant"
+  },
+  {
+   "Dependent": "PRO",
+   "Independent": "GLO",
+   "Beta": 0.749,
+   "SE": 0.04,
+   "t": 18.89,
+   "p": "<.001",
+   "f2": 1.279,
+   "f² size": "large",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "WEG",
+   "Independent": "GLO",
+   "Beta": 0.649,
+   "SE": 0.046,
+   "t": 14.24,
+   "p": "<.001",
+   "f2": 0.727,
+   "f² size": "large",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "SAT_J",
+   "Independent": "GLO",
+   "Beta": 0.722,
+   "SE": 0.041,
+   "t": 17.45,
+   "p": "<.001",
+   "f2": 1.092,
+   "f² size": "large",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "SAT_O",
+   "Independent": "GLO",
+   "Beta": 0.815,
+   "SE": 0.035,
+   "t": 23.46,
+   "p": "<.001",
+   "f2": 1.973,
+   "f² size": "large",
+   "Conclusion": "Significant"
+  },
+  {
+   "Dependent": "OCM",
+   "Independent": "GLO",
+   "Beta": 0.738,
+   "SE": 0.04,
+   "t": 18.24,
+   "p": "<.001",
+   "f2": 1.193,
+   "f² size": "large",
+   "Conclusion": "Significant"
+  }
+ ],
+ "pls_r2": [
+  {
+   "Variable": "COL",
+   "Name": "Communication",
+   "R2": 0.634
+  },
+  {
+   "Variable": "COM",
+   "Name": "Quality commitment",
+   "R2": 0.099
+  },
+  {
+   "Variable": "ENG",
+   "Name": "Quality engagement",
+   "R2": 0.185
+  },
+  {
+   "Variable": "GLO",
+   "Name": "Quality culture (overall)",
+   "R2": 0.836
+  },
+  {
+   "Variable": "LED",
+   "Name": "Leadership",
+   "R2": 0.495
+  },
+  {
+   "Variable": "OCM",
+   "Name": "Organizational commitment",
+   "R2": 0.544
+  },
+  {
+   "Variable": "PAR",
+   "Name": "Participation",
+   "R2": 0.257
+  },
+  {
+   "Variable": "PRO",
+   "Name": "Professional development",
+   "R2": 0.561
+  },
+  {
+   "Variable": "RES",
+   "Name": "Responsibility",
+   "R2": 0.344
+  },
+  {
+   "Variable": "SAT_J",
+   "Name": "Job satisfaction",
+   "R2": 0.522
+  },
+  {
+   "Variable": "SAT_O",
+   "Name": "Organizational satisfaction",
+   "R2": 0.664
+  },
+  {
+   "Variable": "SHA",
+   "Name": "Shared values",
+   "R2": 0.735
+  },
+  {
+   "Variable": "TRU",
+   "Name": "Trust",
+   "R2": 0.793
+  },
+  {
+   "Variable": "WEG",
+   "Name": "Work engagement",
+   "R2": 0.421
+  }
+ ],
+ "pls_bootstrap_n": 500,
+ "pls_bootstrap": [
+  {
+   "Dependent": "PAR",
+   "Independent": "OPE",
+   "Beta": 0.229,
+   "CI2.5%": -0.008,
+   "CI97.5%": 0.488,
+   "Boot SE": 0.127,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "PAR",
+   "Independent": "STR",
+   "Beta": 0.105,
+   "CI2.5%": -0.129,
+   "CI97.5%": 0.33,
+   "Boot SE": 0.123,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "PAR",
+   "Independent": "NOR",
+   "Beta": 0.198,
+   "CI2.5%": -0.082,
+   "CI97.5%": 0.461,
+   "Boot SE": 0.142,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "COL",
+   "Independent": "OPE",
+   "Beta": 0.31,
+   "CI2.5%": 0.141,
+   "CI97.5%": 0.471,
+   "Boot SE": 0.084,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "COL",
+   "Independent": "STR",
+   "Beta": 0.247,
+   "CI2.5%": 0.069,
+   "CI97.5%": 0.441,
+   "Boot SE": 0.095,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "COL",
+   "Independent": "NOR",
+   "Beta": 0.281,
+   "CI2.5%": 0.1,
+   "CI97.5%": 0.471,
+   "Boot SE": 0.095,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "LED",
+   "Independent": "OPE",
+   "Beta": 0.24,
+   "CI2.5%": 0.002,
+   "CI97.5%": 0.497,
+   "Boot SE": 0.132,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "LED",
+   "Independent": "STR",
+   "Beta": 0.224,
+   "CI2.5%": 0.01,
+   "CI97.5%": 0.46,
+   "Boot SE": 0.119,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "LED",
+   "Independent": "NOR",
+   "Beta": 0.276,
+   "CI2.5%": 0.008,
+   "CI97.5%": 0.48,
+   "Boot SE": 0.119,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "SHA",
+   "Independent": "PAR",
+   "Beta": 0.049,
+   "CI2.5%": -0.037,
+   "CI97.5%": 0.147,
+   "Boot SE": 0.047,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "SHA",
+   "Independent": "COL",
+   "Beta": 0.626,
+   "CI2.5%": 0.487,
+   "CI97.5%": 0.751,
+   "Boot SE": 0.067,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "SHA",
+   "Independent": "LED",
+   "Beta": 0.257,
+   "CI2.5%": 0.119,
+   "CI97.5%": 0.389,
+   "Boot SE": 0.067,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "TRU",
+   "Independent": "PAR",
+   "Beta": 0.073,
+   "CI2.5%": -0.027,
+   "CI97.5%": 0.16,
+   "Boot SE": 0.049,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "TRU",
+   "Independent": "COL",
+   "Beta": 0.373,
+   "CI2.5%": 0.26,
+   "CI97.5%": 0.49,
+   "Boot SE": 0.06,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "TRU",
+   "Independent": "LED",
+   "Beta": 0.54,
+   "CI2.5%": 0.421,
+   "CI97.5%": 0.649,
+   "Boot SE": 0.06,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "ENG",
+   "Independent": "SHA",
+   "Beta": 0.126,
+   "CI2.5%": -0.089,
+   "CI97.5%": 0.338,
+   "Boot SE": 0.109,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "ENG",
+   "Independent": "TRU",
+   "Beta": 0.326,
+   "CI2.5%": 0.119,
+   "CI97.5%": 0.541,
+   "Boot SE": 0.104,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "RES",
+   "Independent": "SHA",
+   "Beta": 0.297,
+   "CI2.5%": 0.1,
+   "CI97.5%": 0.505,
+   "Boot SE": 0.101,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "RES",
+   "Independent": "TRU",
+   "Beta": 0.327,
+   "CI2.5%": 0.139,
+   "CI97.5%": 0.498,
+   "Boot SE": 0.092,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "COM",
+   "Independent": "SHA",
+   "Beta": 0.147,
+   "CI2.5%": -0.08,
+   "CI97.5%": 0.372,
+   "Boot SE": 0.114,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "COM",
+   "Independent": "TRU",
+   "Beta": 0.187,
+   "CI2.5%": -0.021,
+   "CI97.5%": 0.391,
+   "Boot SE": 0.108,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "PAR",
+   "Beta": 0.043,
+   "CI2.5%": -0.031,
+   "CI97.5%": 0.129,
+   "Boot SE": 0.04,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "COL",
+   "Beta": 0.597,
+   "CI2.5%": 0.497,
+   "CI97.5%": 0.698,
+   "Boot SE": 0.052,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "LED",
+   "Beta": 0.324,
+   "CI2.5%": 0.234,
+   "CI97.5%": 0.425,
+   "Boot SE": 0.05,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "ENG",
+   "Beta": -0.042,
+   "CI2.5%": -0.11,
+   "CI97.5%": 0.038,
+   "Boot SE": 0.041,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "RES",
+   "Beta": 0.069,
+   "CI2.5%": -0.007,
+   "CI97.5%": 0.137,
+   "Boot SE": 0.038,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "GLO",
+   "Independent": "COM",
+   "Beta": 0.026,
+   "CI2.5%": -0.03,
+   "CI97.5%": 0.079,
+   "Boot SE": 0.029,
+   "Significant (CI excludes 0)": "No"
+  },
+  {
+   "Dependent": "PRO",
+   "Independent": "GLO",
+   "Beta": 0.749,
+   "CI2.5%": 0.687,
+   "CI97.5%": 0.812,
+   "Boot SE": 0.033,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "WEG",
+   "Independent": "GLO",
+   "Beta": 0.649,
+   "CI2.5%": 0.555,
+   "CI97.5%": 0.731,
+   "Boot SE": 0.043,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "SAT_J",
+   "Independent": "GLO",
+   "Beta": 0.722,
+   "CI2.5%": 0.659,
+   "CI97.5%": 0.779,
+   "Boot SE": 0.032,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "SAT_O",
+   "Independent": "GLO",
+   "Beta": 0.815,
+   "CI2.5%": 0.77,
+   "CI97.5%": 0.852,
+   "Boot SE": 0.021,
+   "Significant (CI excludes 0)": "Yes"
+  },
+  {
+   "Dependent": "OCM",
+   "Independent": "GLO",
+   "Beta": 0.738,
+   "CI2.5%": 0.658,
+   "CI97.5%": 0.796,
+   "Boot SE": 0.036,
+   "Significant (CI excludes 0)": "Yes"
+  }
+ ],
+ "pls_hypotheses": [
+  {
+   "Hypothesis": "H1",
+   "No. of paths": 9,
+   "Significant (p<.05)": 7,
+   "PLS conclusion": "Partially supported"
+  },
+  {
+   "Hypothesis": "H2",
+   "No. of paths": 6,
+   "Significant (p<.05)": 5,
+   "PLS conclusion": "Partially supported"
+  },
+  {
+   "Hypothesis": "H3",
+   "No. of paths": 6,
+   "Significant (p<.05)": 4,
+   "PLS conclusion": "Partially supported"
+  },
+  {
+   "Hypothesis": "H4",
+   "No. of paths": 3,
+   "Significant (p<.05)": 1,
+   "PLS conclusion": "Partially supported"
+  },
+  {
+   "Hypothesis": "H5",
+   "No. of paths": 5,
+   "Significant (p<.05)": 5,
+   "PLS conclusion": "Supported"
+  },
+  {
+   "Hypothesis": "H6",
+   "No. of paths": 3,
+   "Significant (p<.05)": 2,
+   "PLS conclusion": "Partially supported"
+  }
+ ],
+ "mediation": [
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "OCM",
+   "Indirect (ab)": 0.331,
+   "CI95": "[0.199; 0.473]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.185,
+   "Direct p": 0.0067,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Indirect (ab)": 0.225,
+   "CI95": "[0.137; 0.316]",
+   "Indirect significant": "Yes",
+   "Direct (c')": -0.01,
+   "Direct p": 0.8307,
+   "Mediation type": "Full"
+  },
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "WEG",
+   "Indirect (ab)": 0.196,
+   "CI95": "[0.118; 0.292]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.334,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "PRO",
+   "Indirect (ab)": 0.207,
+   "CI95": "[0.119; 0.311]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.185,
+   "Direct p": 0.0004,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Indirect (ab)": 0.296,
+   "CI95": "[0.177; 0.414]",
+   "Indirect significant": "Yes",
+   "Direct (c')": -0.061,
+   "Direct p": 0.1776,
+   "Mediation type": "Full"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "OCM",
+   "Indirect (ab)": 0.407,
+   "CI95": "[0.287; 0.539]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.225,
+   "Direct p": 0.0001,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Indirect (ab)": 0.273,
+   "CI95": "[0.204; 0.348]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.115,
+   "Direct p": 0.0033,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "WEG",
+   "Indirect (ab)": 0.283,
+   "CI95": "[0.200; 0.376]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.089,
+   "Direct p": 0.0652,
+   "Mediation type": "Full"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "PRO",
+   "Indirect (ab)": 0.301,
+   "CI95": "[0.211; 0.403]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.03,
+   "Direct p": 0.4967,
+   "Mediation type": "Full"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Indirect (ab)": 0.369,
+   "CI95": "[0.282; 0.456]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.106,
+   "Direct p": 0.0043,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "OCM",
+   "Indirect (ab)": 0.424,
+   "CI95": "[0.294; 0.563]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.399,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Indirect (ab)": 0.297,
+   "CI95": "[0.220; 0.383]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.12,
+   "Direct p": 0.0172,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "WEG",
+   "Indirect (ab)": 0.236,
+   "CI95": "[0.169; 0.322]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.492,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "PRO",
+   "Indirect (ab)": 0.267,
+   "CI95": "[0.179; 0.372]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.294,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Indirect (ab)": 0.419,
+   "CI95": "[0.310; 0.534]",
+   "Indirect significant": "Yes",
+   "Direct (c')": -0.045,
+   "Direct p": 0.3446,
+   "Mediation type": "Full"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "OCM",
+   "Indirect (ab)": 0.378,
+   "CI95": "[0.249; 0.517]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.326,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Indirect (ab)": 0.249,
+   "CI95": "[0.183; 0.324]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.203,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "WEG",
+   "Indirect (ab)": 0.281,
+   "CI95": "[0.179; 0.399]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.153,
+   "Direct p": 0.0073,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "PRO",
+   "Indirect (ab)": 0.343,
+   "CI95": "[0.225; 0.441]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.052,
+   "Direct p": 0.3133,
+   "Mediation type": "Full"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Indirect (ab)": 0.466,
+   "CI95": "[0.388; 0.552]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.035,
+   "Direct p": 0.4219,
+   "Mediation type": "Full"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "OCM",
+   "Indirect (ab)": 0.612,
+   "CI95": "[0.400; 0.816]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.125,
+   "Direct p": 0.1648,
+   "Mediation type": "Full"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Indirect (ab)": 0.301,
+   "CI95": "[0.209; 0.402]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.208,
+   "Direct p": 0.0007,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "WEG",
+   "Indirect (ab)": 0.333,
+   "CI95": "[0.187; 0.475]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.166,
+   "Direct p": 0.0294,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "PRO",
+   "Indirect (ab)": 0.278,
+   "CI95": "[0.138; 0.414]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.237,
+   "Direct p": 0.0005,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Indirect (ab)": 0.39,
+   "CI95": "[0.293; 0.494]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.271,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "OCM",
+   "Indirect (ab)": 0.463,
+   "CI95": "[0.334; 0.611]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.385,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Indirect (ab)": 0.346,
+   "CI95": "[0.276; 0.418]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.12,
+   "Direct p": 0.012,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "WEG",
+   "Indirect (ab)": 0.23,
+   "CI95": "[0.154; 0.321]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.444,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "PRO",
+   "Indirect (ab)": 0.289,
+   "CI95": "[0.206; 0.380]",
+   "Indirect significant": "Yes",
+   "Direct (c')": 0.273,
+   "Direct p": 0.0,
+   "Mediation type": "Partial"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Indirect (ab)": 0.509,
+   "CI95": "[0.415; 0.612]",
+   "Indirect significant": "Yes",
+   "Direct (c')": -0.01,
+   "Direct p": 0.822,
+   "Mediation type": "Full"
+  }
+ ],
+ "values_top10": [
+  {
+   "Value": "Experience sharing",
+   "SHA3: selections": 215,
+   "SHA3: %": 76.5,
+   "SHA4: top-5 selections": 111,
+   "SHA4: %": 39.5
+  },
+  {
+   "Value": "Continuous quality development",
+   "SHA3: selections": 215,
+   "SHA3: %": 76.5,
+   "SHA4: top-5 selections": 129,
+   "SHA4: %": 45.9
+  },
+  {
+   "Value": "Participation in decision-making",
+   "SHA3: selections": 192,
+   "SHA3: %": 68.3,
+   "SHA4: top-5 selections": 15,
+   "SHA4: %": 5.3
+  },
+  {
+   "Value": "Mutual learning spirit",
+   "SHA3: selections": 189,
+   "SHA3: %": 67.3,
+   "SHA4: top-5 selections": 103,
+   "SHA4: %": 36.7
+  },
+  {
+   "Value": "Recognition and appraisal of work",
+   "SHA3: selections": 185,
+   "SHA3: %": 65.8,
+   "SHA4: top-5 selections": 102,
+   "SHA4: %": 36.3
+  },
+  {
+   "Value": "Social responsibility",
+   "SHA3: selections": 185,
+   "SHA3: %": 65.8,
+   "SHA4: top-5 selections": 23,
+   "SHA4: %": 8.2
+  },
+  {
+   "Value": "Personal responsibility and commitment",
+   "SHA3: selections": 180,
+   "SHA3: %": 64.1,
+   "SHA4: top-5 selections": 51,
+   "SHA4: %": 18.1
+  },
+  {
+   "Value": "Internationalization",
+   "SHA3: selections": 170,
+   "SHA3: %": 60.5,
+   "SHA4: top-5 selections": 47,
+   "SHA4: %": 16.7
+  },
+  {
+   "Value": "Constructive critical feedback",
+   "SHA3: selections": 166,
+   "SHA3: %": 59.1,
+   "SHA4: top-5 selections": 52,
+   "SHA4: %": 18.5
+  },
+  {
+   "Value": "Binding quality goals",
+   "SHA3: selections": 163,
+   "SHA3: %": 58.0,
+   "SHA4: top-5 selections": 29,
+   "SHA4: %": 10.3
+  }
+ ],
+ "hypotheses": [
+  {
+   "Hypothesis": "H1",
+   "No. of paths": 9,
+   "Significant (p<.05)": 7,
+   "Conclusion (semopy)": "Partially supported",
+   "Conclusion (PLS-SEM)": "Partially supported"
+  },
+  {
+   "Hypothesis": "H2",
+   "No. of paths": 6,
+   "Significant (p<.05)": 4,
+   "Conclusion (semopy)": "Partially supported",
+   "Conclusion (PLS-SEM)": "Partially supported"
+  },
+  {
+   "Hypothesis": "H3",
+   "No. of paths": 6,
+   "Significant (p<.05)": 3,
+   "Conclusion (semopy)": "Partially supported",
+   "Conclusion (PLS-SEM)": "Partially supported"
+  },
+  {
+   "Hypothesis": "H4",
+   "No. of paths": 3,
+   "Significant (p<.05)": 1,
+   "Conclusion (semopy)": "Partially supported",
+   "Conclusion (PLS-SEM)": "Partially supported"
+  },
+  {
+   "Hypothesis": "H5",
+   "No. of paths": 5,
+   "Significant (p<.05)": 5,
+   "Conclusion (semopy)": "Supported",
+   "Conclusion (PLS-SEM)": "Supported"
+  },
+  {
+   "Hypothesis": "H6",
+   "No. of paths": 3,
+   "Significant (p<.05)": 2,
+   "Conclusion (semopy)": "Partially supported",
+   "Conclusion (PLS-SEM)": "Partially supported"
+  }
+ ]
+}

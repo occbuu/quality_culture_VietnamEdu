@@ -1,0 +1,33 @@
+﻿Dependent,Independent,Beta,SE,t,p,f2,f² size,Conclusion
+PAR,OPE,0.229,0.113,2.02,0.0447,0.015,negligible,Significant
+PAR,STR,0.105,0.12,0.88,0.3808,0.003,negligible,Not significant
+PAR,NOR,0.198,0.107,1.86,0.0644,0.012,negligible,Not significant
+COL,OPE,0.31,0.08,3.89,<.001,0.055,small,Significant
+COL,STR,0.247,0.084,2.93,0.0037,0.031,small,Significant
+COL,NOR,0.281,0.075,3.75,<.001,0.051,small,Significant
+LED,OPE,0.24,0.094,2.57,0.0107,0.024,small,Significant
+LED,STR,0.224,0.099,2.27,0.024,0.019,negligible,Significant
+LED,NOR,0.276,0.088,3.13,0.0019,0.035,small,Significant
+SHA,PAR,0.049,0.04,1.21,0.2263,0.005,negligible,Not significant
+SHA,COL,0.626,0.046,13.57,<.001,0.665,large,Significant
+SHA,LED,0.257,0.044,5.82,<.001,0.122,small,Significant
+TRU,PAR,0.073,0.036,2.06,0.0399,0.015,negligible,Significant
+TRU,COL,0.373,0.041,9.15,<.001,0.302,medium,Significant
+TRU,LED,0.54,0.039,13.82,<.001,0.69,large,Significant
+ENG,SHA,0.126,0.084,1.51,0.1324,0.008,negligible,Not significant
+ENG,TRU,0.326,0.084,3.89,<.001,0.055,small,Significant
+RES,SHA,0.297,0.075,3.95,<.001,0.056,small,Significant
+RES,TRU,0.327,0.075,4.35,<.001,0.068,small,Significant
+COM,SHA,0.147,0.088,1.67,0.097,0.01,negligible,Not significant
+COM,TRU,0.187,0.088,2.12,0.0346,0.016,negligible,Significant
+GLO,PAR,0.043,0.034,1.26,0.2098,0.006,negligible,Not significant
+GLO,COL,0.597,0.037,16.13,<.001,0.95,large,Significant
+GLO,LED,0.324,0.036,9.02,<.001,0.297,medium,Significant
+GLO,ENG,-0.042,0.032,-1.32,0.1881,0.006,negligible,Not significant
+GLO,RES,0.069,0.032,2.13,0.0337,0.017,negligible,Significant
+GLO,COM,0.026,0.029,0.89,0.3731,0.003,negligible,Not significant
+PRO,GLO,0.749,0.04,18.89,<.001,1.279,large,Significant
+WEG,GLO,0.649,0.046,14.24,<.001,0.727,large,Significant
+SAT_J,GLO,0.722,0.041,17.45,<.001,1.092,large,Significant
+SAT_O,GLO,0.815,0.035,23.46,<.001,1.973,large,Significant
+OCM,GLO,0.738,0.04,18.24,<.001,1.193,large,Significant

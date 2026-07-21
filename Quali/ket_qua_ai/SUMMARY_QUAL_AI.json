@@ -1,0 +1,49 @@
+{
+ "corpus": {
+  "n_segments": 2694,
+  "n_analyst_notes": 3585,
+  "n_codes": 338,
+  "n_sources": 24,
+  "n_schools": 5,
+  "n_foreign_sources": 3,
+  "total_words": 563820,
+  "median_words": 144.0
+ },
+ "ai_human_agreement": [
+  {
+   "Phân cụm AI": "KMeans (k=11)",
+   "ARI": 0.065,
+   "NMI": 0.133,
+   "Purity": 0.252,
+   "Silhouette": 0.3610000014305115
+  },
+  {
+   "Phân cụm AI": "HDBSCAN (2 cụm)",
+   "ARI": 0.0,
+   "NMI": 0.002,
+   "Purity": 0.143,
+   "Silhouette": 0.8669999837875366
+  }
+ ],
+ "kappa": 0.060252778383089955,
+ "n_network_nodes": 277,
+ "n_network_edges": 21288,
+ "top_central_codes": [
+  "VALUE-SHARED",
+  "CTX-TENURE-SCHOOL",
+  "TRUST-COLLEAGUE",
+  "CTX-ROLE",
+  "CTX-STUDENTS",
+  "LEAD-SUPPORT",
+  "OUT-DISSAT",
+  "CTX-PROGRAM",
+  "OUT-PD-EFFECT",
+  "OUT-JOB-SAT"
+ ],
+ "convergent_codes_n": 144,
+ "divergent_codes_n": 16,
+ "discourse_cosine_vn_foreign": 0.7992829084396362,
+ "discourse_permutation_p": 0.0,
+ "sentiment_vn": -0.12707733634358628,
+ "sentiment_foreign": 0.9164273099201482
+}

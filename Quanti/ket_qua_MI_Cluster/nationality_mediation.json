@@ -1,0 +1,47 @@
+[
+ {
+  "Outcome": "OCM",
+  "b_For_noQC": -1.597,
+  "p_noQC": 0.0,
+  "b_For_withQC": -0.386,
+  "p_withQC": 0.1893,
+  "beta_GLO": 0.662,
+  "p_GLO": 0.0
+ },
+ {
+  "Outcome": "SAT_O",
+  "b_For_noQC": -1.597,
+  "p_noQC": 0.0,
+  "b_For_withQC": -0.204,
+  "p_withQC": 0.1152,
+  "beta_GLO": 0.762,
+  "p_GLO": 0.0
+ },
+ {
+  "Outcome": "SAT_J",
+  "b_For_noQC": -1.475,
+  "p_noQC": 0.0,
+  "b_For_withQC": -0.275,
+  "p_withQC": 0.2139,
+  "beta_GLO": 0.656,
+  "p_GLO": 0.0
+ },
+ {
+  "Outcome": "WEG",
+  "b_For_noQC": -0.97,
+  "p_noQC": 0.0,
+  "b_For_withQC": 0.339,
+  "p_withQC": 0.1241,
+  "beta_GLO": 0.716,
+  "p_GLO": 0.0
+ },
+ {
+  "Outcome": "PRO",
+  "b_For_noQC": -1.136,
+  "p_noQC": 0.0,
+  "b_For_withQC": 0.214,
+  "p_withQC": 0.5746,
+  "beta_GLO": 0.738,
+  "p_GLO": 0.0
+ }
+]

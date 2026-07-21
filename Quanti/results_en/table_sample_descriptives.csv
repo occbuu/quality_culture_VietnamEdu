@@ -1,0 +1,29 @@
+﻿Characteristic,Group,Count,Percent (%)
+Nhom_CB,Vietnamese teachers,210,74.7
+Nhom_CB,Foreign teachers,26,9.3
+Nhom_CB,Vietnamese administrators,35,12.5
+Nhom_CB,Foreign administrators,10,3.6
+Gioi_tinh,Male,72,25.6
+Gioi_tinh,Female,209,74.4
+Do_tuoi,Under 30,104,37.0
+Do_tuoi,30–39,125,44.5
+Do_tuoi,40–49,44,15.7
+Do_tuoi,50–59,7,2.5
+Do_tuoi,60+,1,0.4
+Bang_cap,Bachelor's,194,69.0
+Bang_cap,Master's,78,27.8
+Bang_cap,Doctorate,8,2.8
+Bang_cap,Other,1,0.4
+Hop_dong,Fixed-term contract,129,45.9
+Hop_dong,No fixed-term contract,148,52.7
+Hop_dong,Other,4,1.4
+Thoi_gian_cong_tac,Under 3 years,54,19.2
+Thoi_gian_cong_tac,3–<8 years,103,36.7
+Thoi_gian_cong_tac,8–<15 years,70,24.9
+Thoi_gian_cong_tac,15–<25 years,43,15.3
+Thoi_gian_cong_tac,25+ years,11,3.9
+Truong,School 1,52,18.5
+Truong,School 2,55,19.6
+Truong,School 3,55,19.6
+Truong,School 4,63,22.4
+Truong,School 5,56,19.9

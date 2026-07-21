@@ -1,0 +1,9 @@
+{
+ "contaminated_rho": -0.6,
+ "corrected_rho": 0.3,
+ "english_segments_all_in": [
+  "TrB",
+  "TrA"
+ ],
+ "note": "TrB hosts all English interviews; uncorrected school sentiment is inflated there."
+}

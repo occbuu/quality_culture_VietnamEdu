@@ -1,0 +1,626 @@
+{
+ "group_n": {
+  "Vietnamese": 245,
+  "Expatriate": 36
+ },
+ "configural": [
+  {
+   "Construct": "GLO",
+   "Items": 8,
+   "CFI_VN": 0.923,
+   "RMSEA_VN": 0.131,
+   "CFI_EXP": 0.886,
+   "RMSEA_EXP": 0.23,
+   "Configural": "Supported"
+  },
+  {
+   "Construct": "OCM",
+   "Items": 3,
+   "CFI_VN": 1.0,
+   "RMSEA_VN": Infinity,
+   "CFI_EXP": 1.0,
+   "RMSEA_EXP": Infinity,
+   "Configural": "Supported"
+  },
+  {
+   "Construct": "SAT_O",
+   "Items": 6,
+   "CFI_VN": 0.955,
+   "RMSEA_VN": 0.11,
+   "CFI_EXP": 1.038,
+   "RMSEA_EXP": 0.0,
+   "Configural": "Supported"
+  },
+  {
+   "Construct": "SAT_J",
+   "Items": 4,
+   "CFI_VN": 0.975,
+   "RMSEA_VN": 0.137,
+   "CFI_EXP": 1.005,
+   "RMSEA_EXP": 0.0,
+   "Configural": "Supported"
+  },
+  {
+   "Construct": "WEG",
+   "Items": 9,
+   "CFI_VN": 0.881,
+   "RMSEA_VN": 0.147,
+   "CFI_EXP": 0.691,
+   "RMSEA_EXP": 0.255,
+   "Configural": "Weak/undetermined"
+  },
+  {
+   "Construct": "PRO",
+   "Items": 6,
+   "CFI_VN": 0.945,
+   "RMSEA_VN": 0.128,
+   "CFI_EXP": 1.049,
+   "RMSEA_EXP": 0.0,
+   "Configural": "Supported"
+  },
+  {
+   "Construct": "LED",
+   "Items": 12,
+   "CFI_VN": 0.863,
+   "RMSEA_VN": 0.153,
+   "CFI_EXP": 0.852,
+   "RMSEA_EXP": 0.238,
+   "Configural": "Supported"
+  },
+  {
+   "Construct": "COL",
+   "Items": 6,
+   "CFI_VN": 0.879,
+   "RMSEA_VN": 0.203,
+   "CFI_EXP": 0.809,
+   "RMSEA_EXP": 0.298,
+   "Configural": "Weak/undetermined"
+  }
+ ],
+ "congruence": [
+  {
+   "Construct": "GLO",
+   "Tucker's phi": 0.994,
+   "Max |Δλ|": 0.228,
+   "Interpretation": "Equivalent (φ ≥ .95)"
+  },
+  {
+   "Construct": "OCM",
+   "Tucker's phi": 0.965,
+   "Max |Δλ|": 0.305,
+   "Interpretation": "Equivalent (φ ≥ .95)"
+  },
+  {
+   "Construct": "SAT_O",
+   "Tucker's phi": 0.988,
+   "Max |Δλ|": 0.214,
+   "Interpretation": "Equivalent (φ ≥ .95)"
+  },
+  {
+   "Construct": "SAT_J",
+   "Tucker's phi": 0.986,
+   "Max |Δλ|": 0.248,
+   "Interpretation": "Equivalent (φ ≥ .95)"
+  },
+  {
+   "Construct": "WEG",
+   "Tucker's phi": 0.939,
+   "Max |Δλ|": 0.414,
+   "Interpretation": "Fair (.90–.95)"
+  },
+  {
+   "Construct": "PRO",
+   "Tucker's phi": 0.97,
+   "Max |Δλ|": 0.39,
+   "Interpretation": "Equivalent (φ ≥ .95)"
+  },
+  {
+   "Construct": "LED",
+   "Tucker's phi": 0.99,
+   "Max |Δλ|": 0.36,
+   "Interpretation": "Equivalent (φ ≥ .95)"
+  },
+  {
+   "Construct": "COL",
+   "Tucker's phi": 0.939,
+   "Max |Δλ|": 0.406,
+   "Interpretation": "Fair (.90–.95)"
+  }
+ ],
+ "dif": [
+  {
+   "Construct": "GLO",
+   "Item": "GLO1",
+   "Uniform DIF (b_grp)": 0.059,
+   "p_uniform": 0.6826,
+   "Non-uniform (b_int)": -0.059,
+   "p_nonuniform": 0.4911,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "GLO",
+   "Item": "GLO2",
+   "Uniform DIF (b_grp)": -0.186,
+   "p_uniform": 0.1374,
+   "Non-uniform (b_int)": -0.102,
+   "p_nonuniform": 0.17,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "GLO",
+   "Item": "GLO3",
+   "Uniform DIF (b_grp)": 0.039,
+   "p_uniform": 0.7511,
+   "Non-uniform (b_int)": 0.122,
+   "p_nonuniform": 0.0969,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "GLO",
+   "Item": "GLO4",
+   "Uniform DIF (b_grp)": -0.037,
+   "p_uniform": 0.7768,
+   "Non-uniform (b_int)": -0.036,
+   "p_nonuniform": 0.6463,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "GLO",
+   "Item": "GLO5",
+   "Uniform DIF (b_grp)": -0.156,
+   "p_uniform": 0.211,
+   "Non-uniform (b_int)": 0.149,
+   "p_nonuniform": 0.0442,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "GLO",
+   "Item": "GLO6",
+   "Uniform DIF (b_grp)": 0.192,
+   "p_uniform": 0.2108,
+   "Non-uniform (b_int)": -0.022,
+   "p_nonuniform": 0.8053,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "GLO",
+   "Item": "GLO7",
+   "Uniform DIF (b_grp)": 0.23,
+   "p_uniform": 0.1227,
+   "Non-uniform (b_int)": -0.052,
+   "p_nonuniform": 0.5584,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "GLO",
+   "Item": "GLO8",
+   "Uniform DIF (b_grp)": -0.123,
+   "p_uniform": 0.3149,
+   "Non-uniform (b_int)": -0.019,
+   "p_nonuniform": 0.7964,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "SAT_O",
+   "Item": "SAT_O1",
+   "Uniform DIF (b_grp)": 0.268,
+   "p_uniform": 0.1057,
+   "Non-uniform (b_int)": 0.189,
+   "p_nonuniform": 0.0601,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "SAT_O",
+   "Item": "SAT_O2",
+   "Uniform DIF (b_grp)": -0.153,
+   "p_uniform": 0.2288,
+   "Non-uniform (b_int)": 0.09,
+   "p_nonuniform": 0.2403,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "SAT_O",
+   "Item": "SAT_O3",
+   "Uniform DIF (b_grp)": -0.274,
+   "p_uniform": 0.0418,
+   "Non-uniform (b_int)": 0.003,
+   "p_nonuniform": 0.9706,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "SAT_O",
+   "Item": "SAT_O4",
+   "Uniform DIF (b_grp)": -0.326,
+   "p_uniform": 0.0102,
+   "Non-uniform (b_int)": -0.016,
+   "p_nonuniform": 0.8354,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "SAT_O",
+   "Item": "SAT_O5",
+   "Uniform DIF (b_grp)": 0.611,
+   "p_uniform": 0.0041,
+   "Non-uniform (b_int)": -0.247,
+   "p_nonuniform": 0.0539,
+   "Flagged": "Yes"
+  },
+  {
+   "Construct": "SAT_O",
+   "Item": "SAT_O6",
+   "Uniform DIF (b_grp)": 0.068,
+   "p_uniform": 0.6451,
+   "Non-uniform (b_int)": -0.063,
+   "p_nonuniform": 0.477,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "SAT_J",
+   "Item": "SAT_J1",
+   "Uniform DIF (b_grp)": -0.018,
+   "p_uniform": 0.9052,
+   "Non-uniform (b_int)": -0.356,
+   "p_nonuniform": 0.0002,
+   "Flagged": "Yes"
+  },
+  {
+   "Construct": "SAT_J",
+   "Item": "SAT_J2",
+   "Uniform DIF (b_grp)": 0.003,
+   "p_uniform": 0.9837,
+   "Non-uniform (b_int)": -0.043,
+   "p_nonuniform": 0.6768,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "SAT_J",
+   "Item": "SAT_J3",
+   "Uniform DIF (b_grp)": 0.014,
+   "p_uniform": 0.9083,
+   "Non-uniform (b_int)": 0.28,
+   "p_nonuniform": 0.0006,
+   "Flagged": "Yes"
+  },
+  {
+   "Construct": "SAT_J",
+   "Item": "SAT_J4",
+   "Uniform DIF (b_grp)": -0.002,
+   "p_uniform": 0.9853,
+   "Non-uniform (b_int)": 0.084,
+   "p_nonuniform": 0.2627,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "OCM",
+   "Item": "OCM1",
+   "Uniform DIF (b_grp)": 0.115,
+   "p_uniform": 0.3001,
+   "Non-uniform (b_int)": 0.108,
+   "p_nonuniform": 0.1218,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "OCM",
+   "Item": "OCM2",
+   "Uniform DIF (b_grp)": 0.264,
+   "p_uniform": 0.0197,
+   "Non-uniform (b_int)": -0.12,
+   "p_nonuniform": 0.0905,
+   "Flagged": "No"
+  },
+  {
+   "Construct": "OCM",
+   "Item": "OCM3",
+   "Uniform DIF (b_grp)": -0.4,
+   "p_uniform": 0.0001,
+   "Non-uniform (b_int)": 0.006,
+   "p_nonuniform": 0.9253,
+   "Flagged": "Yes"
+  }
+ ],
+ "dif_flagged": 4,
+ "dif_total": 21,
+ "role_congruence": [
+  {
+   "Construct": "GLO",
+   "Tucker's phi (teacher vs leader)": 0.936,
+   "Interpretation": "Fair/Non-equivalent"
+  },
+  {
+   "Construct": "LED",
+   "Tucker's phi (teacher vs leader)": 0.978,
+   "Interpretation": "Equivalent"
+  },
+  {
+   "Construct": "COL",
+   "Tucker's phi (teacher vs leader)": 0.995,
+   "Interpretation": "Equivalent"
+  }
+ ],
+ "icc": [
+  {
+   "Variable": "GLO",
+   "ICC(1)": 0.081,
+   "ICC(2)": 0.833,
+   "Design effect": 5.49,
+   "Effective N": 51,
+   "Clustering matters": "Yes"
+  },
+  {
+   "Variable": "OCM",
+   "ICC(1)": -0.002,
+   "ICC(2)": -0.092,
+   "Design effect": 0.92,
+   "Effective N": 306,
+   "Clustering matters": "Negligible"
+  },
+  {
+   "Variable": "SAT_O",
+   "ICC(1)": 0.112,
+   "ICC(2)": 0.876,
+   "Design effect": 7.18,
+   "Effective N": 39,
+   "Clustering matters": "Yes"
+  },
+  {
+   "Variable": "SAT_J",
+   "ICC(1)": 0.018,
+   "ICC(2)": 0.504,
+   "Design effect": 1.98,
+   "Effective N": 142,
+   "Clustering matters": "Negligible"
+  },
+  {
+   "Variable": "WEG",
+   "ICC(1)": 0.02,
+   "ICC(2)": 0.539,
+   "Design effect": 2.12,
+   "Effective N": 132,
+   "Clustering matters": "Negligible"
+  },
+  {
+   "Variable": "PRO",
+   "ICC(1)": 0.026,
+   "ICC(2)": 0.597,
+   "Design effect": 2.42,
+   "Effective N": 116,
+   "Clustering matters": "Negligible"
+  },
+  {
+   "Variable": "LED",
+   "ICC(1)": 0.033,
+   "ICC(2)": 0.655,
+   "Design effect": 2.81,
+   "Effective N": 100,
+   "Clustering matters": "Negligible"
+  },
+  {
+   "Variable": "COL",
+   "ICC(1)": 0.072,
+   "ICC(2)": 0.814,
+   "Design effect": 4.99,
+   "Effective N": 56,
+   "Clustering matters": "Yes"
+  },
+  {
+   "Variable": "PAR",
+   "ICC(1)": 0.04,
+   "ICC(2)": 0.699,
+   "Design effect": 3.19,
+   "Effective N": 88,
+   "Clustering matters": "Negligible"
+  },
+  {
+   "Variable": "TRU",
+   "ICC(1)": 0.052,
+   "ICC(2)": 0.753,
+   "Design effect": 3.84,
+   "Effective N": 73,
+   "Clustering matters": "Yes"
+  },
+  {
+   "Variable": "SHA",
+   "ICC(1)": 0.028,
+   "ICC(2)": 0.615,
+   "Design effect": 2.52,
+   "Effective N": 111,
+   "Clustering matters": "Negligible"
+  }
+ ],
+ "cluster_robust": [
+  {
+   "Outcome": "OCM",
+   "β GLO": 0.662,
+   "SE naive": 0.0505,
+   "p naive": 0.0,
+   "SE clustered": 0.0927,
+   "p clustered": 0.0,
+   "SE ratio": 1.83,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Outcome": "SAT_O",
+   "β GLO": 0.762,
+   "SE naive": 0.0427,
+   "p naive": 0.0,
+   "SE clustered": 0.0439,
+   "p clustered": 0.0,
+   "SE ratio": 1.03,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Outcome": "SAT_J",
+   "β GLO": 0.656,
+   "SE naive": 0.0528,
+   "p naive": 0.0,
+   "SE clustered": 0.0643,
+   "p clustered": 0.0,
+   "SE ratio": 1.22,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Outcome": "WEG",
+   "β GLO": 0.716,
+   "SE naive": 0.0571,
+   "p naive": 0.0,
+   "SE clustered": 0.1116,
+   "p clustered": 0.0,
+   "SE ratio": 1.95,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Outcome": "PRO",
+   "β GLO": 0.738,
+   "SE naive": 0.0546,
+   "p naive": 0.0,
+   "SE clustered": 0.1121,
+   "p clustered": 0.0,
+   "SE ratio": 2.05,
+   "Conclusion": "Unchanged"
+  }
+ ],
+ "glo_cluster": [
+  {
+   "Predictor": "NOR",
+   "β": 0.116,
+   "p naive": 0.008,
+   "p clustered": 0.0446,
+   "SE ratio": 1.33,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Predictor": "STR",
+   "β": 0.12,
+   "p naive": 0.0124,
+   "p clustered": 0.0674,
+   "SE ratio": 1.38,
+   "Conclusion": "CHANGED"
+  },
+  {
+   "Predictor": "OPE",
+   "β": 0.158,
+   "p naive": 0.0005,
+   "p clustered": 0.0,
+   "SE ratio": 0.5,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Predictor": "LED",
+   "β": 0.214,
+   "p naive": 0.0,
+   "p clustered": 0.0,
+   "SE ratio": 1.26,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Predictor": "COL",
+   "β": 0.264,
+   "p naive": 0.0,
+   "p clustered": 0.0,
+   "SE ratio": 0.72,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Predictor": "PAR",
+   "β": 0.04,
+   "p naive": 0.1572,
+   "p clustered": 0.1695,
+   "SE ratio": 1.03,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Predictor": "TRU",
+   "β": -0.038,
+   "p naive": 0.3748,
+   "p clustered": 0.3874,
+   "SE ratio": 1.03,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Predictor": "SHA",
+   "β": 0.174,
+   "p naive": 0.0,
+   "p clustered": 0.0015,
+   "SE ratio": 1.36,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Predictor": "COM",
+   "β": 0.033,
+   "p naive": 0.1652,
+   "p clustered": 0.3918,
+   "SE ratio": 1.63,
+   "Conclusion": "Unchanged"
+  },
+  {
+   "Predictor": "RES",
+   "β": 0.052,
+   "p naive": 0.0486,
+   "p clustered": 0.1197,
+   "SE ratio": 1.27,
+   "Conclusion": "CHANGED"
+  },
+  {
+   "Predictor": "ENG",
+   "β": -0.035,
+   "p naive": 0.1807,
+   "p clustered": 0.2589,
+   "SE ratio": 1.19,
+   "Conclusion": "Unchanged"
+  }
+ ],
+ "glo_changed": [
+  "STR",
+  "RES"
+ ],
+ "mixed": [
+  {
+   "Outcome": "GLO",
+   "Key predictor": "Foreign",
+   "β (mixed)": -1.771,
+   "p": 0.0,
+   "Var(school)": 0.033,
+   "ICC (model)": 0.051
+  },
+  {
+   "Outcome": "OCM",
+   "Key predictor": "GLO",
+   "β (mixed)": 0.674,
+   "p": 0.0,
+   "Var(school)": 0.0425,
+   "ICC (model)": 0.09
+  },
+  {
+   "Outcome": "SAT_O",
+   "Key predictor": "GLO",
+   "β (mixed)": 0.752,
+   "p": 0.0,
+   "Var(school)": 0.004,
+   "ICC (model)": 0.012
+  },
+  {
+   "Outcome": "SAT_J",
+   "Key predictor": "GLO",
+   "β (mixed)": 0.656,
+   "p": 0.0,
+   "Var(school)": 0.0,
+   "ICC (model)": 0.0
+  },
+  {
+   "Outcome": "WEG",
+   "Key predictor": "GLO",
+   "β (mixed)": 0.723,
+   "p": 0.0,
+   "Var(school)": 0.031,
+   "ICC (model)": 0.052
+  },
+  {
+   "Outcome": "PRO",
+   "Key predictor": "GLO",
+   "β (mixed)": 0.742,
+   "p": 0.0,
+   "Var(school)": 0.0058,
+   "ICC (model)": 0.011
+  }
+ ]
+}

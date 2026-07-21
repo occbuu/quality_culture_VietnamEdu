@@ -1,0 +1,19 @@
+﻿Comparison,Variable,Mean group 1 (Teachers),Mean group 2 (Administrators),t,p,Cohen d,Mean group 1 (Vietnamese),Mean group 2 (Foreign),Mean group 1 (1),Mean group 2 (0)
+Teachers vs Administrators,GLO,4.52,4.81,-2.034,0.0458,0.301,,,,
+Teachers vs Administrators,OCM,4.79,5.06,-2.226,0.0286,0.273,,,,
+Teachers vs Administrators,SAT_J,3.83,3.88,-0.543,0.589,0.081,,,,
+Teachers vs Administrators,SAT_O,3.67,3.62,0.376,0.7081,0.066,,,,
+Teachers vs Administrators,WEG,4.65,4.8,-1.425,0.1583,0.2,,,,
+Teachers vs Administrators,PRO,4.86,4.79,0.503,0.6174,0.101,,,,
+Vietnamese vs Foreign,GLO,,,7.423,0.0,2.084,4.78,3.12,,
+Vietnamese vs Foreign,OCM,,,6.046,0.0,1.633,5.01,3.59,,
+Vietnamese vs Foreign,SAT_J,,,7.062,0.0,1.645,3.96,3.01,,
+Vietnamese vs Foreign,SAT_O,,,8.12,0.0,1.983,3.82,2.58,,
+Vietnamese vs Foreign,WEG,,,3.856,0.0004,0.807,4.75,4.17,,
+Vietnamese vs Foreign,PRO,,,4.839,0.0,1.086,4.94,4.23,,
+Male vs Female,GLO,,,2.163,0.0328,0.33,,,4.65,4.33
+Male vs Female,OCM,,,2.9,0.0045,0.433,,,4.94,4.52
+Male vs Female,SAT_J,,,1.524,0.1304,0.222,,,3.88,3.73
+Male vs Female,SAT_O,,,1.992,0.0491,0.307,,,3.72,3.49
+Male vs Female,WEG,,,1.541,0.1257,0.206,,,4.71,4.56
+Male vs Female,PRO,,,0.782,0.4357,0.111,,,4.87,4.79

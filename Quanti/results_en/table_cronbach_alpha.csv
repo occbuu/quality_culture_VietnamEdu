@@ -1,0 +1,18 @@
+﻿Scale,Name,No. of items,Cronbach Alpha,Min CITC,Evaluation
+NOR,Norms,3,0.938,0.852,Good
+STR,Strategy,3,0.909,0.78,Good
+OPE,Operations,3,0.889,0.759,Good
+LED,Leadership,12,0.966,0.597,Good
+COL,Communication,6,0.909,0.604,Good
+PAR,Participation,4,0.759,0.499,Met
+TRU,Trust,4,0.831,0.571,Good
+SHA,Shared values,2,0.848,0.736,Good
+COM,Quality commitment,4,0.574,0.236,Not met
+RES,Responsibility,4,0.527,0.211,Not met
+ENG,Quality engagement,4,0.758,0.532,Met
+GLO,Quality culture (overall),8,0.947,0.749,Good
+OCM,Organizational commitment,3,0.857,0.71,Good
+SAT_O,Organizational satisfaction,6,0.9,0.467,Good
+SAT_J,Job satisfaction,4,0.847,0.61,Good
+WEG,Work engagement,9,0.89,0.406,Good
+PRO,Professional development,6,0.832,0.544,Good

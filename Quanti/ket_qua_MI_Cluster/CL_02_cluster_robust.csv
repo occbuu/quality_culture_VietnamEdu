@@ -1,0 +1,6 @@
+﻿Outcome,β GLO,SE naive,p naive,SE clustered,p clustered,SE ratio,Conclusion
+OCM,0.662,0.0505,0.0,0.0927,0.0,1.83,Unchanged
+SAT_O,0.762,0.0427,0.0,0.0439,0.0,1.03,Unchanged
+SAT_J,0.656,0.0528,0.0,0.0643,0.0,1.22,Unchanged
+WEG,0.716,0.0571,0.0,0.1116,0.0,1.95,Unchanged
+PRO,0.738,0.0546,0.0,0.1121,0.0,2.05,Unchanged

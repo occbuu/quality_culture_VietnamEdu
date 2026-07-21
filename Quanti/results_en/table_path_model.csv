@@ -1,0 +1,33 @@
+﻿Dependent,~,Independent,Std. beta,p,Conclusion
+LED,~,NOR,0.267,0.0024,Significant
+LED,~,STR,0.223,0.0232,Significant
+LED,~,OPE,0.246,0.008,Significant
+COL,~,NOR,0.231,0.0025,Significant
+COL,~,STR,0.266,0.0019,Significant
+COL,~,OPE,0.326,<.001,Significant
+PAR,~,NOR,0.186,0.0837,Not significant
+PAR,~,STR,0.096,0.4225,Not significant
+PAR,~,OPE,0.232,0.0406,Significant
+TRU,~,LED,0.497,<.001,Significant
+TRU,~,COL,0.419,<.001,Significant
+TRU,~,PAR,0.064,0.0854,Not significant
+SHA,~,LED,0.293,<.001,Significant
+SHA,~,COL,0.605,<.001,Significant
+SHA,~,PAR,0.032,0.4315,Not significant
+COM,~,TRU,0.161,0.069,Not significant
+COM,~,SHA,0.125,0.1568,Not significant
+RES,~,TRU,0.323,<.001,Significant
+RES,~,SHA,0.301,<.001,Significant
+ENG,~,TRU,0.329,<.001,Significant
+ENG,~,SHA,0.125,0.1331,Not significant
+GLO,~,COM,0.024,0.4086,Not significant
+GLO,~,RES,0.077,0.0145,Significant
+GLO,~,ENG,-0.038,0.2244,Not significant
+GLO,~,LED,0.367,<.001,Significant
+GLO,~,COL,0.572,<.001,Significant
+GLO,~,PAR,0.02,0.5283,Not significant
+OCM,~,GLO,0.731,<.001,Significant
+SAT_O,~,GLO,0.809,<.001,Significant
+SAT_J,~,GLO,0.709,<.001,Significant
+WEG,~,GLO,0.632,<.001,Significant
+PRO,~,GLO,0.671,<.001,Significant

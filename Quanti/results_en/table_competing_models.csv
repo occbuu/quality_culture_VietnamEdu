@@ -1,0 +1,5 @@
+﻿Model,chi2,DoF,CFI,TLI,RMSEA,GFI
+M1 — baseline H1–H6,1021.642,107.0,0.806,0.749,0.175,0.79
+M2 — adjusted (primary),567.649,90.0,0.899,0.844,0.138,0.883
+M3 — M2 + structure → GLO,453.701,87.0,0.922,0.876,0.123,0.907
+"M4 — parsimonious (STRUC, SAT)",378.589,53.0,0.908,0.84,0.148,0.895

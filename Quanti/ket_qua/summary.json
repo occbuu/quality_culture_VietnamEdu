@@ -1,0 +1,3359 @@
+{
+ "demographics": [
+  {
+   "Đặc điểm": "Nhom_CB",
+   "Nhóm": "GV người Việt",
+   "Số lượng": 210,
+   "Tỷ lệ (%)": 74.7
+  },
+  {
+   "Đặc điểm": "Nhom_CB",
+   "Nhóm": "GV người nước ngoài",
+   "Số lượng": 26,
+   "Tỷ lệ (%)": 9.3
+  },
+  {
+   "Đặc điểm": "Nhom_CB",
+   "Nhóm": "CBQL người Việt",
+   "Số lượng": 35,
+   "Tỷ lệ (%)": 12.5
+  },
+  {
+   "Đặc điểm": "Nhom_CB",
+   "Nhóm": "CBQL người nước ngoài",
+   "Số lượng": 10,
+   "Tỷ lệ (%)": 3.6
+  },
+  {
+   "Đặc điểm": "Gioi_tinh",
+   "Nhóm": "Nam",
+   "Số lượng": 72,
+   "Tỷ lệ (%)": 25.6
+  },
+  {
+   "Đặc điểm": "Gioi_tinh",
+   "Nhóm": "Nữ",
+   "Số lượng": 209,
+   "Tỷ lệ (%)": 74.4
+  },
+  {
+   "Đặc điểm": "Do_tuoi",
+   "Nhóm": "Dưới 30",
+   "Số lượng": 104,
+   "Tỷ lệ (%)": 37.0
+  },
+  {
+   "Đặc điểm": "Do_tuoi",
+   "Nhóm": "30–39",
+   "Số lượng": 125,
+   "Tỷ lệ (%)": 44.5
+  },
+  {
+   "Đặc điểm": "Do_tuoi",
+   "Nhóm": "40–49",
+   "Số lượng": 44,
+   "Tỷ lệ (%)": 15.7
+  },
+  {
+   "Đặc điểm": "Do_tuoi",
+   "Nhóm": "50–59",
+   "Số lượng": 7,
+   "Tỷ lệ (%)": 2.5
+  },
+  {
+   "Đặc điểm": "Do_tuoi",
+   "Nhóm": "Từ 60 trở lên",
+   "Số lượng": 1,
+   "Tỷ lệ (%)": 0.4
+  },
+  {
+   "Đặc điểm": "Bang_cap",
+   "Nhóm": "Cử nhân",
+   "Số lượng": 194,
+   "Tỷ lệ (%)": 69.0
+  },
+  {
+   "Đặc điểm": "Bang_cap",
+   "Nhóm": "Thạc sĩ",
+   "Số lượng": 78,
+   "Tỷ lệ (%)": 27.8
+  },
+  {
+   "Đặc điểm": "Bang_cap",
+   "Nhóm": "Tiến sĩ",
+   "Số lượng": 8,
+   "Tỷ lệ (%)": 2.8
+  },
+  {
+   "Đặc điểm": "Bang_cap",
+   "Nhóm": "Khác",
+   "Số lượng": 1,
+   "Tỷ lệ (%)": 0.4
+  },
+  {
+   "Đặc điểm": "Hop_dong",
+   "Nhóm": "Xác định thời hạn",
+   "Số lượng": 129,
+   "Tỷ lệ (%)": 45.9
+  },
+  {
+   "Đặc điểm": "Hop_dong",
+   "Nhóm": "Không xác định thời hạn",
+   "Số lượng": 148,
+   "Tỷ lệ (%)": 52.7
+  },
+  {
+   "Đặc điểm": "Hop_dong",
+   "Nhóm": "Khác",
+   "Số lượng": 4,
+   "Tỷ lệ (%)": 1.4
+  },
+  {
+   "Đặc điểm": "Thoi_gian_cong_tac",
+   "Nhóm": "Dưới 3 năm",
+   "Số lượng": 54,
+   "Tỷ lệ (%)": 19.2
+  },
+  {
+   "Đặc điểm": "Thoi_gian_cong_tac",
+   "Nhóm": "3–dưới 8 năm",
+   "Số lượng": 103,
+   "Tỷ lệ (%)": 36.7
+  },
+  {
+   "Đặc điểm": "Thoi_gian_cong_tac",
+   "Nhóm": "8–dưới 15 năm",
+   "Số lượng": 70,
+   "Tỷ lệ (%)": 24.9
+  },
+  {
+   "Đặc điểm": "Thoi_gian_cong_tac",
+   "Nhóm": "15–dưới 25 năm",
+   "Số lượng": 43,
+   "Tỷ lệ (%)": 15.3
+  },
+  {
+   "Đặc điểm": "Thoi_gian_cong_tac",
+   "Nhóm": "Từ 25 năm trở lên",
+   "Số lượng": 11,
+   "Tỷ lệ (%)": 3.9
+  },
+  {
+   "Đặc điểm": "Truong",
+   "Nhóm": "Trường 1",
+   "Số lượng": 52,
+   "Tỷ lệ (%)": 18.5
+  },
+  {
+   "Đặc điểm": "Truong",
+   "Nhóm": "Trường 2",
+   "Số lượng": 55,
+   "Tỷ lệ (%)": 19.6
+  },
+  {
+   "Đặc điểm": "Truong",
+   "Nhóm": "Trường 3",
+   "Số lượng": 55,
+   "Tỷ lệ (%)": 19.6
+  },
+  {
+   "Đặc điểm": "Truong",
+   "Nhóm": "Trường 4",
+   "Số lượng": 63,
+   "Tỷ lệ (%)": 22.4
+  },
+  {
+   "Đặc điểm": "Truong",
+   "Nhóm": "Trường 5",
+   "Số lượng": 56,
+   "Tỷ lệ (%)": 19.9
+  }
+ ],
+ "cronbach": [
+  {
+   "Thang đo": "NOR",
+   "Tên": "Chuẩn mực",
+   "Số item": 3,
+   "Cronbach Alpha": 0.938,
+   "CITC nhỏ nhất": 0.852,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "STR",
+   "Tên": "Chiến lược",
+   "Số item": 3,
+   "Cronbach Alpha": 0.909,
+   "CITC nhỏ nhất": 0.78,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "OPE",
+   "Tên": "Hành động",
+   "Số item": 3,
+   "Cronbach Alpha": 0.889,
+   "CITC nhỏ nhất": 0.759,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "LED",
+   "Tên": "Lãnh đạo",
+   "Số item": 12,
+   "Cronbach Alpha": 0.966,
+   "CITC nhỏ nhất": 0.597,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "COL",
+   "Tên": "Giao tiếp",
+   "Số item": 6,
+   "Cronbach Alpha": 0.909,
+   "CITC nhỏ nhất": 0.604,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "PAR",
+   "Tên": "Tham gia",
+   "Số item": 4,
+   "Cronbach Alpha": 0.759,
+   "CITC nhỏ nhất": 0.499,
+   "Đánh giá": "Đạt"
+  },
+  {
+   "Thang đo": "TRU",
+   "Tên": "Tin tưởng",
+   "Số item": 4,
+   "Cronbach Alpha": 0.831,
+   "CITC nhỏ nhất": 0.571,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "SHA",
+   "Tên": "Giá trị chung",
+   "Số item": 2,
+   "Cronbach Alpha": 0.848,
+   "CITC nhỏ nhất": 0.736,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "COM",
+   "Tên": "Cam kết chất lượng",
+   "Số item": 4,
+   "Cronbach Alpha": 0.574,
+   "CITC nhỏ nhất": 0.236,
+   "Đánh giá": "Không đạt"
+  },
+  {
+   "Thang đo": "RES",
+   "Tên": "Trách nhiệm",
+   "Số item": 4,
+   "Cronbach Alpha": 0.527,
+   "CITC nhỏ nhất": 0.211,
+   "Đánh giá": "Không đạt"
+  },
+  {
+   "Thang đo": "ENG",
+   "Tên": "Gắn kết chất lượng",
+   "Số item": 4,
+   "Cronbach Alpha": 0.758,
+   "CITC nhỏ nhất": 0.532,
+   "Đánh giá": "Đạt"
+  },
+  {
+   "Thang đo": "GLO",
+   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "Số item": 8,
+   "Cronbach Alpha": 0.947,
+   "CITC nhỏ nhất": 0.749,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "OCM",
+   "Tên": "Cam kết tổ chức",
+   "Số item": 3,
+   "Cronbach Alpha": 0.857,
+   "CITC nhỏ nhất": 0.71,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "SAT_O",
+   "Tên": "Hài lòng tổ chức",
+   "Số item": 6,
+   "Cronbach Alpha": 0.9,
+   "CITC nhỏ nhất": 0.467,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "SAT_J",
+   "Tên": "Hài lòng công việc",
+   "Số item": 4,
+   "Cronbach Alpha": 0.847,
+   "CITC nhỏ nhất": 0.61,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "WEG",
+   "Tên": "Gắn kết công việc",
+   "Số item": 9,
+   "Cronbach Alpha": 0.89,
+   "CITC nhỏ nhất": 0.406,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "PRO",
+   "Tên": "Phát triển chuyên môn",
+   "Số item": 6,
+   "Cronbach Alpha": 0.832,
+   "CITC nhỏ nhất": 0.544,
+   "Đánh giá": "Tốt"
+  }
+ ],
+ "cronbach_refined": [
+  {
+   "Thang đo": "NOR",
+   "Tên": "Chuẩn mực",
+   "Số item": 3,
+   "Cronbach Alpha": 0.938,
+   "CITC nhỏ nhất": 0.852,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "STR",
+   "Tên": "Chiến lược",
+   "Số item": 3,
+   "Cronbach Alpha": 0.909,
+   "CITC nhỏ nhất": 0.78,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "OPE",
+   "Tên": "Hành động",
+   "Số item": 3,
+   "Cronbach Alpha": 0.889,
+   "CITC nhỏ nhất": 0.759,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "LED",
+   "Tên": "Lãnh đạo",
+   "Số item": 12,
+   "Cronbach Alpha": 0.966,
+   "CITC nhỏ nhất": 0.597,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "COL",
+   "Tên": "Giao tiếp",
+   "Số item": 6,
+   "Cronbach Alpha": 0.909,
+   "CITC nhỏ nhất": 0.604,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "PAR",
+   "Tên": "Tham gia",
+   "Số item": 4,
+   "Cronbach Alpha": 0.759,
+   "CITC nhỏ nhất": 0.499,
+   "Đánh giá": "Đạt"
+  },
+  {
+   "Thang đo": "TRU",
+   "Tên": "Tin tưởng",
+   "Số item": 4,
+   "Cronbach Alpha": 0.831,
+   "CITC nhỏ nhất": 0.571,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "SHA",
+   "Tên": "Giá trị chung",
+   "Số item": 2,
+   "Cronbach Alpha": 0.848,
+   "CITC nhỏ nhất": 0.736,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "COM",
+   "Tên": "Cam kết chất lượng",
+   "Số item": 3,
+   "Cronbach Alpha": 0.753,
+   "CITC nhỏ nhất": 0.502,
+   "Đánh giá": "Đạt"
+  },
+  {
+   "Thang đo": "RES",
+   "Tên": "Trách nhiệm",
+   "Số item": 2,
+   "Cronbach Alpha": 0.761,
+   "CITC nhỏ nhất": 0.621,
+   "Đánh giá": "Đạt"
+  },
+  {
+   "Thang đo": "ENG",
+   "Tên": "Gắn kết chất lượng",
+   "Số item": 4,
+   "Cronbach Alpha": 0.758,
+   "CITC nhỏ nhất": 0.532,
+   "Đánh giá": "Đạt"
+  },
+  {
+   "Thang đo": "GLO",
+   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "Số item": 8,
+   "Cronbach Alpha": 0.947,
+   "CITC nhỏ nhất": 0.749,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "OCM",
+   "Tên": "Cam kết tổ chức",
+   "Số item": 3,
+   "Cronbach Alpha": 0.857,
+   "CITC nhỏ nhất": 0.71,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "SAT_O",
+   "Tên": "Hài lòng tổ chức",
+   "Số item": 6,
+   "Cronbach Alpha": 0.9,
+   "CITC nhỏ nhất": 0.467,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "SAT_J",
+   "Tên": "Hài lòng công việc",
+   "Số item": 4,
+   "Cronbach Alpha": 0.847,
+   "CITC nhỏ nhất": 0.61,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "WEG",
+   "Tên": "Gắn kết công việc",
+   "Số item": 9,
+   "Cronbach Alpha": 0.89,
+   "CITC nhỏ nhất": 0.406,
+   "Đánh giá": "Tốt"
+  },
+  {
+   "Thang đo": "PRO",
+   "Tên": "Phát triển chuyên môn",
+   "Số item": 6,
+   "Cronbach Alpha": 0.832,
+   "CITC nhỏ nhất": 0.544,
+   "Đánh giá": "Tốt"
+  }
+ ],
+ "dropped_items": [
+  "COM4r",
+  "RES3",
+  "RES4r"
+ ],
+ "efa_iv": {
+  "kmo": 0.957,
+  "bartlett_p": 0.0,
+  "variance": 73.44
+ },
+ "efa_med": {
+  "kmo": 0.93,
+  "variance": 73.04
+ },
+ "efa_dv": {
+  "kmo": 0.932,
+  "variance": 65.13
+ },
+ "ave_cr": [
+  {
+   "Thang đo": "NOR",
+   "Tên": "Chuẩn mực",
+   "CR": 0.939,
+   "AVE": 0.836,
+   "Căn AVE": 0.914,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "STR",
+   "Tên": "Chiến lược",
+   "CR": 0.911,
+   "AVE": 0.773,
+   "Căn AVE": 0.879,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "OPE",
+   "Tên": "Hành động",
+   "CR": 0.889,
+   "AVE": 0.729,
+   "Căn AVE": 0.854,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "LED",
+   "Tên": "Lãnh đạo",
+   "CR": 0.966,
+   "AVE": 0.707,
+   "Căn AVE": 0.841,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "COL",
+   "Tên": "Giao tiếp",
+   "CR": 0.912,
+   "AVE": 0.635,
+   "Căn AVE": 0.797,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "PAR",
+   "Tên": "Tham gia",
+   "CR": 0.769,
+   "AVE": 0.459,
+   "Căn AVE": 0.678,
+   "Đạt AVE≥.50": "Chưa đạt"
+  },
+  {
+   "Thang đo": "TRU",
+   "Tên": "Tin tưởng",
+   "CR": 0.832,
+   "AVE": 0.557,
+   "Căn AVE": 0.747,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "SHA",
+   "Tên": "Giá trị chung",
+   "CR": 0.848,
+   "AVE": 0.736,
+   "Căn AVE": 0.858,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "COM",
+   "Tên": "Cam kết chất lượng",
+   "CR": 0.774,
+   "AVE": 0.538,
+   "Căn AVE": 0.734,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "RES",
+   "Tên": "Trách nhiệm",
+   "CR": 0.766,
+   "AVE": 0.621,
+   "Căn AVE": 0.788,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "ENG",
+   "Tên": "Gắn kết chất lượng",
+   "CR": 0.767,
+   "AVE": 0.453,
+   "Căn AVE": 0.673,
+   "Đạt AVE≥.50": "Chưa đạt"
+  },
+  {
+   "Thang đo": "GLO",
+   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "CR": 0.947,
+   "AVE": 0.692,
+   "Căn AVE": 0.832,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "OCM",
+   "Tên": "Cam kết tổ chức",
+   "CR": 0.859,
+   "AVE": 0.67,
+   "Căn AVE": 0.819,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "SAT_O",
+   "Tên": "Hài lòng tổ chức",
+   "CR": 0.901,
+   "AVE": 0.61,
+   "Căn AVE": 0.781,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "SAT_J",
+   "Tên": "Hài lòng công việc",
+   "CR": 0.853,
+   "AVE": 0.597,
+   "Căn AVE": 0.773,
+   "Đạt AVE≥.50": "Đạt"
+  },
+  {
+   "Thang đo": "WEG",
+   "Tên": "Gắn kết công việc",
+   "CR": 0.894,
+   "AVE": 0.495,
+   "Căn AVE": 0.703,
+   "Đạt AVE≥.50": "Chưa đạt"
+  },
+  {
+   "Thang đo": "PRO",
+   "Tên": "Phát triển chuyên môn",
+   "CR": 0.839,
+   "AVE": 0.469,
+   "Căn AVE": 0.685,
+   "Đạt AVE≥.50": "Chưa đạt"
+  }
+ ],
+ "htmt_high": [
+  {
+   "Cặp khái niệm": "STR – OPE",
+   "HTMT": 0.971,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "SHA – GLO",
+   "HTMT": 0.952,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "SAT_O – SAT_J",
+   "HTMT": 0.947,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "COL – SHA",
+   "HTMT": 0.927,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "NOR – STR",
+   "HTMT": 0.926,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "COL – GLO",
+   "HTMT": 0.919,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "OPE – GLO",
+   "HTMT": 0.917,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "NOR – OPE",
+   "HTMT": 0.916,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "COL – TRU",
+   "HTMT": 0.905,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "TRU – SHA",
+   "HTMT": 0.902,
+   "Mức": "Vượt 0,90"
+  },
+  {
+   "Cặp khái niệm": "STR – GLO",
+   "HTMT": 0.898,
+   "Mức": "0,85–0,90"
+  },
+  {
+   "Cặp khái niệm": "LED – TRU",
+   "HTMT": 0.894,
+   "Mức": "0,85–0,90"
+  },
+  {
+   "Cặp khái niệm": "TRU – GLO",
+   "HTMT": 0.894,
+   "Mức": "0,85–0,90"
+  },
+  {
+   "Cặp khái niệm": "NOR – GLO",
+   "HTMT": 0.877,
+   "Mức": "0,85–0,90"
+  },
+  {
+   "Cặp khái niệm": "GLO – SAT_O",
+   "HTMT": 0.873,
+   "Mức": "0,85–0,90"
+  },
+  {
+   "Cặp khái niệm": "SHA – SAT_O",
+   "HTMT": 0.857,
+   "Mức": "0,85–0,90"
+  },
+  {
+   "Cặp khái niệm": "COL – SAT_O",
+   "HTMT": 0.856,
+   "Mức": "0,85–0,90"
+  },
+  {
+   "Cặp khái niệm": "OPE – SHA",
+   "HTMT": 0.855,
+   "Mức": "0,85–0,90"
+  }
+ ],
+ "fl_violations": [
+  {
+   "Cặp": "STR – OPE",
+   "r": 0.871,
+   "Căn AVE nhỏ hơn": 0.854
+  },
+  {
+   "Cặp": "STR – GLO",
+   "r": 0.833,
+   "Căn AVE nhỏ hơn": 0.832
+  },
+  {
+   "Cặp": "OPE – GLO",
+   "r": 0.841,
+   "Căn AVE nhỏ hơn": 0.832
+  },
+  {
+   "Cặp": "LED – TRU",
+   "r": 0.815,
+   "Căn AVE nhỏ hơn": 0.747
+  },
+  {
+   "Cặp": "COL – TRU",
+   "r": 0.791,
+   "Căn AVE nhỏ hơn": 0.747
+  },
+  {
+   "Cặp": "COL – SHA",
+   "r": 0.822,
+   "Căn AVE nhỏ hơn": 0.797
+  },
+  {
+   "Cặp": "COL – GLO",
+   "r": 0.861,
+   "Căn AVE nhỏ hơn": 0.797
+  },
+  {
+   "Cặp": "TRU – SHA",
+   "r": 0.761,
+   "Căn AVE nhỏ hơn": 0.747
+  },
+  {
+   "Cặp": "TRU – GLO",
+   "r": 0.8,
+   "Căn AVE nhỏ hơn": 0.747
+  },
+  {
+   "Cặp": "SHA – GLO",
+   "r": 0.853,
+   "Căn AVE nhỏ hơn": 0.832
+  },
+  {
+   "Cặp": "GLO – SAT_O",
+   "r": 0.809,
+   "Căn AVE nhỏ hơn": 0.781
+  },
+  {
+   "Cặp": "OCM – WEG",
+   "r": 0.721,
+   "Căn AVE nhỏ hơn": 0.703
+  },
+  {
+   "Cặp": "SAT_O – SAT_J",
+   "r": 0.825,
+   "Căn AVE nhỏ hơn": 0.773
+  }
+ ],
+ "construct_desc": [
+  {
+   "Mã": "NOR",
+   "Tên thang đo": "Chuẩn mực",
+   "Trung bình": 4.62,
+   "Độ lệch chuẩn": 1.122,
+   "Skewness": -1.31,
+   "Kurtosis": 1.555
+  },
+  {
+   "Mã": "STR",
+   "Tên thang đo": "Chiến lược",
+   "Trung bình": 4.527,
+   "Độ lệch chuẩn": 1.139,
+   "Skewness": -0.967,
+   "Kurtosis": 0.579
+  },
+  {
+   "Mã": "OPE",
+   "Tên thang đo": "Hành động",
+   "Trung bình": 4.648,
+   "Độ lệch chuẩn": 1.078,
+   "Skewness": -1.133,
+   "Kurtosis": 1.421
+  },
+  {
+   "Mã": "LED",
+   "Tên thang đo": "Lãnh đạo",
+   "Trung bình": 4.69,
+   "Độ lệch chuẩn": 0.989,
+   "Skewness": -1.522,
+   "Kurtosis": 2.714
+  },
+  {
+   "Mã": "COL",
+   "Tên thang đo": "Giao tiếp",
+   "Trung bình": 4.756,
+   "Độ lệch chuẩn": 0.888,
+   "Skewness": -1.316,
+   "Kurtosis": 2.303
+  },
+  {
+   "Mã": "PAR",
+   "Tên thang đo": "Tham gia",
+   "Trung bình": 4.71,
+   "Độ lệch chuẩn": 0.725,
+   "Skewness": -1.014,
+   "Kurtosis": 2.603
+  },
+  {
+   "Mã": "TRU",
+   "Tên thang đo": "Tin tưởng",
+   "Trung bình": 4.748,
+   "Độ lệch chuẩn": 0.913,
+   "Skewness": -1.209,
+   "Kurtosis": 2.027
+  },
+  {
+   "Mã": "SHA",
+   "Tên thang đo": "Giá trị chung",
+   "Trung bình": 4.617,
+   "Độ lệch chuẩn": 1.053,
+   "Skewness": -1.227,
+   "Kurtosis": 1.9
+  },
+  {
+   "Mã": "COM",
+   "Tên thang đo": "Cam kết chất lượng",
+   "Trung bình": 5.203,
+   "Độ lệch chuẩn": 0.617,
+   "Skewness": -0.81,
+   "Kurtosis": 1.922
+  },
+  {
+   "Mã": "RES",
+   "Tên thang đo": "Trách nhiệm",
+   "Trung bình": 5.064,
+   "Độ lệch chuẩn": 0.87,
+   "Skewness": -1.252,
+   "Kurtosis": 2.118
+  },
+  {
+   "Mã": "ENG",
+   "Tên thang đo": "Gắn kết chất lượng",
+   "Trung bình": 5.085,
+   "Độ lệch chuẩn": 0.606,
+   "Skewness": -0.719,
+   "Kurtosis": 1.701
+  },
+  {
+   "Mã": "GLO",
+   "Tên thang đo": "Văn hóa chất lượng (tổng thể)",
+   "Trung bình": 4.569,
+   "Độ lệch chuẩn": 0.971,
+   "Skewness": -1.281,
+   "Kurtosis": 2.043
+  },
+  {
+   "Mã": "OCM",
+   "Tên thang đo": "Cam kết tổ chức",
+   "Trung bình": 4.833,
+   "Độ lệch chuẩn": 0.991,
+   "Skewness": -1.391,
+   "Kurtosis": 2.365
+  },
+  {
+   "Mã": "SAT_O",
+   "Tên thang đo": "Hài lòng tổ chức",
+   "Trung bình": 3.664,
+   "Độ lệch chuẩn": 0.752,
+   "Skewness": -0.751,
+   "Kurtosis": 0.677
+  },
+  {
+   "Mã": "SAT_J",
+   "Tên thang đo": "Hài lòng công việc",
+   "Trung bình": 3.838,
+   "Độ lệch chuẩn": 0.661,
+   "Skewness": -0.649,
+   "Kurtosis": 1.016
+  },
+  {
+   "Mã": "WEG",
+   "Tên thang đo": "Gắn kết công việc",
+   "Trung bình": 4.675,
+   "Độ lệch chuẩn": 0.743,
+   "Skewness": -0.696,
+   "Kurtosis": 1.005
+  },
+  {
+   "Mã": "PRO",
+   "Tên thang đo": "Phát triển chuyên môn",
+   "Trung bình": 4.852,
+   "Độ lệch chuẩn": 0.696,
+   "Skewness": -0.645,
+   "Kurtosis": 0.574
+  }
+ ],
+ "corr_GLO": {
+  "NOR": 0.827,
+  "STR": 0.833,
+  "OPE": 0.841,
+  "LED": 0.793,
+  "COL": 0.861,
+  "PAR": 0.601,
+  "TRU": 0.8,
+  "SHA": 0.853,
+  "COM": 0.295,
+  "RES": 0.578,
+  "ENG": 0.409,
+  "OCM": 0.732,
+  "SAT_O": 0.809,
+  "SAT_J": 0.71,
+  "WEG": 0.633,
+  "PRO": 0.672
+ },
+ "ttest": [
+  {
+   "So sánh": "GV vs CBQL",
+   "Biến": "GLO",
+   "TB nhóm 1 (Giáo viên)": 4.52,
+   "TB nhóm 2 (CBQL)": 4.81,
+   "t": -2.034,
+   "p": 0.0458,
+   "Cohen d": 0.301,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "GV vs CBQL",
+   "Biến": "OCM",
+   "TB nhóm 1 (Giáo viên)": 4.79,
+   "TB nhóm 2 (CBQL)": 5.06,
+   "t": -2.226,
+   "p": 0.0286,
+   "Cohen d": 0.273,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "GV vs CBQL",
+   "Biến": "SAT_J",
+   "TB nhóm 1 (Giáo viên)": 3.83,
+   "TB nhóm 2 (CBQL)": 3.88,
+   "t": -0.543,
+   "p": 0.589,
+   "Cohen d": 0.081,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "GV vs CBQL",
+   "Biến": "SAT_O",
+   "TB nhóm 1 (Giáo viên)": 3.67,
+   "TB nhóm 2 (CBQL)": 3.62,
+   "t": 0.376,
+   "p": 0.7081,
+   "Cohen d": 0.066,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "GV vs CBQL",
+   "Biến": "WEG",
+   "TB nhóm 1 (Giáo viên)": 4.65,
+   "TB nhóm 2 (CBQL)": 4.8,
+   "t": -1.425,
+   "p": 0.1583,
+   "Cohen d": 0.2,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "GV vs CBQL",
+   "Biến": "PRO",
+   "TB nhóm 1 (Giáo viên)": 4.86,
+   "TB nhóm 2 (CBQL)": 4.79,
+   "t": 0.503,
+   "p": 0.6174,
+   "Cohen d": 0.101,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "Việt vs Nước ngoài",
+   "Biến": "GLO",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 7.423,
+   "p": 0.0,
+   "Cohen d": 2.084,
+   "TB nhóm 1 (Người Việt)": 4.78,
+   "TB nhóm 2 (Người nước ngoài)": 3.12,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "Việt vs Nước ngoài",
+   "Biến": "OCM",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 6.046,
+   "p": 0.0,
+   "Cohen d": 1.633,
+   "TB nhóm 1 (Người Việt)": 5.01,
+   "TB nhóm 2 (Người nước ngoài)": 3.59,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "Việt vs Nước ngoài",
+   "Biến": "SAT_J",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 7.062,
+   "p": 0.0,
+   "Cohen d": 1.645,
+   "TB nhóm 1 (Người Việt)": 3.96,
+   "TB nhóm 2 (Người nước ngoài)": 3.01,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "Việt vs Nước ngoài",
+   "Biến": "SAT_O",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 8.12,
+   "p": 0.0,
+   "Cohen d": 1.983,
+   "TB nhóm 1 (Người Việt)": 3.82,
+   "TB nhóm 2 (Người nước ngoài)": 2.58,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "Việt vs Nước ngoài",
+   "Biến": "WEG",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 3.856,
+   "p": 0.0004,
+   "Cohen d": 0.807,
+   "TB nhóm 1 (Người Việt)": 4.75,
+   "TB nhóm 2 (Người nước ngoài)": 4.17,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "Việt vs Nước ngoài",
+   "Biến": "PRO",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 4.839,
+   "p": 0.0,
+   "Cohen d": 1.086,
+   "TB nhóm 1 (Người Việt)": 4.94,
+   "TB nhóm 2 (Người nước ngoài)": 4.23,
+   "TB nhóm 1 (1)": NaN,
+   "TB nhóm 2 (0)": NaN
+  },
+  {
+   "So sánh": "Nam vs Nữ",
+   "Biến": "GLO",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 2.163,
+   "p": 0.0328,
+   "Cohen d": 0.33,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": 4.65,
+   "TB nhóm 2 (0)": 4.33
+  },
+  {
+   "So sánh": "Nam vs Nữ",
+   "Biến": "OCM",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 2.9,
+   "p": 0.0045,
+   "Cohen d": 0.433,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": 4.94,
+   "TB nhóm 2 (0)": 4.52
+  },
+  {
+   "So sánh": "Nam vs Nữ",
+   "Biến": "SAT_J",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 1.524,
+   "p": 0.1304,
+   "Cohen d": 0.222,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": 3.88,
+   "TB nhóm 2 (0)": 3.73
+  },
+  {
+   "So sánh": "Nam vs Nữ",
+   "Biến": "SAT_O",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 1.992,
+   "p": 0.0491,
+   "Cohen d": 0.307,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": 3.72,
+   "TB nhóm 2 (0)": 3.49
+  },
+  {
+   "So sánh": "Nam vs Nữ",
+   "Biến": "WEG",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 1.541,
+   "p": 0.1257,
+   "Cohen d": 0.206,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": 4.71,
+   "TB nhóm 2 (0)": 4.56
+  },
+  {
+   "So sánh": "Nam vs Nữ",
+   "Biến": "PRO",
+   "TB nhóm 1 (Giáo viên)": NaN,
+   "TB nhóm 2 (CBQL)": NaN,
+   "t": 0.782,
+   "p": 0.4357,
+   "Cohen d": 0.111,
+   "TB nhóm 1 (Người Việt)": NaN,
+   "TB nhóm 2 (Người nước ngoài)": NaN,
+   "TB nhóm 1 (1)": 4.87,
+   "TB nhóm 2 (0)": 4.79
+  }
+ ],
+ "anova": [
+  {
+   "Yếu tố": "Trường",
+   "Biến": "GLO",
+   "F": 5.978,
+   "p": 0.0001,
+   "eta2p": 0.08
+  },
+  {
+   "Yếu tố": "Trường",
+   "Biến": "OCM",
+   "F": 0.916,
+   "p": 0.4551,
+   "eta2p": 0.013
+  },
+  {
+   "Yếu tố": "Trường",
+   "Biến": "SAT_J",
+   "F": 2.016,
+   "p": 0.0925,
+   "eta2p": 0.028
+  },
+  {
+   "Yếu tố": "Trường",
+   "Biến": "SAT_O",
+   "F": 8.087,
+   "p": 0.0,
+   "eta2p": 0.105
+  },
+  {
+   "Yếu tố": "Trường",
+   "Biến": "WEG",
+   "F": 2.169,
+   "p": 0.0727,
+   "eta2p": 0.03
+  },
+  {
+   "Yếu tố": "Trường",
+   "Biến": "PRO",
+   "F": 2.484,
+   "p": 0.044,
+   "eta2p": 0.035
+  },
+  {
+   "Yếu tố": "Thâm niên",
+   "Biến": "GLO",
+   "F": 3.417,
+   "p": 0.0095,
+   "eta2p": 0.047
+  },
+  {
+   "Yếu tố": "Thâm niên",
+   "Biến": "OCM",
+   "F": 2.162,
+   "p": 0.0735,
+   "eta2p": 0.03
+  },
+  {
+   "Yếu tố": "Thâm niên",
+   "Biến": "SAT_J",
+   "F": 2.467,
+   "p": 0.0452,
+   "eta2p": 0.035
+  },
+  {
+   "Yếu tố": "Thâm niên",
+   "Biến": "SAT_O",
+   "F": 3.536,
+   "p": 0.0078,
+   "eta2p": 0.049
+  },
+  {
+   "Yếu tố": "Thâm niên",
+   "Biến": "WEG",
+   "F": 1.724,
+   "p": 0.1449,
+   "eta2p": 0.024
+  },
+  {
+   "Yếu tố": "Thâm niên",
+   "Biến": "PRO",
+   "F": 2.052,
+   "p": 0.0873,
+   "eta2p": 0.029
+  },
+  {
+   "Yếu tố": "Độ tuổi",
+   "Biến": "GLO",
+   "F": 1.321,
+   "p": 0.2623,
+   "eta2p": 0.019
+  },
+  {
+   "Yếu tố": "Độ tuổi",
+   "Biến": "OCM",
+   "F": 0.25,
+   "p": 0.9096,
+   "eta2p": 0.004
+  },
+  {
+   "Yếu tố": "Độ tuổi",
+   "Biến": "SAT_J",
+   "F": 1.081,
+   "p": 0.3663,
+   "eta2p": 0.015
+  },
+  {
+   "Yếu tố": "Độ tuổi",
+   "Biến": "SAT_O",
+   "F": 1.262,
+   "p": 0.2851,
+   "eta2p": 0.018
+  },
+  {
+   "Yếu tố": "Độ tuổi",
+   "Biến": "WEG",
+   "F": 1.206,
+   "p": 0.3086,
+   "eta2p": 0.017
+  },
+  {
+   "Yếu tố": "Độ tuổi",
+   "Biến": "PRO",
+   "F": 0.742,
+   "p": 0.5638,
+   "eta2p": 0.011
+  },
+  {
+   "Yếu tố": "Nhóm khách thể",
+   "Biến": "GLO",
+   "F": 60.498,
+   "p": 0.0,
+   "eta2p": 0.396
+  },
+  {
+   "Yếu tố": "Nhóm khách thể",
+   "Biến": "OCM",
+   "F": 40.759,
+   "p": 0.0,
+   "eta2p": 0.306
+  },
+  {
+   "Yếu tố": "Nhóm khách thể",
+   "Biến": "SAT_J",
+   "F": 32.642,
+   "p": 0.0,
+   "eta2p": 0.261
+  },
+  {
+   "Yếu tố": "Nhóm khách thể",
+   "Biến": "SAT_O",
+   "F": 44.737,
+   "p": 0.0,
+   "eta2p": 0.326
+  },
+  {
+   "Yếu tố": "Nhóm khách thể",
+   "Biến": "WEG",
+   "F": 9.132,
+   "p": 0.0,
+   "eta2p": 0.09
+  },
+  {
+   "Yếu tố": "Nhóm khách thể",
+   "Biến": "PRO",
+   "F": 12.254,
+   "p": 0.0,
+   "eta2p": 0.117
+  }
+ ],
+ "reg_GLO": {
+  "r2": 0.894,
+  "r2adj": 0.89,
+  "f": 206.55,
+  "betas": [
+   {
+    "Biến": "NOR",
+    "Beta chuẩn hóa": 0.116,
+    "t": 2.67,
+    "p": 0.008,
+    "VIF": 4.78
+   },
+   {
+    "Biến": "STR",
+    "Beta chuẩn hóa": 0.12,
+    "t": 2.52,
+    "p": 0.0124,
+    "VIF": 5.79
+   },
+   {
+    "Biến": "OPE",
+    "Beta chuẩn hóa": 0.158,
+    "t": 3.52,
+    "p": 0.0005,
+    "VIF": 5.13
+   },
+   {
+    "Biến": "LED",
+    "Beta chuẩn hóa": 0.214,
+    "t": 5.78,
+    "p": 0.0,
+    "VIF": 3.5
+   },
+   {
+    "Biến": "COL",
+    "Beta chuẩn hóa": 0.264,
+    "t": 6.26,
+    "p": 0.0,
+    "VIF": 4.51
+   },
+   {
+    "Biến": "PAR",
+    "Beta chuẩn hóa": 0.04,
+    "t": 1.42,
+    "p": 0.1572,
+    "VIF": 2.07
+   },
+   {
+    "Biến": "TRU",
+    "Beta chuẩn hóa": -0.038,
+    "t": -0.89,
+    "p": 0.3748,
+    "VIF": 4.68
+   },
+   {
+    "Biến": "SHA",
+    "Beta chuẩn hóa": 0.174,
+    "t": 4.34,
+    "p": 0.0,
+    "VIF": 4.11
+   },
+   {
+    "Biến": "COM",
+    "Beta chuẩn hóa": 0.033,
+    "t": 1.39,
+    "p": 0.1652,
+    "VIF": 1.42
+   },
+   {
+    "Biến": "RES",
+    "Beta chuẩn hóa": 0.052,
+    "t": 1.98,
+    "p": 0.0486,
+    "VIF": 1.76
+   },
+   {
+    "Biến": "ENG",
+    "Beta chuẩn hóa": -0.035,
+    "t": -1.34,
+    "p": 0.1807,
+    "VIF": 1.76
+   }
+  ]
+ },
+ "reg_outcomes": [
+  {
+   "Biến phụ thuộc": "OCM — Cam kết tổ chức",
+   "Beta (GLO)": 0.732,
+   "t": 17.96,
+   "p": 0.0,
+   "R2": 0.536
+  },
+  {
+   "Biến phụ thuộc": "SAT_O — Hài lòng tổ chức",
+   "Beta (GLO)": 0.809,
+   "t": 23.02,
+   "p": 0.0,
+   "R2": 0.655
+  },
+  {
+   "Biến phụ thuộc": "SAT_J — Hài lòng công việc",
+   "Beta (GLO)": 0.71,
+   "t": 16.83,
+   "p": 0.0,
+   "R2": 0.504
+  },
+  {
+   "Biến phụ thuộc": "WEG — Gắn kết công việc",
+   "Beta (GLO)": 0.633,
+   "t": 13.67,
+   "p": 0.0,
+   "R2": 0.401
+  },
+  {
+   "Biến phụ thuộc": "PRO — Phát triển chuyên môn",
+   "Beta (GLO)": 0.672,
+   "t": 15.17,
+   "p": 0.0,
+   "R2": 0.452
+  }
+ ],
+ "path_fit": {
+  "Mô hình gốc (H1–H6)": {
+   "chi2": 1021.642,
+   "DoF": 107.0,
+   "CFI": 0.806,
+   "TLI": 0.749,
+   "RMSEA": 0.175,
+   "GFI": 0.79,
+   "AIC": 84.729
+  },
+  "Mô hình hiệu chỉnh (+ hiệp phương sai cùng cấp)": {
+   "chi2": 567.649,
+   "DoF": 90.0,
+   "CFI": 0.899,
+   "TLI": 0.844,
+   "RMSEA": 0.138,
+   "GFI": 0.883,
+   "AIC": 121.96
+  }
+ },
+ "paths": [
+  {
+   "Biến phụ thuộc": "LED",
+   "~": "~",
+   "Biến độc lập": "NOR",
+   "Beta chuẩn hóa": 0.267,
+   "p": 0.0024,
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "LED",
+   "~": "~",
+   "Biến độc lập": "STR",
+   "Beta chuẩn hóa": 0.223,
+   "p": 0.0232,
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "LED",
+   "~": "~",
+   "Biến độc lập": "OPE",
+   "Beta chuẩn hóa": 0.246,
+   "p": 0.008,
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COL",
+   "~": "~",
+   "Biến độc lập": "NOR",
+   "Beta chuẩn hóa": 0.231,
+   "p": 0.0025,
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COL",
+   "~": "~",
+   "Biến độc lập": "STR",
+   "Beta chuẩn hóa": 0.266,
+   "p": 0.0019,
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COL",
+   "~": "~",
+   "Biến độc lập": "OPE",
+   "Beta chuẩn hóa": 0.326,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "PAR",
+   "~": "~",
+   "Biến độc lập": "NOR",
+   "Beta chuẩn hóa": 0.186,
+   "p": 0.0837,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "PAR",
+   "~": "~",
+   "Biến độc lập": "STR",
+   "Beta chuẩn hóa": 0.096,
+   "p": 0.4225,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "PAR",
+   "~": "~",
+   "Biến độc lập": "OPE",
+   "Beta chuẩn hóa": 0.232,
+   "p": 0.0406,
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "TRU",
+   "~": "~",
+   "Biến độc lập": "LED",
+   "Beta chuẩn hóa": 0.497,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "TRU",
+   "~": "~",
+   "Biến độc lập": "COL",
+   "Beta chuẩn hóa": 0.419,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "TRU",
+   "~": "~",
+   "Biến độc lập": "PAR",
+   "Beta chuẩn hóa": 0.064,
+   "p": 0.0854,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SHA",
+   "~": "~",
+   "Biến độc lập": "LED",
+   "Beta chuẩn hóa": 0.293,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SHA",
+   "~": "~",
+   "Biến độc lập": "COL",
+   "Beta chuẩn hóa": 0.605,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SHA",
+   "~": "~",
+   "Biến độc lập": "PAR",
+   "Beta chuẩn hóa": 0.032,
+   "p": 0.4315,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COM",
+   "~": "~",
+   "Biến độc lập": "TRU",
+   "Beta chuẩn hóa": 0.161,
+   "p": 0.069,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COM",
+   "~": "~",
+   "Biến độc lập": "SHA",
+   "Beta chuẩn hóa": 0.125,
+   "p": 0.1568,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "RES",
+   "~": "~",
+   "Biến độc lập": "TRU",
+   "Beta chuẩn hóa": 0.323,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "RES",
+   "~": "~",
+   "Biến độc lập": "SHA",
+   "Beta chuẩn hóa": 0.301,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "ENG",
+   "~": "~",
+   "Biến độc lập": "TRU",
+   "Beta chuẩn hóa": 0.329,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "ENG",
+   "~": "~",
+   "Biến độc lập": "SHA",
+   "Beta chuẩn hóa": 0.125,
+   "p": 0.1331,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "~": "~",
+   "Biến độc lập": "COM",
+   "Beta chuẩn hóa": 0.024,
+   "p": 0.4086,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "~": "~",
+   "Biến độc lập": "RES",
+   "Beta chuẩn hóa": 0.077,
+   "p": 0.0145,
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "~": "~",
+   "Biến độc lập": "ENG",
+   "Beta chuẩn hóa": -0.038,
+   "p": 0.2244,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "~": "~",
+   "Biến độc lập": "LED",
+   "Beta chuẩn hóa": 0.367,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "~": "~",
+   "Biến độc lập": "COL",
+   "Beta chuẩn hóa": 0.572,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "~": "~",
+   "Biến độc lập": "PAR",
+   "Beta chuẩn hóa": 0.02,
+   "p": 0.5283,
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "OCM",
+   "~": "~",
+   "Biến độc lập": "GLO",
+   "Beta chuẩn hóa": 0.731,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SAT_O",
+   "~": "~",
+   "Biến độc lập": "GLO",
+   "Beta chuẩn hóa": 0.809,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SAT_J",
+   "~": "~",
+   "Biến độc lập": "GLO",
+   "Beta chuẩn hóa": 0.709,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "WEG",
+   "~": "~",
+   "Biến độc lập": "GLO",
+   "Beta chuẩn hóa": 0.632,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "PRO",
+   "~": "~",
+   "Biến độc lập": "GLO",
+   "Beta chuẩn hóa": 0.671,
+   "p": "<.001",
+   "Kết luận": "Có ý nghĩa"
+  }
+ ],
+ "r2": [
+  {
+   "Biến": "LED",
+   "R2": 0.49
+  },
+  {
+   "Biến": "COL",
+   "R2": 0.614
+  },
+  {
+   "Biến": "PAR",
+   "R2": 0.239
+  },
+  {
+   "Biến": "TRU",
+   "R2": 0.775
+  },
+  {
+   "Biến": "SHA",
+   "R2": 0.726
+  },
+  {
+   "Biến": "COM",
+   "R2": 0.072
+  },
+  {
+   "Biến": "RES",
+   "R2": 0.343
+  },
+  {
+   "Biến": "ENG",
+   "R2": 0.186
+  },
+  {
+   "Biến": "GLO",
+   "R2": 0.83
+  },
+  {
+   "Biến": "OCM",
+   "R2": 0.536
+  },
+  {
+   "Biến": "SAT_O",
+   "R2": 0.655
+  },
+  {
+   "Biến": "SAT_J",
+   "R2": 0.504
+  },
+  {
+   "Biến": "WEG",
+   "R2": 0.401
+  },
+  {
+   "Biến": "PRO",
+   "R2": 0.452
+  }
+ ],
+ "model_compare": [
+  {
+   "Mô hình": "M1 — gốc H1–H6",
+   "chi2": 1021.642,
+   "DoF": 107.0,
+   "CFI": 0.806,
+   "TLI": 0.749,
+   "RMSEA": 0.175,
+   "GFI": 0.79
+  },
+  {
+   "Mô hình": "M2 — hiệu chỉnh (chính)",
+   "chi2": 567.649,
+   "DoF": 90.0,
+   "CFI": 0.899,
+   "TLI": 0.844,
+   "RMSEA": 0.138,
+   "GFI": 0.883
+  },
+  {
+   "Mô hình": "M3 — M2 + cấu trúc → GLO",
+   "chi2": 453.701,
+   "DoF": 87.0,
+   "CFI": 0.922,
+   "TLI": 0.876,
+   "RMSEA": 0.123,
+   "GFI": 0.907
+  },
+  {
+   "Mô hình": "M4 — tiết kiệm (STRUC, SAT)",
+   "chi2": 378.589,
+   "DoF": 53.0,
+   "CFI": 0.908,
+   "TLI": 0.84,
+   "RMSEA": 0.148,
+   "GFI": 0.895
+  }
+ ],
+ "delta_chi2": {
+  "delta": 113.9,
+  "ddf": 3,
+  "p": 1.5508221451485828e-24
+ },
+ "m3_glo_paths": [
+  {
+   "Biến độc lập": "COM",
+   "Beta chuẩn hóa": 0.034,
+   "p": 0.1434
+  },
+  {
+   "Biến độc lập": "RES",
+   "Beta chuẩn hóa": 0.065,
+   "p": 0.012
+  },
+  {
+   "Biến độc lập": "ENG",
+   "Beta chuẩn hóa": -0.044,
+   "p": 0.0845
+  },
+  {
+   "Biến độc lập": "LED",
+   "Beta chuẩn hóa": 0.231,
+   "p": "<.001"
+  },
+  {
+   "Biến độc lập": "COL",
+   "Beta chuẩn hóa": 0.329,
+   "p": "<.001"
+  },
+  {
+   "Biến độc lập": "PAR",
+   "Beta chuẩn hóa": 0.046,
+   "p": 0.0828
+  },
+  {
+   "Biến độc lập": "NOR",
+   "Beta chuẩn hóa": 0.153,
+   "p": "<.001"
+  },
+  {
+   "Biến độc lập": "STR",
+   "Beta chuẩn hóa": 0.106,
+   "p": 0.0253
+  },
+  {
+   "Biến độc lập": "OPE",
+   "Beta chuẩn hóa": 0.178,
+   "p": "<.001"
+  }
+ ],
+ "robustness_col": {
+  "COL_beta": 0.237,
+  "COL_p": 0.0,
+  "LED_beta": 0.235,
+  "r2": 0.862
+ },
+ "pls_gof": 0.588,
+ "pls_measurement": [
+  {
+   "Mã": "OPE",
+   "Tên": "Hành động",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.889,
+   "DG_rho": 0.931,
+   "eig1": 2.455,
+   "eig2": 0.305,
+   "ave": 0.818,
+   "r_squared": 0.0,
+   "sqrt_AVE": 0.905,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "STR",
+   "Tên": "Chiến lược",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.91,
+   "DG_rho": 0.943,
+   "eig1": 2.543,
+   "eig2": 0.281,
+   "ave": 0.847,
+   "r_squared": 0.0,
+   "sqrt_AVE": 0.921,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "NOR",
+   "Tên": "Chuẩn mực",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.938,
+   "DG_rho": 0.96,
+   "eig1": 2.67,
+   "eig2": 0.201,
+   "ave": 0.89,
+   "r_squared": 0.0,
+   "sqrt_AVE": 0.943,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "PAR",
+   "Tên": "Tham gia",
+   "mode": "A",
+   "mvs": 4.0,
+   "Cronbach_alpha": 0.764,
+   "DG_rho": 0.85,
+   "eig1": 2.351,
+   "eig2": 0.682,
+   "ave": 0.581,
+   "r_squared": 0.257,
+   "sqrt_AVE": 0.762,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "COL",
+   "Tên": "Giao tiếp",
+   "mode": "A",
+   "mvs": 6.0,
+   "Cronbach_alpha": 0.909,
+   "DG_rho": 0.931,
+   "eig1": 4.152,
+   "eig2": 0.82,
+   "ave": 0.685,
+   "r_squared": 0.634,
+   "sqrt_AVE": 0.828,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "LED",
+   "Tên": "Lãnh đạo",
+   "mode": "A",
+   "mvs": 12.0,
+   "Cronbach_alpha": 0.966,
+   "DG_rho": 0.97,
+   "eig1": 8.768,
+   "eig2": 0.889,
+   "ave": 0.73,
+   "r_squared": 0.495,
+   "sqrt_AVE": 0.854,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "SHA",
+   "Tên": "Giá trị chung",
+   "mode": "A",
+   "mvs": 2.0,
+   "Cronbach_alpha": 0.848,
+   "DG_rho": 0.929,
+   "eig1": 1.736,
+   "eig2": 0.264,
+   "ave": 0.868,
+   "r_squared": 0.735,
+   "sqrt_AVE": 0.932,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "TRU",
+   "Tên": "Tin tưởng",
+   "mode": "A",
+   "mvs": 4.0,
+   "Cronbach_alpha": 0.832,
+   "DG_rho": 0.888,
+   "eig1": 2.663,
+   "eig2": 0.629,
+   "ave": 0.659,
+   "r_squared": 0.793,
+   "sqrt_AVE": 0.812,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "ENG",
+   "Tên": "Gắn kết chất lượng",
+   "mode": "A",
+   "mvs": 4.0,
+   "Cronbach_alpha": 0.765,
+   "DG_rho": 0.85,
+   "eig1": 2.348,
+   "eig2": 0.622,
+   "ave": 0.579,
+   "r_squared": 0.185,
+   "sqrt_AVE": 0.761,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "RES",
+   "Tên": "Trách nhiệm",
+   "mode": "A",
+   "mvs": 2.0,
+   "Cronbach_alpha": 0.766,
+   "DG_rho": 0.895,
+   "eig1": 1.621,
+   "eig2": 0.379,
+   "ave": 0.809,
+   "r_squared": 0.344,
+   "sqrt_AVE": 0.9,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "COM",
+   "Tên": "Cam kết chất lượng",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.764,
+   "DG_rho": 0.865,
+   "eig1": 2.044,
+   "eig2": 0.603,
+   "ave": 0.674,
+   "r_squared": 0.099,
+   "sqrt_AVE": 0.821,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "GLO",
+   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "mode": "A",
+   "mvs": 8.0,
+   "Cronbach_alpha": 0.947,
+   "DG_rho": 0.956,
+   "eig1": 5.843,
+   "eig2": 0.561,
+   "ave": 0.73,
+   "r_squared": 0.836,
+   "sqrt_AVE": 0.854,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "PRO",
+   "Tên": "Phát triển chuyên môn",
+   "mode": "A",
+   "mvs": 6.0,
+   "Cronbach_alpha": 0.839,
+   "DG_rho": 0.882,
+   "eig1": 3.333,
+   "eig2": 0.989,
+   "ave": 0.517,
+   "r_squared": 0.561,
+   "sqrt_AVE": 0.719,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "WEG",
+   "Tên": "Gắn kết công việc",
+   "mode": "A",
+   "mvs": 9.0,
+   "Cronbach_alpha": 0.892,
+   "DG_rho": 0.914,
+   "eig1": 4.926,
+   "eig2": 0.974,
+   "ave": 0.544,
+   "r_squared": 0.421,
+   "sqrt_AVE": 0.738,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "SAT_J",
+   "Tên": "Hài lòng công việc",
+   "mode": "A",
+   "mvs": 4.0,
+   "Cronbach_alpha": 0.85,
+   "DG_rho": 0.899,
+   "eig1": 2.765,
+   "eig2": 0.518,
+   "ave": 0.686,
+   "r_squared": 0.522,
+   "sqrt_AVE": 0.828,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "SAT_O",
+   "Tên": "Hài lòng tổ chức",
+   "mode": "A",
+   "mvs": 6.0,
+   "Cronbach_alpha": 0.896,
+   "DG_rho": 0.922,
+   "eig1": 4.004,
+   "eig2": 0.738,
+   "ave": 0.664,
+   "r_squared": 0.664,
+   "sqrt_AVE": 0.815,
+   "AVE≥.50": "Đạt"
+  },
+  {
+   "Mã": "OCM",
+   "Tên": "Cam kết tổ chức",
+   "mode": "A",
+   "mvs": 3.0,
+   "Cronbach_alpha": 0.858,
+   "DG_rho": 0.913,
+   "eig1": 2.336,
+   "eig2": 0.377,
+   "ave": 0.778,
+   "r_squared": 0.544,
+   "sqrt_AVE": 0.882,
+   "AVE≥.50": "Đạt"
+  }
+ ],
+ "pls_fl_violations": [
+  {
+   "Cặp": "COL – SHA",
+   "r_LV": 0.834,
+   "min_sqrt_AVE": 0.828
+  },
+  {
+   "Cặp": "COL – GLO",
+   "r_LV": 0.876,
+   "min_sqrt_AVE": 0.828
+  },
+  {
+   "Cặp": "LED – TRU",
+   "r_LV": 0.84,
+   "min_sqrt_AVE": 0.812
+  },
+  {
+   "Cặp": "SHA – GLO",
+   "r_LV": 0.856,
+   "min_sqrt_AVE": 0.854
+  },
+  {
+   "Cặp": "SHA – PRO",
+   "r_LV": 0.731,
+   "min_sqrt_AVE": 0.719
+  },
+  {
+   "Cặp": "GLO – PRO",
+   "r_LV": 0.749,
+   "min_sqrt_AVE": 0.719
+  },
+  {
+   "Cặp": "SAT_J – SAT_O",
+   "r_LV": 0.827,
+   "min_sqrt_AVE": 0.815
+  }
+ ],
+ "pls_paths": [
+  {
+   "Biến phụ thuộc": "PAR",
+   "Biến độc lập": "OPE",
+   "Beta": 0.229,
+   "SE": 0.113,
+   "t": 2.02,
+   "p": 0.0447,
+   "f2": 0.015,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "PAR",
+   "Biến độc lập": "STR",
+   "Beta": 0.105,
+   "SE": 0.12,
+   "t": 0.88,
+   "p": 0.3808,
+   "f2": 0.003,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "PAR",
+   "Biến độc lập": "NOR",
+   "Beta": 0.198,
+   "SE": 0.107,
+   "t": 1.86,
+   "p": 0.0644,
+   "f2": 0.012,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COL",
+   "Biến độc lập": "OPE",
+   "Beta": 0.31,
+   "SE": 0.08,
+   "t": 3.89,
+   "p": "<.001",
+   "f2": 0.055,
+   "f2 mức": "nhỏ",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COL",
+   "Biến độc lập": "STR",
+   "Beta": 0.247,
+   "SE": 0.084,
+   "t": 2.93,
+   "p": 0.0037,
+   "f2": 0.031,
+   "f2 mức": "nhỏ",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COL",
+   "Biến độc lập": "NOR",
+   "Beta": 0.281,
+   "SE": 0.075,
+   "t": 3.75,
+   "p": "<.001",
+   "f2": 0.051,
+   "f2 mức": "nhỏ",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "LED",
+   "Biến độc lập": "OPE",
+   "Beta": 0.24,
+   "SE": 0.094,
+   "t": 2.57,
+   "p": 0.0107,
+   "f2": 0.024,
+   "f2 mức": "nhỏ",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "LED",
+   "Biến độc lập": "STR",
+   "Beta": 0.224,
+   "SE": 0.099,
+   "t": 2.27,
+   "p": 0.024,
+   "f2": 0.019,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "LED",
+   "Biến độc lập": "NOR",
+   "Beta": 0.276,
+   "SE": 0.088,
+   "t": 3.13,
+   "p": 0.0019,
+   "f2": 0.035,
+   "f2 mức": "nhỏ",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SHA",
+   "Biến độc lập": "PAR",
+   "Beta": 0.049,
+   "SE": 0.04,
+   "t": 1.21,
+   "p": 0.2263,
+   "f2": 0.005,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SHA",
+   "Biến độc lập": "COL",
+   "Beta": 0.626,
+   "SE": 0.046,
+   "t": 13.57,
+   "p": "<.001",
+   "f2": 0.665,
+   "f2 mức": "lớn",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SHA",
+   "Biến độc lập": "LED",
+   "Beta": 0.257,
+   "SE": 0.044,
+   "t": 5.82,
+   "p": "<.001",
+   "f2": 0.122,
+   "f2 mức": "nhỏ",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "TRU",
+   "Biến độc lập": "PAR",
+   "Beta": 0.073,
+   "SE": 0.036,
+   "t": 2.06,
+   "p": 0.0399,
+   "f2": 0.015,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "TRU",
+   "Biến độc lập": "COL",
+   "Beta": 0.373,
+   "SE": 0.041,
+   "t": 9.15,
+   "p": "<.001",
+   "f2": 0.302,
+   "f2 mức": "trung bình",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "TRU",
+   "Biến độc lập": "LED",
+   "Beta": 0.54,
+   "SE": 0.039,
+   "t": 13.82,
+   "p": "<.001",
+   "f2": 0.69,
+   "f2 mức": "lớn",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "ENG",
+   "Biến độc lập": "SHA",
+   "Beta": 0.126,
+   "SE": 0.084,
+   "t": 1.51,
+   "p": 0.1324,
+   "f2": 0.008,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "ENG",
+   "Biến độc lập": "TRU",
+   "Beta": 0.326,
+   "SE": 0.084,
+   "t": 3.89,
+   "p": "<.001",
+   "f2": 0.055,
+   "f2 mức": "nhỏ",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "RES",
+   "Biến độc lập": "SHA",
+   "Beta": 0.297,
+   "SE": 0.075,
+   "t": 3.95,
+   "p": "<.001",
+   "f2": 0.056,
+   "f2 mức": "nhỏ",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "RES",
+   "Biến độc lập": "TRU",
+   "Beta": 0.327,
+   "SE": 0.075,
+   "t": 4.35,
+   "p": "<.001",
+   "f2": 0.068,
+   "f2 mức": "nhỏ",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COM",
+   "Biến độc lập": "SHA",
+   "Beta": 0.147,
+   "SE": 0.088,
+   "t": 1.67,
+   "p": 0.097,
+   "f2": 0.01,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "COM",
+   "Biến độc lập": "TRU",
+   "Beta": 0.187,
+   "SE": 0.088,
+   "t": 2.12,
+   "p": 0.0346,
+   "f2": 0.016,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "PAR",
+   "Beta": 0.043,
+   "SE": 0.034,
+   "t": 1.26,
+   "p": 0.2098,
+   "f2": 0.006,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "COL",
+   "Beta": 0.597,
+   "SE": 0.037,
+   "t": 16.13,
+   "p": "<.001",
+   "f2": 0.95,
+   "f2 mức": "lớn",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "LED",
+   "Beta": 0.324,
+   "SE": 0.036,
+   "t": 9.02,
+   "p": "<.001",
+   "f2": 0.297,
+   "f2 mức": "trung bình",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "ENG",
+   "Beta": -0.042,
+   "SE": 0.032,
+   "t": -1.32,
+   "p": 0.1881,
+   "f2": 0.006,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "RES",
+   "Beta": 0.069,
+   "SE": 0.032,
+   "t": 2.13,
+   "p": 0.0337,
+   "f2": 0.017,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "COM",
+   "Beta": 0.026,
+   "SE": 0.029,
+   "t": 0.89,
+   "p": 0.3731,
+   "f2": 0.003,
+   "f2 mức": "không đáng kể",
+   "Kết luận": "Không có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "PRO",
+   "Biến độc lập": "GLO",
+   "Beta": 0.749,
+   "SE": 0.04,
+   "t": 18.89,
+   "p": "<.001",
+   "f2": 1.279,
+   "f2 mức": "lớn",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "WEG",
+   "Biến độc lập": "GLO",
+   "Beta": 0.649,
+   "SE": 0.046,
+   "t": 14.24,
+   "p": "<.001",
+   "f2": 0.727,
+   "f2 mức": "lớn",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SAT_J",
+   "Biến độc lập": "GLO",
+   "Beta": 0.722,
+   "SE": 0.041,
+   "t": 17.45,
+   "p": "<.001",
+   "f2": 1.092,
+   "f2 mức": "lớn",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "SAT_O",
+   "Biến độc lập": "GLO",
+   "Beta": 0.815,
+   "SE": 0.035,
+   "t": 23.46,
+   "p": "<.001",
+   "f2": 1.973,
+   "f2 mức": "lớn",
+   "Kết luận": "Có ý nghĩa"
+  },
+  {
+   "Biến phụ thuộc": "OCM",
+   "Biến độc lập": "GLO",
+   "Beta": 0.738,
+   "SE": 0.04,
+   "t": 18.24,
+   "p": "<.001",
+   "f2": 1.193,
+   "f2 mức": "lớn",
+   "Kết luận": "Có ý nghĩa"
+  }
+ ],
+ "pls_r2": [
+  {
+   "Biến": "COL",
+   "Tên": "Giao tiếp",
+   "R2": 0.634
+  },
+  {
+   "Biến": "COM",
+   "Tên": "Cam kết chất lượng",
+   "R2": 0.099
+  },
+  {
+   "Biến": "ENG",
+   "Tên": "Gắn kết chất lượng",
+   "R2": 0.185
+  },
+  {
+   "Biến": "GLO",
+   "Tên": "Văn hóa chất lượng (tổng thể)",
+   "R2": 0.836
+  },
+  {
+   "Biến": "LED",
+   "Tên": "Lãnh đạo",
+   "R2": 0.495
+  },
+  {
+   "Biến": "OCM",
+   "Tên": "Cam kết tổ chức",
+   "R2": 0.544
+  },
+  {
+   "Biến": "PAR",
+   "Tên": "Tham gia",
+   "R2": 0.257
+  },
+  {
+   "Biến": "PRO",
+   "Tên": "Phát triển chuyên môn",
+   "R2": 0.561
+  },
+  {
+   "Biến": "RES",
+   "Tên": "Trách nhiệm",
+   "R2": 0.344
+  },
+  {
+   "Biến": "SAT_J",
+   "Tên": "Hài lòng công việc",
+   "R2": 0.522
+  },
+  {
+   "Biến": "SAT_O",
+   "Tên": "Hài lòng tổ chức",
+   "R2": 0.664
+  },
+  {
+   "Biến": "SHA",
+   "Tên": "Giá trị chung",
+   "R2": 0.735
+  },
+  {
+   "Biến": "TRU",
+   "Tên": "Tin tưởng",
+   "R2": 0.793
+  },
+  {
+   "Biến": "WEG",
+   "Tên": "Gắn kết công việc",
+   "R2": 0.421
+  }
+ ],
+ "pls_bootstrap_n": 500,
+ "pls_bootstrap": [
+  {
+   "Biến phụ thuộc": "PAR",
+   "Biến độc lập": "OPE",
+   "Beta": 0.229,
+   "CI2.5%": -0.008,
+   "CI97.5%": 0.488,
+   "Boot SE": 0.127,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "PAR",
+   "Biến độc lập": "STR",
+   "Beta": 0.105,
+   "CI2.5%": -0.129,
+   "CI97.5%": 0.33,
+   "Boot SE": 0.123,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "PAR",
+   "Biến độc lập": "NOR",
+   "Beta": 0.198,
+   "CI2.5%": -0.082,
+   "CI97.5%": 0.461,
+   "Boot SE": 0.142,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "COL",
+   "Biến độc lập": "OPE",
+   "Beta": 0.31,
+   "CI2.5%": 0.141,
+   "CI97.5%": 0.471,
+   "Boot SE": 0.084,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "COL",
+   "Biến độc lập": "STR",
+   "Beta": 0.247,
+   "CI2.5%": 0.069,
+   "CI97.5%": 0.441,
+   "Boot SE": 0.095,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "COL",
+   "Biến độc lập": "NOR",
+   "Beta": 0.281,
+   "CI2.5%": 0.1,
+   "CI97.5%": 0.471,
+   "Boot SE": 0.095,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "LED",
+   "Biến độc lập": "OPE",
+   "Beta": 0.24,
+   "CI2.5%": 0.002,
+   "CI97.5%": 0.497,
+   "Boot SE": 0.132,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "LED",
+   "Biến độc lập": "STR",
+   "Beta": 0.224,
+   "CI2.5%": 0.01,
+   "CI97.5%": 0.46,
+   "Boot SE": 0.119,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "LED",
+   "Biến độc lập": "NOR",
+   "Beta": 0.276,
+   "CI2.5%": 0.008,
+   "CI97.5%": 0.48,
+   "Boot SE": 0.119,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "SHA",
+   "Biến độc lập": "PAR",
+   "Beta": 0.049,
+   "CI2.5%": -0.037,
+   "CI97.5%": 0.147,
+   "Boot SE": 0.047,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "SHA",
+   "Biến độc lập": "COL",
+   "Beta": 0.626,
+   "CI2.5%": 0.487,
+   "CI97.5%": 0.751,
+   "Boot SE": 0.067,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "SHA",
+   "Biến độc lập": "LED",
+   "Beta": 0.257,
+   "CI2.5%": 0.119,
+   "CI97.5%": 0.389,
+   "Boot SE": 0.067,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "TRU",
+   "Biến độc lập": "PAR",
+   "Beta": 0.073,
+   "CI2.5%": -0.027,
+   "CI97.5%": 0.16,
+   "Boot SE": 0.049,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "TRU",
+   "Biến độc lập": "COL",
+   "Beta": 0.373,
+   "CI2.5%": 0.26,
+   "CI97.5%": 0.49,
+   "Boot SE": 0.06,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "TRU",
+   "Biến độc lập": "LED",
+   "Beta": 0.54,
+   "CI2.5%": 0.421,
+   "CI97.5%": 0.649,
+   "Boot SE": 0.06,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "ENG",
+   "Biến độc lập": "SHA",
+   "Beta": 0.126,
+   "CI2.5%": -0.089,
+   "CI97.5%": 0.338,
+   "Boot SE": 0.109,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "ENG",
+   "Biến độc lập": "TRU",
+   "Beta": 0.326,
+   "CI2.5%": 0.119,
+   "CI97.5%": 0.541,
+   "Boot SE": 0.104,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "RES",
+   "Biến độc lập": "SHA",
+   "Beta": 0.297,
+   "CI2.5%": 0.1,
+   "CI97.5%": 0.505,
+   "Boot SE": 0.101,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "RES",
+   "Biến độc lập": "TRU",
+   "Beta": 0.327,
+   "CI2.5%": 0.139,
+   "CI97.5%": 0.498,
+   "Boot SE": 0.092,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "COM",
+   "Biến độc lập": "SHA",
+   "Beta": 0.147,
+   "CI2.5%": -0.08,
+   "CI97.5%": 0.372,
+   "Boot SE": 0.114,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "COM",
+   "Biến độc lập": "TRU",
+   "Beta": 0.187,
+   "CI2.5%": -0.021,
+   "CI97.5%": 0.391,
+   "Boot SE": 0.108,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "PAR",
+   "Beta": 0.043,
+   "CI2.5%": -0.031,
+   "CI97.5%": 0.129,
+   "Boot SE": 0.04,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "COL",
+   "Beta": 0.597,
+   "CI2.5%": 0.497,
+   "CI97.5%": 0.698,
+   "Boot SE": 0.052,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "LED",
+   "Beta": 0.324,
+   "CI2.5%": 0.234,
+   "CI97.5%": 0.425,
+   "Boot SE": 0.05,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "ENG",
+   "Beta": -0.042,
+   "CI2.5%": -0.11,
+   "CI97.5%": 0.038,
+   "Boot SE": 0.041,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "RES",
+   "Beta": 0.069,
+   "CI2.5%": -0.007,
+   "CI97.5%": 0.137,
+   "Boot SE": 0.038,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "GLO",
+   "Biến độc lập": "COM",
+   "Beta": 0.026,
+   "CI2.5%": -0.03,
+   "CI97.5%": 0.079,
+   "Boot SE": 0.029,
+   "Ý nghĩa (CI không chứa 0)": "Không"
+  },
+  {
+   "Biến phụ thuộc": "PRO",
+   "Biến độc lập": "GLO",
+   "Beta": 0.749,
+   "CI2.5%": 0.687,
+   "CI97.5%": 0.812,
+   "Boot SE": 0.033,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "WEG",
+   "Biến độc lập": "GLO",
+   "Beta": 0.649,
+   "CI2.5%": 0.555,
+   "CI97.5%": 0.731,
+   "Boot SE": 0.043,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "SAT_J",
+   "Biến độc lập": "GLO",
+   "Beta": 0.722,
+   "CI2.5%": 0.659,
+   "CI97.5%": 0.779,
+   "Boot SE": 0.032,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "SAT_O",
+   "Biến độc lập": "GLO",
+   "Beta": 0.815,
+   "CI2.5%": 0.77,
+   "CI97.5%": 0.852,
+   "Boot SE": 0.021,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  },
+  {
+   "Biến phụ thuộc": "OCM",
+   "Biến độc lập": "GLO",
+   "Beta": 0.738,
+   "CI2.5%": 0.658,
+   "CI97.5%": 0.796,
+   "Boot SE": 0.036,
+   "Ý nghĩa (CI không chứa 0)": "Có"
+  }
+ ],
+ "pls_hypotheses": [
+  {
+   "Giả thuyết": "H1",
+   "Số đường dẫn": 9,
+   "Có ý nghĩa (p<.05)": 7,
+   "Kết luận PLS": "Chấp nhận một phần"
+  },
+  {
+   "Giả thuyết": "H2",
+   "Số đường dẫn": 6,
+   "Có ý nghĩa (p<.05)": 5,
+   "Kết luận PLS": "Chấp nhận một phần"
+  },
+  {
+   "Giả thuyết": "H3",
+   "Số đường dẫn": 6,
+   "Có ý nghĩa (p<.05)": 4,
+   "Kết luận PLS": "Chấp nhận một phần"
+  },
+  {
+   "Giả thuyết": "H4",
+   "Số đường dẫn": 3,
+   "Có ý nghĩa (p<.05)": 1,
+   "Kết luận PLS": "Chấp nhận một phần"
+  },
+  {
+   "Giả thuyết": "H5",
+   "Số đường dẫn": 5,
+   "Có ý nghĩa (p<.05)": 5,
+   "Kết luận PLS": "Chấp nhận"
+  },
+  {
+   "Giả thuyết": "H6",
+   "Số đường dẫn": 3,
+   "Có ý nghĩa (p<.05)": 2,
+   "Kết luận PLS": "Chấp nhận một phần"
+  }
+ ],
+ "mediation": [
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "OCM",
+   "Gián tiếp (ab)": 0.331,
+   "CI95": "[0.199; 0.473]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.185,
+   "p trực tiếp": 0.0067,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Gián tiếp (ab)": 0.225,
+   "CI95": "[0.137; 0.316]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": -0.01,
+   "p trực tiếp": 0.8307,
+   "Loại trung gian": "Toàn phần"
+  },
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "WEG",
+   "Gián tiếp (ab)": 0.196,
+   "CI95": "[0.118; 0.292]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.334,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "PRO",
+   "Gián tiếp (ab)": 0.207,
+   "CI95": "[0.119; 0.311]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.185,
+   "p trực tiếp": 0.0004,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "COM",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Gián tiếp (ab)": 0.296,
+   "CI95": "[0.177; 0.414]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": -0.061,
+   "p trực tiếp": 0.1776,
+   "Loại trung gian": "Toàn phần"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "OCM",
+   "Gián tiếp (ab)": 0.407,
+   "CI95": "[0.287; 0.539]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.225,
+   "p trực tiếp": 0.0001,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Gián tiếp (ab)": 0.273,
+   "CI95": "[0.204; 0.348]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.115,
+   "p trực tiếp": 0.0033,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "WEG",
+   "Gián tiếp (ab)": 0.283,
+   "CI95": "[0.200; 0.376]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.089,
+   "p trực tiếp": 0.0652,
+   "Loại trung gian": "Toàn phần"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "PRO",
+   "Gián tiếp (ab)": 0.301,
+   "CI95": "[0.211; 0.403]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.03,
+   "p trực tiếp": 0.4967,
+   "Loại trung gian": "Toàn phần"
+  },
+  {
+   "X": "RES",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Gián tiếp (ab)": 0.369,
+   "CI95": "[0.282; 0.456]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.106,
+   "p trực tiếp": 0.0043,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "OCM",
+   "Gián tiếp (ab)": 0.424,
+   "CI95": "[0.294; 0.563]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.399,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Gián tiếp (ab)": 0.297,
+   "CI95": "[0.220; 0.383]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.12,
+   "p trực tiếp": 0.0172,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "WEG",
+   "Gián tiếp (ab)": 0.236,
+   "CI95": "[0.169; 0.322]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.492,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "PRO",
+   "Gián tiếp (ab)": 0.267,
+   "CI95": "[0.179; 0.372]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.294,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "ENG",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Gián tiếp (ab)": 0.419,
+   "CI95": "[0.310; 0.534]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": -0.045,
+   "p trực tiếp": 0.3446,
+   "Loại trung gian": "Toàn phần"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "OCM",
+   "Gián tiếp (ab)": 0.378,
+   "CI95": "[0.249; 0.517]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.326,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Gián tiếp (ab)": 0.249,
+   "CI95": "[0.183; 0.324]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.203,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "WEG",
+   "Gián tiếp (ab)": 0.281,
+   "CI95": "[0.179; 0.399]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.153,
+   "p trực tiếp": 0.0073,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "PRO",
+   "Gián tiếp (ab)": 0.343,
+   "CI95": "[0.225; 0.441]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.052,
+   "p trực tiếp": 0.3133,
+   "Loại trung gian": "Toàn phần"
+  },
+  {
+   "X": "LED",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Gián tiếp (ab)": 0.466,
+   "CI95": "[0.388; 0.552]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.035,
+   "p trực tiếp": 0.4219,
+   "Loại trung gian": "Toàn phần"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "OCM",
+   "Gián tiếp (ab)": 0.612,
+   "CI95": "[0.400; 0.816]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.125,
+   "p trực tiếp": 0.1648,
+   "Loại trung gian": "Toàn phần"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Gián tiếp (ab)": 0.301,
+   "CI95": "[0.209; 0.402]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.208,
+   "p trực tiếp": 0.0007,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "WEG",
+   "Gián tiếp (ab)": 0.333,
+   "CI95": "[0.187; 0.475]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.166,
+   "p trực tiếp": 0.0294,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "PRO",
+   "Gián tiếp (ab)": 0.278,
+   "CI95": "[0.138; 0.414]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.237,
+   "p trực tiếp": 0.0005,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "COL",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Gián tiếp (ab)": 0.39,
+   "CI95": "[0.293; 0.494]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.271,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "OCM",
+   "Gián tiếp (ab)": 0.463,
+   "CI95": "[0.334; 0.611]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.385,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "SAT_J",
+   "Gián tiếp (ab)": 0.346,
+   "CI95": "[0.276; 0.418]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.12,
+   "p trực tiếp": 0.012,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "WEG",
+   "Gián tiếp (ab)": 0.23,
+   "CI95": "[0.154; 0.321]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.444,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "PRO",
+   "Gián tiếp (ab)": 0.289,
+   "CI95": "[0.206; 0.380]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": 0.273,
+   "p trực tiếp": 0.0,
+   "Loại trung gian": "Một phần"
+  },
+  {
+   "X": "PAR",
+   "M": "GLO",
+   "Y": "SAT_O",
+   "Gián tiếp (ab)": 0.509,
+   "CI95": "[0.415; 0.612]",
+   "Ý nghĩa gián tiếp": "Có",
+   "Trực tiếp (c')": -0.01,
+   "p trực tiếp": 0.822,
+   "Loại trung gian": "Toàn phần"
+  }
+ ],
+ "values_top10": [
+  {
+   "Giá trị": "Trao đổi kinh nghiệm",
+   "SHA3: lượt chọn": 215,
+   "SHA3: %": 76.5,
+   "SHA4: lượt chọn top-5": 111,
+   "SHA4: %": 39.5
+  },
+  {
+   "Giá trị": "Phát triển chất lượng liên tục",
+   "SHA3: lượt chọn": 215,
+   "SHA3: %": 76.5,
+   "SHA4: lượt chọn top-5": 129,
+   "SHA4: %": 45.9
+  },
+  {
+   "Giá trị": "Tham gia quá trình ra quyết định",
+   "SHA3: lượt chọn": 192,
+   "SHA3: %": 68.3,
+   "SHA4: lượt chọn top-5": 15,
+   "SHA4: %": 5.3
+  },
+  {
+   "Giá trị": "Tinh thần học hỏi lẫn nhau",
+   "SHA3: lượt chọn": 189,
+   "SHA3: %": 67.3,
+   "SHA4: lượt chọn top-5": 103,
+   "SHA4: %": 36.7
+  },
+  {
+   "Giá trị": "Ghi nhận và đánh giá công việc",
+   "SHA3: lượt chọn": 185,
+   "SHA3: %": 65.8,
+   "SHA4: lượt chọn top-5": 102,
+   "SHA4: %": 36.3
+  },
+  {
+   "Giá trị": "Trách nhiệm xã hội",
+   "SHA3: lượt chọn": 185,
+   "SHA3: %": 65.8,
+   "SHA4: lượt chọn top-5": 23,
+   "SHA4: %": 8.2
+  },
+  {
+   "Giá trị": "Tự chịu trách nhiệm và cam kết",
+   "SHA3: lượt chọn": 180,
+   "SHA3: %": 64.1,
+   "SHA4: lượt chọn top-5": 51,
+   "SHA4: %": 18.1
+  },
+  {
+   "Giá trị": "Quốc tế hóa",
+   "SHA3: lượt chọn": 170,
+   "SHA3: %": 60.5,
+   "SHA4: lượt chọn top-5": 47,
+   "SHA4: %": 16.7
+  },
+  {
+   "Giá trị": "Phản biện mang tính xây dựng",
+   "SHA3: lượt chọn": 166,
+   "SHA3: %": 59.1,
+   "SHA4: lượt chọn top-5": 52,
+   "SHA4: %": 18.5
+  },
+  {
+   "Giá trị": "Mục tiêu chất lượng có tính ràng buộc",
+   "SHA3: lượt chọn": 163,
+   "SHA3: %": 58.0,
+   "SHA4: lượt chọn top-5": 29,
+   "SHA4: %": 10.3
+  }
+ ],
+ "hypotheses": [
+  {
+   "Giả thuyết": "H1",
+   "Số đường dẫn": 9,
+   "Có ý nghĩa (p<.05)": 7,
+   "Kết luận (semopy)": "Chấp nhận một phần",
+   "Kết luận (PLS-SEM)": "Chấp nhận một phần"
+  },
+  {
+   "Giả thuyết": "H2",
+   "Số đường dẫn": 6,
+   "Có ý nghĩa (p<.05)": 4,
+   "Kết luận (semopy)": "Chấp nhận một phần",
+   "Kết luận (PLS-SEM)": "Chấp nhận một phần"
+  },
+  {
+   "Giả thuyết": "H3",
+   "Số đường dẫn": 6,
+   "Có ý nghĩa (p<.05)": 3,
+   "Kết luận (semopy)": "Chấp nhận một phần",
+   "Kết luận (PLS-SEM)": "Chấp nhận một phần"
+  },
+  {
+   "Giả thuyết": "H4",
+   "Số đường dẫn": 3,
+   "Có ý nghĩa (p<.05)": 1,
+   "Kết luận (semopy)": "Chấp nhận một phần",
+   "Kết luận (PLS-SEM)": "Chấp nhận một phần"
+  },
+  {
+   "Giả thuyết": "H5",
+   "Số đường dẫn": 5,
+   "Có ý nghĩa (p<.05)": 5,
+   "Kết luận (semopy)": "Chấp nhận",
+   "Kết luận (PLS-SEM)": "Chấp nhận"
+  },
+  {
+   "Giả thuyết": "H6",
+   "Số đường dẫn": 3,
+   "Có ý nghĩa (p<.05)": 2,
+   "Kết luận (semopy)": "Chấp nhận một phần",
+   "Kết luận (PLS-SEM)": "Chấp nhận một phần"
+  }
+ ]
+}

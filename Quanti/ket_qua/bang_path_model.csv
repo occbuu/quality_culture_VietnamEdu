@@ -1,0 +1,33 @@
+﻿Biến phụ thuộc,~,Biến độc lập,Beta chuẩn hóa,p,Kết luận
+LED,~,NOR,0.267,0.0024,Có ý nghĩa
+LED,~,STR,0.223,0.0232,Có ý nghĩa
+LED,~,OPE,0.246,0.008,Có ý nghĩa
+COL,~,NOR,0.231,0.0025,Có ý nghĩa
+COL,~,STR,0.266,0.0019,Có ý nghĩa
+COL,~,OPE,0.326,<.001,Có ý nghĩa
+PAR,~,NOR,0.186,0.0837,Không có ý nghĩa
+PAR,~,STR,0.096,0.4225,Không có ý nghĩa
+PAR,~,OPE,0.232,0.0406,Có ý nghĩa
+TRU,~,LED,0.497,<.001,Có ý nghĩa
+TRU,~,COL,0.419,<.001,Có ý nghĩa
+TRU,~,PAR,0.064,0.0854,Không có ý nghĩa
+SHA,~,LED,0.293,<.001,Có ý nghĩa
+SHA,~,COL,0.605,<.001,Có ý nghĩa
+SHA,~,PAR,0.032,0.4315,Không có ý nghĩa
+COM,~,TRU,0.161,0.069,Không có ý nghĩa
+COM,~,SHA,0.125,0.1568,Không có ý nghĩa
+RES,~,TRU,0.323,<.001,Có ý nghĩa
+RES,~,SHA,0.301,<.001,Có ý nghĩa
+ENG,~,TRU,0.329,<.001,Có ý nghĩa
+ENG,~,SHA,0.125,0.1331,Không có ý nghĩa
+GLO,~,COM,0.024,0.4086,Không có ý nghĩa
+GLO,~,RES,0.077,0.0145,Có ý nghĩa
+GLO,~,ENG,-0.038,0.2244,Không có ý nghĩa
+GLO,~,LED,0.367,<.001,Có ý nghĩa
+GLO,~,COL,0.572,<.001,Có ý nghĩa
+GLO,~,PAR,0.02,0.5283,Không có ý nghĩa
+OCM,~,GLO,0.731,<.001,Có ý nghĩa
+SAT_O,~,GLO,0.809,<.001,Có ý nghĩa
+SAT_J,~,GLO,0.709,<.001,Có ý nghĩa
+WEG,~,GLO,0.632,<.001,Có ý nghĩa
+PRO,~,GLO,0.671,<.001,Có ý nghĩa

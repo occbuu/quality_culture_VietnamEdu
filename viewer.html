@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trình xem tài liệu</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    .viewer-shell {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .viewer-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 16px 20px;
+      background: #f8fbff;
+      border-bottom: 1px solid var(--border);
+    }
+    .viewer-toolbar a, .viewer-toolbar button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: white;
+      color: var(--accent);
+      font-size: 0.92rem;
+      cursor: pointer;
+    }
+    .viewer-toolbar a:hover, .viewer-toolbar button:hover {
+      text-decoration: none;
+      background: #eef6ff;
+    }
+    .viewer-body {
+      padding: 24px;
+      min-height: 70vh;
+      overflow: auto;
+    }
+    .viewer-body h1, .viewer-body h2, .viewer-body h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--accent);
+    }
+    .viewer-body p, .viewer-body li, .viewer-body td, .viewer-body th {
+      line-height: 1.75;
+    }
+    .viewer-body pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 14px;
+      border-radius: 12px;
+      overflow-x: auto;
+    }
+    .viewer-body iframe {
+      width: 100%;
+      min-height: 90vh;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: white;
+    }
+    .status {
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: #eef6ff;
+      color: var(--accent);
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="brand">
+        <img class="brand-logo" src="img/logo01.png" alt="Logo nghiên cứu" />
+        <span>Trình xem tài liệu</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Trang chủ</a>
+        <a href="quanti.html">Định lượng</a>
+        <a href="quali.html">Định tính AI</a>
+        <a href="mixed.html">Mixed methods</a>
+        <a href="inventory.html">Danh mục dữ liệu</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="viewer-shell">
+        <div class="viewer-toolbar">
+          <div id="title">Đang tải tài liệu…</div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <a href="index.html">← Về trang chủ</a>
+            <a id="open-new-tab" href="#" target="_blank" rel="noopener">Mở ở tab mới</a>
+          </div>
+        </div>
+        <div class="viewer-body" id="viewer-body">
+          <div class="status">Đang tải nội dung…</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="site-footer-brand">
+      <img src="img/logo01.png" alt="Logo" />
+      <span>Phân tích dữ liệu luận án</span>
+    </div>
+    <div>Developed by <a href="https://haolaoshi.site/#" target="_blank" rel="noopener">Hao Lee</a> · All rights reserved.</div>
+  </footer>
+
+  <script>
+    function renderMarkdown(text) {
+      if (window.marked && typeof window.marked.parse === 'function') {
+        try {
+          return window.marked.parse(text);
+        } catch (error) {
+          // fall back below
+        }
+      }
+
+      const escapeHtml = function (value) {
+        return value
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;');
+      };
+
+      const lines = text.split(/\n/);
+      let html = '';
+      let paragraph = [];
+      let listItems = [];
+
+      const flushParagraph = function () {
+        if (paragraph.length) {
+          html += '<p>' + paragraph.join(' ') + '</p>';
+          paragraph = [];
+        }
+      };
+
+      const flushList = function () {
+        if (listItems.length) {
+          html += '<ul>' + listItems.map(function (item) { return '<li>' + item + '</li>'; }).join('') + '</ul>';
+          listItems = [];
+        }
+      };
+
+      lines.forEach(function (line) {
+        const trimmed = line.trim();
+        if (!trimmed) {
+          flushParagraph();
+          flushList();
+          return;
+        }
+        if (/^#{1,3}\s+/.test(trimmed)) {
+          flushParagraph();
+          flushList();
+          const level = trimmed.match(/^#+/)[0].length;
+          const content = trimmed.replace(/^#{1,3}\s+/, '');
+          html += '<h' + Math.min(level + 1, 3) + '>' + escapeHtml(content) + '</h' + Math.min(level + 1, 3) + '>';
+          return;
+        }
+        if (/^-\s+/.test(trimmed)) {
+          flushParagraph();
+          listItems.push(escapeHtml(trimmed.replace(/^-\s+/, '')));
+          return;
+        }
+        paragraph.push(escapeHtml(trimmed));
+      });
+
+      flushParagraph();
+      flushList();
+      return html;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const type = params.get('type') || 'md';
+    const fileParam = params.get('file');
+    const title = document.getElementById('title');
+    const body = document.getElementById('viewer-body');
+    const openLink = document.getElementById('open-new-tab');
+
+    if (!fileParam) {
+      body.innerHTML = '<div class="status">Chưa cung cấp file cần xem. Vui lòng quay lại trang trước.</div>';
+      title.textContent = 'Không có tài liệu';
+    } else {
+      const resolved = new URL(fileParam, window.location.href);
+      title.textContent = fileParam;
+      openLink.href = resolved.href;
+
+      if (type === 'html') {
+        body.innerHTML = '<iframe title="embedded-report" src="' + resolved.href + '"></iframe>';
+      } else {
+        fetch(resolved.href)
+          .then(function (response) {
+            if (!response.ok) throw new Error('Không thể tải file');
+            return response.text();
+          })
+          .then(function (text) {
+            body.innerHTML = '<div class="status">Đang xem nội dung từ ' + fileParam + '</div>' + renderMarkdown(text);
+          })
+          .catch(function (error) {
+            body.innerHTML = '<div class="status">Không thể tải tài liệu: ' + error.message + '</div>';
+          });
+      }
+    }
+  </script>
+</body>
+</html>

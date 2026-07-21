@@ -1,0 +1,42 @@
+{
+ "design": "Explanatory sequential (QUAN -> qual -> integration)",
+ "quant": {
+  "N": 281,
+  "schools": 5,
+  "constructs": 17,
+  "R2_GLO": 0.83,
+  "key_predictor": "COL (communication)"
+ },
+ "qual": {
+  "informants": 24,
+  "segments": 2694,
+  "codes": 338,
+  "analyst_notes": 3585
+ },
+ "mi_cluster": {
+  "icc_GLO": 0.081,
+  "cluster_robust_conclusions": [
+   "Unchanged",
+   "Unchanged",
+   "Unchanged",
+   "Unchanged",
+   "Unchanged"
+  ],
+  "congruence": {
+   "GLO": 0.994,
+   "OCM": 0.965,
+   "SAT_O": 0.988,
+   "SAT_J": 0.986,
+   "WEG": 0.939,
+   "PRO": 0.97,
+   "LED": 0.99,
+   "COL": 0.939
+  }
+ },
+ "meta_inferences": [
+  "M1. Cấu trúc chất lượng hoạt động như TÍN HIỆU VĂN HÓA, không chỉ như công cụ quản lý",
+  "M2. Sự tham gia bị \"rỗng hóa\" — được tuyên bố là giá trị nhưng không tạo tác động",
+  "M3. Khoảng cách Việt — nước ngoài là khoảng cách TRẢI NGHIỆM VĂN HÓA, không phải khoảng cách quốc tịch",
+  "M4. Vốn cam kết cá nhân dồi dào nhưng thiếu CƠ CHẾ CHUYỂN HÓA thành văn hóa tập thể"
+ ]
+}
